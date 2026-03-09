@@ -7,6 +7,64 @@ import { socialLinks } from "@/data/socials";
 export default function Header4() {
   return (
     <header className="relative wrapper !bg-[#edf2fc]">
+      <div className="bg-gym-primary p-1 w-full">
+        <div className="container flex flex-row items-center justify-between">
+          <div>
+            <nav className="nav social social-white">
+              {socialLinks.map((item, index) => (
+                <a
+                  key={index}
+                  className="m-[0_.7rem_0_0] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 hover:translate-y-[-0.15rem]"
+                  href={item.link}
+                >
+                  <i
+                    className={`uil ${item.icon} before:content-[''] text-[1rem] !text-${item.color}`}
+                  />
+                </a>
+              ))}
+            </nav>
+            {/* /.social */}
+          </div>
+          <div className="flex flex-row gap-5">
+            <div className="flex flex-row gap-1">
+              <div>
+                <div className="icon !text-white">
+                  <i className="uil uil-location-pin-alt before:content-['\ebd8']" />
+                </div>
+              </div>
+              <div>
+                <address className="not-italic !leading-[inherit] text-white">
+                  Büttnerweg 4, 37603 Holzminden
+                </address>
+              </div>
+            </div>
+            <div className="flex flex-row gap-1">
+              <div>
+                <div className="icon !text-white">
+                  <i className="uil uil-phone-volume before:content-['\ec50']" />
+                </div>
+              </div>
+              <div>
+                <span className="!text-white">05531 / 123456</span>
+              </div>
+            </div>
+            <div className="flex flex-row gap-1">
+              <div>
+                <div className="icon !text-white">
+                  <i className="uil uil-envelope before:content-['\eac8']" />
+                </div>
+              </div>
+              <div>
+                <p className="!mb-0">
+                  <a href="mailto:info@holistic-gym.de" className="!text-white">
+                    info@holistic-gym.de
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <nav className="navbar navbar-expand-lg center-logo navbar-dark navbar- bg-gym-dark opacity-100">
         <div className="container justify-between items-center">
           <div className="flex flex-row w-full justify-between items-center xl:!hidden lg:!hidden">
