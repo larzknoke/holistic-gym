@@ -19,7 +19,7 @@ export default function DocsPagePlayer() {
         />
         <PageTitle pagename="Player" />
         <Player />
-        <section className="wrapper  bg-[#21262c] opacity-100  !text-white max-w-screen overflow-clip">
+        <section className="wrapper  bg-gym-dark opacity-100  !text-white max-w-screen overflow-clip">
           <div className="container pt-[4.5rem] xl:pt-24 lg:pt-24 md:pt-24 !text-center">
             <div className="flex flex-wrap mx-[-15px]">
               <div className="md:w-10/12 lg:w-9/12 xl:w-8/12 xxl:w-7/12 w-full flex-[0_0_auto] !px-[15px] max-w-full !mx-auto">

@@ -153,7 +153,7 @@ export default function Buttons() {
                 </a>
                 <a
                   href="#"
-                  className="btn btn-aqua !text-white !bg-[#54a8c7] border-[#54a8c7] hover:text-white hover:bg-[#54a8c7] hover:!border-[#54a8c7] focus:shadow-[rgba(79,152,181,1)] focus:text-white active:text-white active:bg-[#54a8c7] active:border-[#54a8c7] disabled:text-white disabled:bg-[#54a8c7] disabled:border-[#54a8c7] !rounded-[50rem] !mb-2 !mr-[.25rem]"
+                  className="btn btn-aqua !text-white !bg-gym-primary border-gym-primary hover:text-white hover:bg-gym-primary hover:!border-gym-primary focus:shadow-[rgba(79,152,181,1)] focus:text-white active:text-white active:bg-gym-primary active:border-gym-primary disabled:text-white disabled:bg-gym-primary disabled:border-gym-primary !rounded-[50rem] !mb-2 !mr-[.25rem]"
                 >
                   Button
                 </a>
@@ -305,7 +305,7 @@ export default function Buttons() {
                 {/*/.card-footer */}
                 <div
                   id="collapse-colors"
-                  className="card-footer  !bg-[#21262c] opacity-100  !p-0 accordion-collapse collapse"
+                  className="card-footer  !bg-gym-dark opacity-100  !p-0 accordion-collapse collapse"
                 >
                   <div className="code-wrapper relative !mb-0">
                     <div className="code-wrapper-inner">
@@ -383,13 +383,13 @@ export default function Buttons() {
                           !mr-[.25rem]"&gt;Button&lt;/a&gt;
                           {"\n"}
                           {"                      "}&lt;a href="#"
-                          className="btn btn-aqua !text-white !bg-[#54a8c7]
-                          border-[#54a8c7] hover:text-white hover:bg-[#54a8c7]
-                          hover:!border-[#54a8c7]
+                          className="btn btn-aqua !text-white !bg-gym-primary
+                          border-gym-primary hover:text-white
+                          hover:bg-gym-primary hover:!border-gym-primary
                           focus:shadow-[rgba(79,152,181,1)] focus:text-white
-                          active:text-white active:bg-[#54a8c7]
-                          active:border-[#54a8c7] disabled:text-white
-                          disabled:bg-[#54a8c7] disabled:border-[#54a8c7]
+                          active:text-white active:bg-gym-primary
+                          active:border-gym-primary disabled:text-white
+                          disabled:bg-gym-primary disabled:border-gym-primary
                           !rounded-[50rem] !mb-2
                           !mr-[.25rem]"&gt;Button&lt;/a&gt;
                           {"\n"}
@@ -626,7 +626,7 @@ export default function Buttons() {
                 {/*/.card-footer */}
                 <div
                   id="collapse-gradients"
-                  className="card-footer  !bg-[#21262c] opacity-100  !p-0 accordion-collapse collapse"
+                  className="card-footer  !bg-gym-dark opacity-100  !p-0 accordion-collapse collapse"
                 >
                   <div className="code-wrapper relative !mb-0">
                     <div className="code-wrapper-inner">
@@ -718,7 +718,7 @@ export default function Buttons() {
                 {/*/.card-footer */}
                 <div
                   id="collapse-sizes"
-                  className="card-footer  !bg-[#21262c] opacity-100  !p-0 accordion-collapse collapse"
+                  className="card-footer  !bg-gym-dark opacity-100  !p-0 accordion-collapse collapse"
                 >
                   <div className="code-wrapper relative !mb-0">
                     <div className="code-wrapper-inner">
@@ -801,7 +801,7 @@ export default function Buttons() {
                 {/*/.card-footer */}
                 <div
                   id="collapse-shapes"
-                  className="card-footer  !bg-[#21262c] opacity-100  !p-0 accordion-collapse collapse"
+                  className="card-footer  !bg-gym-dark opacity-100  !p-0 accordion-collapse collapse"
                 >
                   <div className="code-wrapper relative !mb-0">
                     <div className="code-wrapper-inner">
@@ -891,7 +891,7 @@ export default function Buttons() {
                 {/*/.card-footer */}
                 <div
                   id="collapse-styles"
-                  className="card-footer  !bg-[#21262c] opacity-100  !p-0 accordion-collapse collapse"
+                  className="card-footer  !bg-gym-dark opacity-100  !p-0 accordion-collapse collapse"
                 >
                   <div className="code-wrapper relative !mb-0">
                     <div className="code-wrapper-inner">
@@ -1044,7 +1044,7 @@ export default function Buttons() {
                 {/*/.card-footer */}
                 <div
                   id="collapse-circle"
-                  className="card-footer  !bg-[#21262c] opacity-100  !p-0 accordion-collapse collapse"
+                  className="card-footer  !bg-gym-dark opacity-100  !p-0 accordion-collapse collapse"
                 >
                   <div className="code-wrapper relative !mb-0">
                     <div className="code-wrapper-inner">
@@ -1210,7 +1210,7 @@ export default function Buttons() {
                 {/*/.card-footer */}
                 <div
                   id="collapse-social"
-                  className="card-footer  !bg-[#21262c] opacity-100  !p-0 accordion-collapse collapse"
+                  className="card-footer  !bg-gym-dark opacity-100  !p-0 accordion-collapse collapse"
                 >
                   <div className="code-wrapper relative !mb-0">
                     <div className="code-wrapper-inner">
@@ -1340,7 +1340,7 @@ export default function Buttons() {
                 {/*/.card-footer */}
                 <div
                   id="collapse-icon"
-                  className="card-footer  !bg-[#21262c] opacity-100  !p-0 accordion-collapse collapse"
+                  className="card-footer  !bg-gym-dark opacity-100  !p-0 accordion-collapse collapse"
                 >
                   <div className="code-wrapper relative !mb-0">
                     <div className="code-wrapper-inner">
@@ -1410,7 +1410,7 @@ export default function Buttons() {
                 {/*/.card-footer */}
                 <div
                   id="collapse-expand"
-                  className="card-footer  !bg-[#21262c] opacity-100  !p-0 accordion-collapse collapse"
+                  className="card-footer  !bg-gym-dark opacity-100  !p-0 accordion-collapse collapse"
                 >
                   <div className="code-wrapper relative !mb-0">
                     <div className="code-wrapper-inner">
@@ -1479,7 +1479,7 @@ export default function Buttons() {
                 {/*/.card-footer */}
                 <div
                   id="collapse-play"
-                  className="card-footer  !bg-[#21262c] opacity-100  !p-0 accordion-collapse collapse"
+                  className="card-footer  !bg-gym-dark opacity-100  !p-0 accordion-collapse collapse"
                 >
                   <div className="code-wrapper relative !mb-0">
                     <div className="code-wrapper-inner">

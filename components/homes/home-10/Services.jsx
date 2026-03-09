@@ -3,7 +3,7 @@ import Image from "next/image";
 import { services } from "@/data/services";
 export default function Services() {
   return (
-    <section className="wrapper bg-[#262b32] opacity-100 !text-[#cacaca]">
+    <section className="wrapper bg-gym-dark opacity-100 !text-[#cacaca]">
       <div className="container py-[4.5rem] xl:!py-24 lg:!py-24 md:!py-24">
         <figure
           className="!rounded-[.4rem] xl:!mt-[-17.5rem] lg:!mt-[-17.5rem] md:!mt-[-12.5rem] !mb-[4.5rem]"

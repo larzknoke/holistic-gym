@@ -24,7 +24,7 @@ export default function AppFeatures() {
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 512 512"
-                  className="svg-inject icon-svg !w-[2.2rem] !h-[2.2rem] !text-[#54a8c7] text-aqua !mr-4"
+                  className="svg-inject icon-svg !w-[2.2rem] !h-[2.2rem] !text-gym-primary text-aqua !mr-4"
                 >
                   <circle
                     className="lineal-fill"
@@ -372,7 +372,7 @@ export default function AppFeatures() {
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 294.2 409.6"
-                  className="svg-inject icon-svg !w-[2.2rem] !h-[2.2rem] !text-[#54a8c7] text-aqua !mb-3"
+                  className="svg-inject icon-svg !w-[2.2rem] !h-[2.2rem] !text-gym-primary text-aqua !mb-3"
                 >
                   <path
                     className="lineal-stroke"

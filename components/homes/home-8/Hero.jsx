@@ -68,7 +68,7 @@ export default function Hero() {
               <span>
                 <Link
                   href={`/projects`}
-                  className="btn btn-lg btn-aqua !text-white !bg-[#54a8c7] border-[#54a8c7] hover:text-white hover:bg-[#54a8c7] hover:!border-[#54a8c7] focus:shadow-[rgba(79,152,181,1)] active:text-white active:bg-[#54a8c7] active:border-[#54a8c7] disabled:text-white disabled:bg-[#54a8c7] disabled:border-[#54a8c7] !rounded-[50rem] !mr-2"
+                  className="btn btn-lg btn-aqua !text-white !bg-gym-primary border-gym-primary hover:text-white hover:bg-gym-primary hover:!border-gym-primary focus:shadow-[rgba(79,152,181,1)] active:text-white active:bg-gym-primary active:border-gym-primary disabled:text-white disabled:bg-gym-primary disabled:border-gym-primary !rounded-[50rem] !mr-2"
                 >
                   Explore Now
                 </Link>
@@ -76,7 +76,7 @@ export default function Hero() {
               <span>
                 <Link
                   href={`/contact`}
-                  className="btn btn-lg btn-outline-aqua !rounded-[50rem] !text-[#54a8c7] !border-[#54a8c7] hover:!bg-[#54a8c7] hover:!text-white"
+                  className="btn btn-lg btn-outline-aqua !rounded-[50rem] !text-gym-primary !border-gym-primary hover:!bg-gym-primary hover:!text-white"
                 >
                   Contact Us
                 </Link>

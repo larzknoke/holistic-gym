@@ -32,7 +32,7 @@ export default function Contact() {
       </div>
       {/*/column */}
       <div className="lg:w-5/12 xl:w-4/12 xl:!ml-[8.33333333%] lg:!ml-[8.33333333%] w-full flex-[0_0_auto] !mt-[80px] xl:!px-[7.5px] lg:!px-[7.5px] !px-[15px] max-w-full">
-        <h2 className="!text-[0.8rem] uppercase inline-flex !leading-[1.35] text-line relative align-top !pl-[1.4rem] !tracking-[0.02rem] before:content-[''] before:absolute before:inline-block before:translate-y-[-60%] before:w-3 before:h-[0.05rem] before:left-0 before:top-2/4 before:bg-[#54a8c7] !text-[#54a8c7] !mb-3">
+        <h2 className="!text-[0.8rem] uppercase inline-flex !leading-[1.35] text-line relative align-top !pl-[1.4rem] !tracking-[0.02rem] before:content-[''] before:absolute before:inline-block before:translate-y-[-60%] before:w-3 before:h-[0.05rem] before:left-0 before:top-2/4 before:bg-gym-primary !text-gym-primary !mb-3">
           Get In Touch
         </h2>
         <h2 className="!text-[calc(1.315rem_+_0.78vw)] font-bold xl:!text-[1.9rem] !leading-[1.25] !mb-8">
@@ -40,7 +40,7 @@ export default function Contact() {
         </h2>
         <div className="flex flex-row">
           <div>
-            <div className="icon !text-[#54a8c7] xl:!text-[1.4rem] !text-[calc(1.265rem_+_0.18vw)] !mr-6 !mt-[-0.25rem]">
+            <div className="icon !text-gym-primary xl:!text-[1.4rem] !text-[calc(1.265rem_+_0.18vw)] !mr-6 !mt-[-0.25rem]">
               <i className="uil uil-location-pin-alt before:content-['\ebd8']" />
             </div>
           </div>
@@ -55,7 +55,7 @@ export default function Contact() {
         </div>
         <div className="flex flex-row">
           <div>
-            <div className="icon !text-[#54a8c7] xl:!text-[1.4rem] !text-[calc(1.265rem_+_0.18vw)] !mr-6 !mt-[-0.25rem]">
+            <div className="icon !text-gym-primary xl:!text-[1.4rem] !text-[calc(1.265rem_+_0.18vw)] !mr-6 !mt-[-0.25rem]">
               <i className="uil uil-phone-volume before:content-['\ec50']" />
             </div>
           </div>
@@ -66,7 +66,7 @@ export default function Contact() {
         </div>
         <div className="flex flex-row">
           <div>
-            <div className="icon !text-[#54a8c7] xl:!text-[1.4rem] !text-[calc(1.265rem_+_0.18vw)] !mr-6 !mt-[-0.25rem]">
+            <div className="icon !text-gym-primary xl:!text-[1.4rem] !text-[calc(1.265rem_+_0.18vw)] !mr-6 !mt-[-0.25rem]">
               <i className="uil uil-envelope before:content-['\eac8']" />
             </div>
           </div>

@@ -338,7 +338,7 @@ export default function DocsPageProcess() {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 294.2 409.6"
                     data-inject-url="https://sandbox-tailwind-template.netlify.app/assets/img/icons/lineal/rocket.svg"
-                    className="svg-inject icon-svg !w-[2.2rem] !h-[2.2rem] text-[#54a8c7] text-aqua !mb-3"
+                    className="svg-inject icon-svg !w-[2.2rem] !h-[2.2rem] text-gym-primary text-aqua !mb-3"
                   >
                     <path
                       className="lineal-stroke"
@@ -478,7 +478,7 @@ export default function DocsPageProcess() {
                     xmlns&#x3D;&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&quot;
                     viewBox&#x3D;&quot;0 0 294.2 409.6&quot;
                     data-inject-url&#x3D;&quot;https:&#x2F;&#x2F;sandbox-tailwind-template.netlify.app&#x2F;assets&#x2F;img&#x2F;icons&#x2F;lineal&#x2F;rocket.svg&quot;
-                    className&#x3D;&quot;svg-inject icon-svg !w-[2.2rem] !h-[2.2rem] text-[#54a8c7] text-aqua !mb-3&quot;
+                    className&#x3D;&quot;svg-inject icon-svg !w-[2.2rem] !h-[2.2rem] text-gym-primary text-aqua !mb-3&quot;
                   &gt;
                     &lt;path
                       className&#x3D;&quot;lineal-stroke&quot;

@@ -72,7 +72,9 @@ export default function Nav2() {
       <li className="nav-item dropdown dropdown-mega">
         <a
           className={`nav-link dropdown-toggle !text-[.85rem] !tracking-[normal]   ${
-            demos.some((link) => link.href == pathname) ? "!text-[#54a8c7]" : ""
+            demos.some((link) => link.href == pathname)
+              ? "!text-gym-primary"
+              : ""
           } `}
           href="#"
           data-bs-toggle="dropdown"
@@ -91,7 +93,7 @@ export default function Nav2() {
                     <figure className="!rounded-[.4rem] lift hidden xl:block lg:block">
                       <Image
                         className={`!rounded-[.4rem] ${
-                          demo.href == pathname ? "p-[3px] bg-[#54a8c7]" : ""
+                          demo.href == pathname ? "p-[3px] bg-gym-primary" : ""
                         } `}
                         srcSet={demo.srcSet}
                         alt={demo.alt}
@@ -102,7 +104,7 @@ export default function Nav2() {
                     </figure>
                     <span
                       className={`xl:!hidden lg:!hidden ${
-                        demo.href == pathname ? "!text-[#54a8c7]" : ""
+                        demo.href == pathname ? "!text-gym-primary" : ""
                       } `}
                     >
                       {demo.alt}
@@ -124,7 +126,7 @@ export default function Nav2() {
       <li className="nav-item dropdown">
         <a
           className={`nav-link dropdown-toggle !text-[.85rem] !tracking-[normal]  ${
-            getActiveParent(otherPages) ? "!text-[#54a8c7]" : ""
+            getActiveParent(otherPages) ? "!text-gym-primary" : ""
           } `}
           href="#"
           data-bs-toggle="dropdown"
@@ -142,8 +144,8 @@ export default function Nav2() {
               {item.links ? (
                 <>
                   <a
-                    className={`dropdown-item hover:!text-[#54a8c7] dropdown-toggle   ${
-                      getActiveParent([item]) ? "!text-[#54a8c7]" : ""
+                    className={`dropdown-item hover:!text-gym-primary dropdown-toggle   ${
+                      getActiveParent([item]) ? "!text-gym-primary" : ""
                     } `}
                     href="#"
                     data-bs-toggle="dropdown"
@@ -154,8 +156,8 @@ export default function Nav2() {
                     {item.links.map((subItem) => (
                       <li key={subItem.id} className="nav-item">
                         <Link
-                          className={`dropdown-item hover:!text-[#54a8c7]   ${
-                            subItem.href == pathname ? "!text-[#54a8c7]" : ""
+                          className={`dropdown-item hover:!text-gym-primary   ${
+                            subItem.href == pathname ? "!text-gym-primary" : ""
                           } `}
                           href={subItem.href}
                         >
@@ -167,8 +169,8 @@ export default function Nav2() {
                 </>
               ) : (
                 <Link
-                  className={`dropdown-item hover:!text-[#54a8c7]  ${
-                    item.href == pathname ? "!text-[#54a8c7]" : ""
+                  className={`dropdown-item hover:!text-gym-primary  ${
+                    item.href == pathname ? "!text-gym-primary" : ""
                   } `}
                   href={item.href}
                 >
@@ -182,7 +184,7 @@ export default function Nav2() {
       <li className="nav-item dropdown">
         <a
           className={`nav-link dropdown-toggle !text-[.85rem] !tracking-[normal]   ${
-            getActiveParent(projectPages) ? "!text-[#54a8c7]" : ""
+            getActiveParent(projectPages) ? "!text-gym-primary" : ""
           } `}
           href="#"
           data-bs-toggle="dropdown"
@@ -193,15 +195,15 @@ export default function Nav2() {
           <div className="dropdown-lg-content">
             {projectPages.map((section) => (
               <div key={section.id}>
-                <h6 className="dropdown-header !text-[#54a8c7]">
+                <h6 className="dropdown-header !text-gym-primary">
                   {section.title}
                 </h6>
                 <ul className="pl-0 list-none">
                   {section.links.map((link) => (
                     <li key={link.id}>
                       <Link
-                        className={`dropdown-item hover:!text-[#54a8c7]   ${
-                          link.href == pathname ? "!text-[#54a8c7]" : ""
+                        className={`dropdown-item hover:!text-gym-primary   ${
+                          link.href == pathname ? "!text-gym-primary" : ""
                         }  `}
                         href={link.href}
                       >
@@ -219,7 +221,7 @@ export default function Nav2() {
       <li className="nav-item dropdown">
         <a
           className={`nav-link dropdown-toggle !text-[.85rem] !tracking-[normal]   ${
-            getActiveParent(blogItems) ? "!text-[#54a8c7]" : ""
+            getActiveParent(blogItems) ? "!text-gym-primary" : ""
           } `}
           href="#"
           data-bs-toggle="dropdown"
@@ -239,8 +241,8 @@ export default function Nav2() {
               {item.type === "dropdown" ? (
                 <>
                   <a
-                    className={`dropdown-item hover:!text-[#54a8c7] dropdown-toggle dropdown-toggle    ${
-                      getActiveParent([item]) ? "!text-[#54a8c7]" : ""
+                    className={`dropdown-item hover:!text-gym-primary dropdown-toggle dropdown-toggle    ${
+                      getActiveParent([item]) ? "!text-gym-primary" : ""
                     } `}
                     href="#"
                     data-bs-toggle="dropdown"
@@ -251,8 +253,8 @@ export default function Nav2() {
                     {item.links.map((subItem) => (
                       <li key={subItem.id} className="nav-item">
                         <Link
-                          className={`dropdown-item hover:!text-[#54a8c7] dropdown-toggle   ${
-                            subItem.href == pathname ? "!text-[#54a8c7]" : ""
+                          className={`dropdown-item hover:!text-gym-primary dropdown-toggle   ${
+                            subItem.href == pathname ? "!text-gym-primary" : ""
                           } `}
                           href={subItem.href}
                         >
@@ -264,8 +266,8 @@ export default function Nav2() {
                 </>
               ) : (
                 <Link
-                  className={`dropdown-item hover:!text-[#54a8c7] dropdown-toggle   ${
-                    item.href == pathname ? "!text-[#54a8c7]" : ""
+                  className={`dropdown-item hover:!text-gym-primary dropdown-toggle   ${
+                    item.href == pathname ? "!text-gym-primary" : ""
                   } `}
                   href={item.href}
                 >
@@ -279,7 +281,7 @@ export default function Nav2() {
       <li className="nav-item dropdown dropdown-mega">
         <a
           className={`nav-link dropdown-toggle !text-[.85rem] !tracking-[normal]   ${
-            getActiveParent(blockItems) ? "!text-[#54a8c7]" : ""
+            getActiveParent(blockItems) ? "!text-gym-primary" : ""
           } `}
           href="#"
           data-bs-toggle="dropdown"
@@ -306,7 +308,7 @@ export default function Nav2() {
                     </div>
                     <span
                       className={`${
-                        item.href == pathname ? "!text-[#54a8c7]" : ""
+                        item.href == pathname ? "!text-gym-primary" : ""
                       } `}
                     >
                       {item.label}
@@ -323,8 +325,8 @@ export default function Nav2() {
       </li>
       <li className="nav-item dropdown dropdown-mega">
         <a
-          className={`nav-link dropdown-toggle !text-[.85rem] !tracking-[normal] hover:!text-[#54a8c7] after:!text-[#54a8c7]   ${
-            getActiveParent(docsPages) ? "!text-[#54a8c7]" : ""
+          className={`nav-link dropdown-toggle !text-[.85rem] !tracking-[normal] hover:!text-gym-primary after:!text-gym-primary   ${
+            getActiveParent(docsPages) ? "!text-gym-primary" : ""
           } `}
           href="#"
           data-bs-toggle="dropdown"
@@ -340,8 +342,8 @@ export default function Nav2() {
                     <h6
                       className={
                         i != 0
-                          ? "dropdown-header !text-[#54a8c7] xl:!mt-6 lg:!mt-6"
-                          : "dropdown-header !text-[#54a8c7]"
+                          ? "dropdown-header !text-gym-primary xl:!mt-6 lg:!mt-6"
+                          : "dropdown-header !text-gym-primary"
                       }
                     >
                       {links.title}
@@ -359,8 +361,8 @@ export default function Nav2() {
                           className="xl:inline-block xl:w-full lg:inline-block lg:w-full"
                         >
                           <Link
-                            className={`dropdown-item hover:!text-[#54a8c7]    ${
-                              link.href == pathname ? "!text-[#54a8c7]" : ""
+                            className={`dropdown-item hover:!text-gym-primary    ${
+                              link.href == pathname ? "!text-gym-primary" : ""
                             } `}
                             href={link.href}
                           >
@@ -374,13 +376,13 @@ export default function Nav2() {
               </div>
               {/*/column */}
               <div className="xl:w-8/12 lg:w-8/12 w-full flex-[0_0_auto] max-w-full xl:border-l-[rgba(164,174,198,0.2)] xl:border-l xl:border-solid lg:border-l-[rgba(164,174,198,0.2)] lg:border-l lg:border-solid">
-                <h6 className="dropdown-header !text-[#54a8c7]">Elements</h6>
+                <h6 className="dropdown-header !text-gym-primary">Elements</h6>
                 <ul className="pl-0 list-none xl:columns-3 lg:columns-3">
                   {docsPages[2].links.map((link, i) => (
                     <li key={i}>
                       <Link
-                        className={`dropdown-item hover:!text-[#54a8c7]    ${
-                          link.href == pathname ? "!text-[#54a8c7]" : ""
+                        className={`dropdown-item hover:!text-gym-primary    ${
+                          link.href == pathname ? "!text-gym-primary" : ""
                         } `}
                         href={link.href}
                       >

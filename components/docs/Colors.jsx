@@ -74,7 +74,7 @@ export default function Colors() {
                 {/*/.card-footer */}
                 <div
                   id="collapse-2"
-                  className="card-footer  !bg-[#21262c] opacity-100  !p-0 accordion-collapse collapse"
+                  className="card-footer  !bg-gym-dark opacity-100  !p-0 accordion-collapse collapse"
                 >
                   <div className="code-wrapper relative !mb-0">
                     <div className="code-wrapper-inner">
@@ -202,12 +202,12 @@ export default function Colors() {
                   <div className="md:w-6/12 lg:w-4/12 xl:w-4/12 w-full flex-[0_0_auto] !px-[15px] max-w-full !mt-[30px]">
                     <div className="card !shadow-none">
                       <div className="card-header p-4 !border-0 !bg-[rgba(84,168,199)] opacity-100 !text-white">
-                        .bg-[#54a8c7]
+                        .bg-gym-primary
                       </div>
-                      <div className="card-body p-4 bg-[#e4f1f6] !text-[#54a8c7]">
+                      <div className="card-body p-4 bg-[#e4f1f6] !text-gym-primary">
                         .bg-[#e4f1f6]
                       </div>
-                      <div className="card-footer !p-4 !border-0 !bg-[#eff7fa] !text-[#54a8c7]">
+                      <div className="card-footer !p-4 !border-0 !bg-[#eff7fa] !text-gym-primary">
                         .bg-[#eff7fa]
                       </div>
                     </div>
@@ -392,7 +392,7 @@ export default function Colors() {
                 {/*/.card-footer */}
                 <div
                   id="collapse-3"
-                  className="card-footer  !bg-[#21262c] opacity-100  !p-0 accordion-collapse collapse"
+                  className="card-footer  !bg-gym-dark opacity-100  !p-0 accordion-collapse collapse"
                 >
                   <div className="code-wrapper relative !mb-0">
                     <div className="code-wrapper-inner">
@@ -432,7 +432,8 @@ export default function Colors() {
                           &lt;div className="bg-[#e0e9fa]"&gt;&lt;/div&gt;{"\n"}
                           &lt;div className="bg-[#edf2fc]"&gt;&lt;/div&gt;{"\n"}
                           {"  "}
-                          {"\n"}&lt;div className="bg-[#54a8c7]"&gt;&lt;/div&gt;
+                          {"\n"}&lt;div
+                          className="bg-gym-primary"&gt;&lt;/div&gt;
                           {"\n"}
                           &lt;div className="bg-[#e4f1f6]"&gt;&lt;/div&gt;{"\n"}
                           &lt;div className="bg-[#eff7fa]"&gt;&lt;/div&gt;{"\n"}
@@ -507,7 +508,7 @@ export default function Colors() {
                     <p className="!text-[#a07cc5]">.text-[#a07cc5]</p>
                     <p className="!text-[#747ed1]">.text-[#747ed1]</p>
                     <p className="!text-[#3f78e0]">.text-[#3f78e0]</p>
-                    <p className="!text-[#54a8c7]">.text-[#54a8c7]</p>
+                    <p className="!text-gym-primary">.text-gym-primary</p>
                     <p className="!text-[#5eb9f0] !mb-0">.text-[#5eb9f0]</p>
                   </div>
                   {/* /column */}
@@ -572,7 +573,7 @@ export default function Colors() {
                 {/*/.card-footer */}
                 <div
                   id="collapse-4"
-                  className="card-footer  !bg-[#21262c] opacity-100  !p-0 accordion-collapse collapse"
+                  className="card-footer  !bg-gym-dark opacity-100  !p-0 accordion-collapse collapse"
                 >
                   <div className="code-wrapper relative !mb-0">
                     <div className="code-wrapper-inner">
@@ -592,7 +593,7 @@ export default function Colors() {
                           {"\n"}
                           &lt;span className="text-[#3f78e0]"&gt;&lt;/span&gt;
                           {"\n"}
-                          &lt;span className="text-[#54a8c7]"&gt;&lt;/span&gt;
+                          &lt;span className="text-gym-primary"&gt;&lt;/span&gt;
                           {"\n"}
                           &lt;span className="text-[#45c4a0]"&gt;&lt;/span&gt;
                           {"\n"}

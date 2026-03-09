@@ -18,7 +18,7 @@ export default function Projects() {
       function (instance, image) {
         // Trigger Isotope layout
         isotope.layout();
-      }
+      },
     );
   };
 
@@ -189,7 +189,7 @@ export default function Projects() {
               </figure>
               <div className="project-details flex justify-center flex-col">
                 <div className="post-header">
-                  <div className="uppercase !tracking-[0.02rem] text-[0.7rem] font-bold !mb-2 !text-[#54a8c7]">
+                  <div className="uppercase !tracking-[0.02rem] text-[0.7rem] font-bold !mb-2 !text-gym-primary">
                     Workshop
                   </div>
                   <h2 className="post-title h3 !text-[1.15rem] !leading-[1.4]">

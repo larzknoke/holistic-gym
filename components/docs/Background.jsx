@@ -172,7 +172,7 @@ export default function Background() {
                 {/*/.card-footer */}
                 <div
                   id="collapse-0"
-                  className="card-footer  !bg-[#21262c] opacity-100  !p-0 accordion-collapse collapse"
+                  className="card-footer  !bg-gym-dark opacity-100  !p-0 accordion-collapse collapse"
                 >
                   <div className="code-wrapper relative !mb-0">
                     <div className="code-wrapper-inner">
@@ -202,7 +202,7 @@ export default function Background() {
             <h2 className="!mb-5 !leading-[1.35]">Dark Background</h2>
             <div className="card">
               <div className="card-body flex-[1_1_auto] p-[40px]">
-                <section className="wrapper  bg-[#21262c] opacity-100  !text-white">
+                <section className="wrapper  bg-gym-dark opacity-100  !text-white">
                   <div className="container py-[4.5rem] xl:!py-24 lg:!py-24 md:!py-24">
                     <h2 className="!text-[calc(1.285rem_+_0.42vw)] font-bold xl:!text-[1.6rem] !leading-[1.3]  !mb-0 !text-center !text-white">
                       Content goes here
@@ -226,13 +226,13 @@ export default function Background() {
                 {/*/.card-footer */}
                 <div
                   id="collapse-1"
-                  className="card-footer  !bg-[#21262c] opacity-100  !p-0 accordion-collapse collapse"
+                  className="card-footer  !bg-gym-dark opacity-100  !p-0 accordion-collapse collapse"
                 >
                   <div className="code-wrapper relative !mb-0">
                     <div className="code-wrapper-inner">
                       <pre className="language-html">
                         <code>
-                          &lt;section className="wrapper{"  "}bg-[#21262c]
+                          &lt;section className="wrapper{"  "}bg-gym-dark
                           opacity-100
                           {"  "}!text-white"&gt;&lt;/section&gt;
                         </code>
@@ -328,7 +328,7 @@ export default function Background() {
                 {/*/.card-footer */}
                 <div
                   id="collapse-2"
-                  className="card-footer  !bg-[#21262c] opacity-100  !p-0 accordion-collapse collapse"
+                  className="card-footer  !bg-gym-dark opacity-100  !p-0 accordion-collapse collapse"
                 >
                   <div className="code-wrapper relative !mb-0">
                     <div className="code-wrapper-inner">
@@ -364,7 +364,7 @@ export default function Background() {
             <p className="lead !leading-[1.65] text-[0.9rem] font-medium !mb-8">
               <code className="code">bg-[#ffffff]</code>,{" "}
               <code className="code">bg-[#3f78e0]</code>,{" "}
-              <code className="code">bg-[#54a8c7]</code>,{" "}
+              <code className="code">bg-gym-primary</code>,{" "}
               <code className="code">bg-[#45c4a0]</code>,{" "}
               <code className="code">bg-[#7cb798]</code>,{" "}
               <code className="code">bg-[#343f52]</code>,{" "}
@@ -404,7 +404,7 @@ export default function Background() {
                 {/*/.card-footer */}
                 <div
                   id="collapse-3"
-                  className="card-footer  !bg-[#21262c] opacity-100  !p-0 accordion-collapse collapse"
+                  className="card-footer  !bg-gym-dark opacity-100  !p-0 accordion-collapse collapse"
                 >
                   <div className="code-wrapper relative !mb-0">
                     <div className="code-wrapper-inner">
@@ -471,7 +471,7 @@ export default function Background() {
                 {/*/.card-footer */}
                 <div
                   id="collapse-4"
-                  className="card-footer  !bg-[#21262c] opacity-100  !p-0 accordion-collapse collapse"
+                  className="card-footer  !bg-gym-dark opacity-100  !p-0 accordion-collapse collapse"
                 >
                   <div className="code-wrapper relative !mb-0">
                     <div className="code-wrapper-inner">
@@ -538,7 +538,7 @@ export default function Background() {
                 {/*/.card-footer */}
                 <div
                   id="collapse-5"
-                  className="card-footer  !bg-[#21262c] opacity-100  !p-0 accordion-collapse collapse"
+                  className="card-footer  !bg-gym-dark opacity-100  !p-0 accordion-collapse collapse"
                 >
                   <div className="code-wrapper relative !mb-0">
                     <div className="code-wrapper-inner">
@@ -589,7 +589,7 @@ export default function Background() {
                 {/*/.card-footer */}
                 <div
                   id="collapse-6"
-                  className="card-footer  !bg-[#21262c] opacity-100  !p-0 accordion-collapse collapse"
+                  className="card-footer  !bg-gym-dark opacity-100  !p-0 accordion-collapse collapse"
                 >
                   <div className="code-wrapper relative !mb-0">
                     <div className="code-wrapper-inner">
@@ -649,7 +649,7 @@ export default function Background() {
                 {/*/.card-footer */}
                 <div
                   id="collapse-7"
-                  className="card-footer  !bg-[#21262c] opacity-100  !p-0 accordion-collapse collapse"
+                  className="card-footer  !bg-gym-dark opacity-100  !p-0 accordion-collapse collapse"
                 >
                   <div className="code-wrapper relative !mb-0">
                     <div className="code-wrapper-inner">

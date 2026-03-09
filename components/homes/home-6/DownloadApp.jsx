@@ -24,7 +24,7 @@ export default function DownloadApp() {
             </p>
             <div className="flex justify-center xl:!justify-start lg:!justify-start">
               <span>
-                <a className="!text-[.85rem] btn btn-aqua !text-white !bg-[#54a8c7] border-[#54a8c7] hover:text-white hover:bg-[#54a8c7] hover:!border-[#54a8c7] focus:shadow-[rgba(79,152,181,1)] focus:text-white active:text-white active:bg-[#54a8c7] active:border-[#54a8c7] disabled:text-white disabled:bg-[#54a8c7] disabled:border-[#54a8c7] btn-icon btn-icon-start rounded !mr-2">
+                <a className="!text-[.85rem] btn btn-aqua !text-white !bg-gym-primary border-gym-primary hover:text-white hover:bg-gym-primary hover:!border-gym-primary focus:shadow-[rgba(79,152,181,1)] focus:text-white active:text-white active:bg-gym-primary active:border-gym-primary disabled:text-white disabled:bg-gym-primary disabled:border-gym-primary btn-icon btn-icon-start rounded !mr-2">
                   <i className="uil uil-apple !mr-[.3rem] before:content-['\e938']" />
                   App Store
                 </a>

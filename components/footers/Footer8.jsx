@@ -20,7 +20,7 @@ export default function Footer8() {
               </p>
               <a
                 href="#"
-                className="btn btn-aqua !text-white !bg-[#54a8c7] border-[#54a8c7] hover:text-white hover:bg-[#54a8c7] hover:!border-[#54a8c7] focus:shadow-[rgba(79,152,181,1)] active:text-white active:bg-[#54a8c7] active:border-[#54a8c7] disabled:text-white disabled:bg-[#54a8c7] disabled:border-[#54a8c7] !rounded-[50rem]"
+                className="btn btn-aqua !text-white !bg-gym-primary border-gym-primary hover:text-white hover:bg-gym-primary hover:!border-gym-primary focus:shadow-[rgba(79,152,181,1)] active:text-white active:bg-gym-primary active:border-gym-primary disabled:text-white disabled:bg-gym-primary disabled:border-gym-primary !rounded-[50rem]"
               >
                 Join Us
               </a>
@@ -37,7 +37,7 @@ export default function Footer8() {
                 {footerLinks2.map((elm, i) => (
                   <li key={i} className={i != 0 ? "!mt-[0.35rem]" : ""}>
                     <Link
-                      className="!text-[#60697b] hover:!text-[#54a8c7]"
+                      className="!text-[#60697b] hover:!text-gym-primary"
                       href={elm.href}
                     >
                       {elm.text}
@@ -58,7 +58,7 @@ export default function Footer8() {
                 {footerLinks.map((elm, i) => (
                   <li className={i != 0 ? "!mt-[0.35rem]" : ""} key={i}>
                     <Link
-                      className="!text-[#60697b] hover:!text-[#54a8c7]"
+                      className="!text-[#60697b] hover:!text-gym-primary"
                       href={elm.href}
                     >
                       {elm.text}

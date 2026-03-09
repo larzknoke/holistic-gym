@@ -71,7 +71,7 @@ export default function Footer6() {
                 {footerLinks.map((elm, i) => (
                   <li className={i != 0 ? "!mt-[0.35rem]" : ""} key={i}>
                     <Link
-                      className="!text-[#60697b] hover:!text-[#54a8c7]"
+                      className="!text-[#60697b] hover:!text-gym-primary"
                       href={elm.href}
                     >
                       {elm.text}
@@ -122,7 +122,7 @@ export default function Footer6() {
                           defaultValue="Join"
                           name="subscribe"
                           id="mc-embedded-subscribe2"
-                          className="!text-[.85rem] btn btn-aqua !text-white !bg-[#54a8c7] border-[#54a8c7] hover:text-white hover:bg-[#54a8c7] hover:!border-[#54a8c7] focus:shadow-[rgba(79,152,181,1)] focus:text-white active:text-white active:bg-[#54a8c7] active:border-[#54a8c7] disabled:text-white disabled:bg-[#54a8c7] disabled:border-[#54a8c7] !relative z-[2] focus:z-[5] hover:!transform-none border-0"
+                          className="!text-[.85rem] btn btn-aqua !text-white !bg-gym-primary border-gym-primary hover:text-white hover:bg-gym-primary hover:!border-gym-primary focus:shadow-[rgba(79,152,181,1)] focus:text-white active:text-white active:bg-gym-primary active:border-gym-primary disabled:text-white disabled:bg-gym-primary disabled:border-gym-primary !relative z-[2] focus:z-[5] hover:!transform-none border-0"
                         />
                       </div>
                       <div id="mce-responses2" className="clear">

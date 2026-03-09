@@ -16,7 +16,7 @@ export default function SigninPage2() {
     <>
       <div className="grow shrink-0">
         <Header33 />
-        <section className="wrapper bg-[#21262c] opacity-100 !text-white">
+        <section className="wrapper bg-gym-dark opacity-100 !text-white">
           <div className="container pt-32 xl:pt-40 lg:pt-40 md:pt-40 pb-[12.5rem] xl:pb-[12.5rem] lg:pb-[12.5rem] md:pb-[12.5rem] !text-center">
             <div className="flex flex-wrap mx-[-15px]">
               <div className="xl:w-8/12 lg:w-8/12 w-full flex-[0_0_auto] !px-[15px] max-w-full !mx-auto">

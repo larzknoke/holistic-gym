@@ -2423,7 +2423,7 @@ export default function DocsPageNavbar() {
           {/* /.container */}
           <div className="container-fluid pt-10 xl:pt-14 lg:pt-14 md:pt-14 pb-14 xl:pb-[4.5rem] lg:pb-[4.5rem] md:pb-[4.5rem] xxl:!px-10">
             <header className="relative wrapper !bg-[#edf2fc]">
-              <nav className="navbar navbar-expand-lg center-nav navbar-dark navbar- bg-[#21262c] opacity-100">
+              <nav className="navbar navbar-expand-lg center-nav navbar-dark navbar- bg-gym-dark opacity-100">
                 <div className="container xl:!flex-row lg:!flex-row !flex-nowrap items-center">
                   <div className="navbar-brand w-full">
                     <Link href={`/`}>
@@ -2772,7 +2772,7 @@ export default function DocsPageNavbar() {
           {&#x2F;* &#x2F;.container *&#x2F;}
           &lt;div className&#x3D;&quot;container-fluid pt-10 xl:pt-14 lg:pt-14 md:pt-14 pb-14 xl:pb-[4.5rem] lg:pb-[4.5rem] md:pb-[4.5rem] xxl:!px-10&quot;&gt;
             &lt;header className&#x3D;&quot;relative wrapper !bg-[#edf2fc]&quot;&gt;
-              &lt;nav className&#x3D;&quot;navbar navbar-expand-lg center-nav navbar-dark navbar- bg-[#21262c] opacity-100&quot;&gt;
+              &lt;nav className&#x3D;&quot;navbar navbar-expand-lg center-nav navbar-dark navbar- bg-gym-dark opacity-100&quot;&gt;
                 &lt;div className&#x3D;&quot;container xl:!flex-row lg:!flex-row !flex-nowrap items-center&quot;&gt;
                   &lt;div className&#x3D;&quot;navbar-brand w-full&quot;&gt;
                     &lt;Link href&#x3D;{&#x60;&#x2F;index&#x60;}&gt;
@@ -7908,7 +7908,7 @@ export default function DocsPageNavbar() {
           {/* /.container */}
           <div className="container-fluid pt-10 xl:pt-14 lg:pt-14 md:pt-14 pb-14 xl:pb-[4.5rem] lg:pb-[4.5rem] md:pb-[4.5rem] xxl:!px-10">
             <header className="relative wrapper">
-              <nav className="navbar navbar-expand-lg classic navbar-dark navbar- bg-[#21262c] opacity-100">
+              <nav className="navbar navbar-expand-lg classic navbar-dark navbar- bg-gym-dark opacity-100">
                 <div className="container xl:!flex-row lg:!flex-row !flex-nowrap items-center">
                   <div className="navbar-brand w-full">
                     <Link href={`/`}>
@@ -8570,7 +8570,7 @@ export default function DocsPageNavbar() {
           {&#x2F;* &#x2F;.container *&#x2F;}
           &lt;div className&#x3D;&quot;container-fluid pt-10 xl:pt-14 lg:pt-14 md:pt-14 pb-14 xl:pb-[4.5rem] lg:pb-[4.5rem] md:pb-[4.5rem] xxl:!px-10&quot;&gt;
             &lt;header className&#x3D;&quot;relative wrapper&quot;&gt;
-              &lt;nav className&#x3D;&quot;navbar navbar-expand-lg classic navbar-dark navbar- bg-[#21262c] opacity-100&quot;&gt;
+              &lt;nav className&#x3D;&quot;navbar navbar-expand-lg classic navbar-dark navbar- bg-gym-dark opacity-100&quot;&gt;
                 &lt;div className&#x3D;&quot;container xl:!flex-row lg:!flex-row !flex-nowrap items-center&quot;&gt;
                   &lt;div className&#x3D;&quot;navbar-brand w-full&quot;&gt;
                     &lt;Link href&#x3D;{&#x60;&#x2F;index&#x60;}&gt;
@@ -12940,7 +12940,7 @@ export default function DocsPageNavbar() {
           {/* /.container */}
           <div className="container-fluid pt-10 xl:pt-14 lg:pt-14 md:pt-14 pb-14 xl:pb-[4.5rem] lg:pb-[4.5rem] md:pb-[4.5rem] xxl:!px-10">
             <header className="relative wrapper !bg-[#edf2fc]">
-              <nav className="navbar navbar-expand-lg center-logo navbar-dark navbar- bg-[#21262c] opacity-100">
+              <nav className="navbar navbar-expand-lg center-logo navbar-dark navbar- bg-gym-dark opacity-100">
                 <div className="container justify-between items-center">
                   <div className="flex flex-row w-full justify-between items-center xl:!hidden lg:!hidden">
                     <div className="navbar-brand">
@@ -13313,7 +13313,7 @@ export default function DocsPageNavbar() {
           {&#x2F;* &#x2F;.container *&#x2F;}
           &lt;div className&#x3D;&quot;container-fluid pt-10 xl:pt-14 lg:pt-14 md:pt-14 pb-14 xl:pb-[4.5rem] lg:pb-[4.5rem] md:pb-[4.5rem] xxl:!px-10&quot;&gt;
             &lt;header className&#x3D;&quot;relative wrapper !bg-[#edf2fc]&quot;&gt;
-              &lt;nav className&#x3D;&quot;navbar navbar-expand-lg center-logo navbar-dark navbar- bg-[#21262c] opacity-100&quot;&gt;
+              &lt;nav className&#x3D;&quot;navbar navbar-expand-lg center-logo navbar-dark navbar- bg-gym-dark opacity-100&quot;&gt;
                 &lt;div className&#x3D;&quot;container justify-between items-center&quot;&gt;
                   &lt;div className&#x3D;&quot;flex flex-row w-full justify-between items-center xl:!hidden lg:!hidden&quot;&gt;
                     &lt;div className&#x3D;&quot;navbar-brand&quot;&gt;

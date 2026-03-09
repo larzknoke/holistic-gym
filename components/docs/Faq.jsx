@@ -151,7 +151,8 @@ export default function Faq() {
                     aria-controls="faq-collapse-8"
                   >
                     {" "}
-                    Why am I getting an error while installing to Wordpress?{" "}
+                    Why am I getting an error while installing to
+                    Wordpress?{" "}
                   </button>
                 </div>
                 {/*/.card-header */}
@@ -237,7 +238,7 @@ export default function Faq() {
                   <CodeSnippetContainer>
                     <div className="code-wrapper relative !mb-0">
                       <div className="code-wrapper-inner">
-                        <pre className="language-html !bg-[#21262c] opacity-100  rounded-br-[0.4rem] rounded-bl-[0.4rem]">
+                        <pre className="language-html !bg-gym-dark opacity-100  rounded-br-[0.4rem] rounded-bl-[0.4rem]">
                           <code>
                             &lt;li className="nav-item dropdown dropdown-mega
                             parent-link"&gt;{"\n"}

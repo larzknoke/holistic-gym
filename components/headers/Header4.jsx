@@ -6,109 +6,179 @@ import { socialLinks } from "@/data/socials";
 
 export default function Header4() {
   return (
-    <header className="relative wrapper bg-[#262b32] opacity-100">
-      <nav className="navbar navbar-expand-lg center-nav transparent navbar-dark">
-        <div className="container xl:!flex-row lg:!flex-row !flex-nowrap items-center">
-          <div className="navbar-brand w-full">
-            <Link href={`/`}>
-              <Image
-                className="logo-dark"
-                srcSet="/assets/img/logo-dark@2x.png 2x"
-                alt="image"
-                src="/assets/img/logo-dark.png"
-                width={134}
-                height={26}
-              />
-              <Image
-                className="logo-light"
-                srcSet="/assets/img/logo-light@2x.png 2x"
-                alt="image"
-                src="/assets/img/logo-light.png"
-                width={134}
-                height={26}
-              />
-            </Link>
-          </div>
-          <div className="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
-            <div className="offcanvas-header xl:!hidden lg:!hidden flex items-center justify-between flex-row p-6">
-              <h3 className="!text-white xl:!text-[1.5rem] !text-[calc(1.275rem_+_0.3vw)] !mb-0">
-                Sandbox
-              </h3>
-              <button
-                type="button"
-                className="btn-close btn-close-white !mr-[-0.75rem] m-0 p-0 leading-none !text-[#343f52] transition-all duration-[0.2s] ease-in-out border-0 motion-reduce:transition-none before:text-[1.05rem] before:text-white before:content-['\ed3b'] before:w-[1.8rem] before:h-[1.8rem] before:leading-[1.8rem] before:shadow-none before:transition-[background] before:duration-[0.2s] before:ease-in-out before:!flex before:justify-center before:items-center before:m-0 before:p-0 before:rounded-[100%] hover:no-underline bg-inherit before:bg-[rgba(255,255,255,.08)] before:font-Unicons hover:before:bg-[rgba(0,0,0,.11)]"
-                data-bs-dismiss="offcanvas"
-                aria-label="Close"
-              />
+    <header className="relative wrapper !bg-[#edf2fc]">
+      <nav className="navbar navbar-expand-lg center-logo navbar-dark navbar- bg-gym-dark opacity-100">
+        <div className="container justify-between items-center">
+          <div className="flex flex-row w-full justify-between items-center xl:!hidden lg:!hidden">
+            <div className="navbar-brand">
+              <Link href={`/index`}>
+                <Image
+                  srcSet="/assets/img/logo-light@2x.png 2x"
+                  alt="image"
+                  width="134"
+                  height="26"
+                  src="/assets/img/logo-light.png"
+                />
+              </Link>
             </div>
-            <div className="offcanvas-body xl:!ml-auto lg:!ml-auto flex flex-col !h-full">
-              <Nav2 />
+            <div className="navbar-other !ml-auto">
+              <ul className="navbar-nav flex-row items-center">
+                <li className="nav-item xl:!hidden lg:!hidden">
+                  <button className="hamburger offcanvas-nav-btn">
+                    <span />
+                  </button>
+                </li>
+              </ul>
               {/* /.navbar-nav */}
-              <div className="offcanvas-footer xl:!hidden lg:!hidden">
-                <div>
-                  <a
-                    href="mailto:first.last@email.com"
-                    className="link-inverse"
-                  >
-                    info@email.com
-                  </a>
-                  <br />
-                  00 (123) 456 78 90 <br />
-                  <nav className="nav social social-white !mt-4">
-                    {socialLinks.map((elm, i) => (
+            </div>
+            {/* /.navbar-other */}
+          </div>
+          {/* /.flex */}
+          <div className="navbar-collapse-wrapper flex flex-row items-center w-full">
+            <div className="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
+              <div className="offcanvas-header my-5 xl:my-10 lg:mx-auto xl:mx-auto order-0 lg:!order-1 lg:!flex lg:!px-[5rem] xl:!order-1 xl:!flex xl:!px-[5rem]">
+                <Image
+                  className="logo-light"
+                  alt="image"
+                  src="/assets/gym/gym-logo-v2.svg"
+                  width={205}
+                  height={139}
+                />
+                {/* <h3 className="text-white xl:!text-[1.5rem] !text-[calc(1.275rem_+_0.3vw)] !mb-0 xl:!hidden lg:!hidden">
+                  HolisticGym
+                </h3> */}
+                <button
+                  type="button"
+                  className="btn-close btn-close-white xl:!hidden lg:!hidden"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                />
+              </div>
+              <div className="w-full order-1 lg:!order-none lg:!flex xl:!order-none xl:!flex">
+                <ul className="navbar-nav lg:!ml-auto xl:!ml-auto">
+                  <li className="nav-item dropdown">
+                    <a
+                      className="nav-link dropdown-toggle"
+                      href="#"
+                      data-bs-toggle="dropdown"
+                    >
+                      Über uns
+                    </a>
+                    <ul className="dropdown-menu">
+                      <li className="nav-item">
+                        <a className="dropdown-item" href="#">
+                          Unsere Philosophie
+                        </a>
+                      </li>
+                      <li className="nav-item">
+                        <a className="dropdown-item" href="#">
+                          Die Villa
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li className="nav-item dropdown">
+                    <a
+                      className="nav-link dropdown-toggle"
+                      href="#"
+                      data-bs-toggle="dropdown"
+                    >
+                      Das Gym
+                    </a>
+                    <ul className="dropdown-menu">
+                      <li className="nav-item">
+                        <a className="dropdown-item" href="#">
+                          Milon Fitness
+                        </a>
+                      </li>
+                      <li className="nav-item">
+                        <a className="dropdown-item" href="#">
+                          Trainingsfläche
+                        </a>
+                      </li>
+                      <li className="nav-item">
+                        <a className="dropdown-item" href="#">
+                          Spa & Wellness
+                        </a>
+                      </li>
+                      <li className="nav-item">
+                        <a className="dropdown-item" href="#">
+                          Galerie
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+              <div className="w-full order-3 lg:!order-2 lg:!flex">
+                <ul className="navbar-nav lg:!mr-auto xl:!mr-auto">
+                  <li className="nav-item">
+                    <a className="nav-link" href="#">
+                      Das Team
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link" href="#">
+                      Kontakt
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div className="offcanvas-body xl:!hidden lg:!hidden order-4 !mt-auto">
+                <div className="offcanvas-footer">
+                  <div>
+                    <a
+                      href="mailto:first.last@email.com"
+                      className="link-inverse"
+                    >
+                      info@email.com
+                    </a>
+                    <br />
+                    00 (123) 456 78 90 <br />
+                    <nav className="nav social social-white !mt-4">
                       <a
-                        key={i}
-                        className="!text-[#cacaca] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 motion-reduce:transition-none hover:translate-y-[-0.15rem] m-[0_.7rem_0_0]"
-                        href={elm.href}
+                        className="m-[0_.7rem_0_0] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 hover:translate-y-[-0.15rem]"
+                        href="#"
                       >
-                        <i
-                          className={`uil ${elm.icon} before:content-[${elm.unicode}] !text-white text-[1rem]`}
-                        />
+                        <i className="uil uil-twitter before:content-['ed59'] text-[1rem] !text-[#5daed5]" />
                       </a>
-                    ))}
-                  </nav>
-                  {/* /.social */}
+                      <a
+                        className="m-[0_.7rem_0_0] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 hover:translate-y-[-0.15rem]"
+                        href="#"
+                      >
+                        <i className="uil uil-facebook-f before:content-['eae2'] text-[1rem] !text-[#4470cf]" />
+                      </a>
+                      <a
+                        className="m-[0_.7rem_0_0] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 hover:translate-y-[-0.15rem]"
+                        href="#"
+                      >
+                        <i className="uil uil-dribbble before:content-['eaa2'] text-[1rem] !text-[#e94d88]" />
+                      </a>
+                      <a
+                        className="m-[0_.7rem_0_0] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 hover:translate-y-[-0.15rem]"
+                        href="#"
+                      >
+                        <i className="uil uil-instagram before:content-['eb9c'] text-[1rem] !text-[#d53581]" />
+                      </a>
+                      <a
+                        className="m-[0_.7rem_0_0] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 hover:translate-y-[-0.15rem]"
+                        href="#"
+                      >
+                        <i className="uil uil-youtube before:content-['edb5'] text-[1rem] !text-[#c8312b]" />
+                      </a>
+                    </nav>
+                    {/* /.social */}
+                  </div>
                 </div>
               </div>
-              {/* /.offcanvas-footer */}
             </div>
-            {/* /.offcanvas-body */}
+            {/* /.navbar-collapse */}
           </div>
-          {/* /.navbar-collapse */}
-          <div className="navbar-other w-full !flex !ml-auto">
-            <ul className="navbar-nav !flex-row !items-center !ml-auto">
-              <li className="nav-item">
-                <a
-                  className="nav-link"
-                  data-bs-toggle="offcanvas"
-                  data-bs-target="#offcanvas-search"
-                >
-                  <i className="uil uil-search before:content-['\eca5'] !text-[1.1rem]" />
-                </a>
-              </li>
-              <li className="nav-item hidden xl:block lg:block md:block">
-                <Link
-                  href={`/contact`}
-                  className="btn btn-sm btn-aqua text-white !bg-[#54a8c7] border-[#54a8c7] hover:!text-white hover:bg-[#54a8c7] hover:!border-[#54a8c7] focus:shadow-[rgba(79,152,181,1)] active:!text-[#343f52] active:bg-[#54a8c7] active:border-[#54a8c7] disabled:!text-[#343f52] disabled:bg-[#54a8c7] disabled:border-[#54a8c7] !text-[.85rem] !rounded-[.4rem] hover:translate-y-[-0.15rem] hover:shadow-[0_0.25rem_0.75rem_rgba(30,34,40,0.15)]"
-                >
-                  Contact
-                </Link>
-              </li>
-              <li className="nav-item xl:!hidden lg:!hidden">
-                <button className="hamburger offcanvas-nav-btn">
-                  <span />
-                </button>
-              </li>
-            </ul>
-            {/* /.navbar-nav */}
-          </div>
-          {/* /.navbar-other */}
+          {/* /.navbar-collapse-wrapper */}
         </div>
         {/* /.container */}
       </nav>
       {/* /.navbar */}
-
-      {/* /.offcanvas */}
     </header>
   );
 }

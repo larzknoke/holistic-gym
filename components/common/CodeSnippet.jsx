@@ -46,7 +46,7 @@ export default function CodeSnippet({
               {/*/.card-footer */}
               <div
                 id={`collapse-snippet-${randomNumber}`}
-                className="card-footer  !bg-[#21262c] opacity-100  !p-0 accordion-collapse collapse"
+                className="card-footer  !bg-gym-dark opacity-100  !p-0 accordion-collapse collapse"
               >
                 <div className="code-wrapper relative !mb-0">
                   <div className="code-wrapper-inner">

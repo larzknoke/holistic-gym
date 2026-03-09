@@ -6,7 +6,7 @@ import { footerLinks } from "@/data/footerLinks";
 import Link from "next/link";
 export default function Footer3() {
   return (
-    <footer className="bg-[#21262c] opacity-100 !text-[#cacaca]">
+    <footer className="bg-gym-dark opacity-100 !text-[#cacaca]">
       <div className="container pt-28 xl:pt-36 lg:pt-36 md:pt-36 pb-16 xl:pb-20 lg:pb-20 md:pb-20">
         <div className="flex flex-wrap mx-[-15px] !mt-[-30px] xl:!mt-0 lg:!mt-0">
           <div className="md:w-4/12 xl:w-3/12 lg:w-3/12 w-full flex-[0_0_auto] !px-[15px] max-w-full xl:!mt-0 lg:!mt-0 !mt-[30px]">
@@ -51,7 +51,7 @@ export default function Footer3() {
                 Moonshine St. 14/05 Light City, London, United Kingdom
               </address>
               <a
-                className="!text-[#cacaca] hover:!text-[#54a8c7]"
+                className="!text-[#cacaca] hover:!text-gym-primary"
                 href="mailto:first.last@email.com"
               >
                 info@email.com
@@ -71,7 +71,7 @@ export default function Footer3() {
                 {footerLinks.map((elm, i) => (
                   <li className={i != 0 ? "!mt-[0.35rem]" : ""} key={i}>
                     <Link
-                      className="!text-[#cacaca] hover:!text-[#54a8c7]"
+                      className="!text-[#cacaca] hover:!text-gym-primary"
                       href={elm.href}
                     >
                       {elm.text}
@@ -122,7 +122,7 @@ export default function Footer3() {
                           defaultValue="Join"
                           name="subscribe"
                           id="mc-embedded-subscribe2"
-                          className="btn btn-aqua !text-white !bg-[#54a8c7] border-[#54a8c7] hover:text-white hover:bg-[#54a8c7] hover:!border-[#54a8c7] active:text-white active:bg-[#54a8c7] active:border-[#54a8c7] disabled:text-white disabled:bg-[#54a8c7] disabled:border-[#54a8c7] !relative z-[2] hover:!transform-none hover:!translate-none border-0 !text-[.85rem]"
+                          className="btn btn-aqua !text-white !bg-gym-primary border-gym-primary hover:text-white hover:bg-gym-primary hover:!border-gym-primary active:text-white active:bg-gym-primary active:border-gym-primary disabled:text-white disabled:bg-gym-primary disabled:border-gym-primary !relative z-[2] hover:!transform-none hover:!translate-none border-0 !text-[.85rem]"
                         />
                       </div>
                       <div id="mce-responses2" className="clear">

@@ -4,7 +4,7 @@ import React from "react";
 
 export default function Facts() {
   return (
-    <section className="wrapper bg-[#262b32] opacity-100 !text-[#cacaca]">
+    <section className="wrapper bg-gym-dark opacity-100 !text-[#cacaca]">
       <div className="container py-[4.5rem] xl:pt-28 lg:pt-28 md:pt-28 xl:pb-[12.5rem] lg:pb-[12.5rem] md:pb-[12.5rem]">
         <div className="flex flex-wrap mx-[-15px] xl:mx-[-35px] lg:mx-[-20px] !mt-[-50px] xl:!mt-0 lg:!mt-0 !mb-2 items-center">
           <div className="xl:w-4/12 lg:w-4/12 w-full flex-[0_0_auto] !px-[15px] xl:!px-[35px] lg:!px-[20px] !mt-[50px] xl:!mt-0 lg:!mt-0 max-w-full">

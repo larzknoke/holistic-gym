@@ -76,7 +76,7 @@ export default function Avatars() {
                 {/*/.card-footer */}
                 <div
                   id="collapse-1"
-                  className="card-footer  !bg-[#21262c] opacity-100  !p-0 accordion-collapse collapse"
+                  className="card-footer  !bg-gym-dark opacity-100  !p-0 accordion-collapse collapse"
                 >
                   <div className="code-wrapper relative !mb-0">
                     <div className="code-wrapper-inner">
@@ -156,7 +156,7 @@ export default function Avatars() {
                 {/*/.card-footer */}
                 <div
                   id="collapse-2"
-                  className="card-footer  !bg-[#21262c] opacity-100  !p-0 accordion-collapse collapse"
+                  className="card-footer  !bg-gym-dark opacity-100  !p-0 accordion-collapse collapse"
                 >
                   <div className="code-wrapper relative !mb-0">
                     <div className="code-wrapper-inner">

@@ -1836,7 +1836,7 @@ export default function Features2() &lbrace;
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 512 512"
                       data-inject-url="https://sandbox-tailwind-template.netlify.app/assets/img/icons/lineal/target.svg"
-                      className="svg-inject icon-svg !w-[2.2rem] !h-[2.2rem] text-[#54a8c7] text-aqua !mr-4"
+                      className="svg-inject icon-svg !w-[2.2rem] !h-[2.2rem] text-gym-primary text-aqua !mr-4"
                     >
                       <circle
                         className="lineal-fill"
@@ -2114,7 +2114,7 @@ export default function Features2() &lbrace;
                       xmlns&#x3D;&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&quot;
                       viewBox&#x3D;&quot;0 0 512 512&quot;
                       data-inject-url&#x3D;&quot;https:&#x2F;&#x2F;sandbox-tailwind-template.netlify.app&#x2F;assets&#x2F;img&#x2F;icons&#x2F;lineal&#x2F;target.svg&quot;
-                      className&#x3D;&quot;svg-inject icon-svg !w-[2.2rem] !h-[2.2rem] text-[#54a8c7] text-aqua !mr-4&quot;
+                      className&#x3D;&quot;svg-inject icon-svg !w-[2.2rem] !h-[2.2rem] text-gym-primary text-aqua !mr-4&quot;
                     &gt;
                       &lt;circle
                         className&#x3D;&quot;lineal-fill&quot;
@@ -4736,7 +4736,7 @@ export default function Services() {
                     xmlns&#x3D;&quot;http:&#x2F;&#x2F;www.w3.org&#x2F;2000&#x2F;svg&quot;
                     viewBox&#x3D;&quot;0 0 507.4 512&quot;
                     data-inject-url&#x3D;&quot;https:&#x2F;&#x2F;sandbox-tailwind-template.netlify.app&#x2F;assets&#x2F;img&#x2F;icons&#x2F;lineal&#x2F;puzzle-2.svg&quot;
-                    className&#x3D;&quot;svg-inject icon-svg icon-svg-md !w-[2.6rem] !h-[2.6rem] text-[#54a8c7] text-aqua mr-5&quot;
+                    className&#x3D;&quot;svg-inject icon-svg icon-svg-md !w-[2.6rem] !h-[2.6rem] text-gym-primary text-aqua mr-5&quot;
                   &gt;
                     &lt;path
                       className&#x3D;&quot;lineal-fill&quot;

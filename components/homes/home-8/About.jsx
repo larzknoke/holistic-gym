@@ -164,7 +164,7 @@ export default function About() {
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 409.6 362.5"
-                    className="svg-inject icon-svg !w-[2.2rem] !h-[2.2rem] !text-[#54a8c7] !mr-5"
+                    className="svg-inject icon-svg !w-[2.2rem] !h-[2.2rem] !text-gym-primary !mr-5"
                   >
                     <path
                       className="lineal-stroke"
@@ -203,7 +203,7 @@ export default function About() {
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 512 512"
-                    className="svg-inject icon-svg !w-[2.2rem] !h-[2.2rem] !text-[#54a8c7] !mr-5"
+                    className="svg-inject icon-svg !w-[2.2rem] !h-[2.2rem] !text-gym-primary !mr-5"
                   >
                     <circle
                       className="lineal-fill"
@@ -248,7 +248,7 @@ export default function About() {
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 512 427.5"
-                    className="svg-inject icon-svg !w-[2.2rem] !h-[2.2rem] !text-[#54a8c7] !mr-5"
+                    className="svg-inject icon-svg !w-[2.2rem] !h-[2.2rem] !text-gym-primary !mr-5"
                   >
                     <path
                       className="lineal-fill"
@@ -283,7 +283,7 @@ export default function About() {
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 512 431.2"
-                    className="svg-inject icon-svg !w-[2.2rem] !h-[2.2rem] !text-[#54a8c7] !mr-5"
+                    className="svg-inject icon-svg !w-[2.2rem] !h-[2.2rem] !text-gym-primary !mr-5"
                   >
                     <path
                       className="lineal-fill"

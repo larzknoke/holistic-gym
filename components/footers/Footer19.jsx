@@ -6,7 +6,7 @@ import { footerLinks } from "@/data/footerLinks";
 import Link from "next/link";
 export default function Footer19() {
   return (
-    <footer className="bg-[#21262c] opacity-100 section-frame xl:mx-6 xl:rounded-[1rem] lg:mx-6 lg:rounded-[1rem] md:mx-6 md:rounded-[1rem]">
+    <footer className="bg-gym-dark opacity-100 section-frame xl:mx-6 xl:rounded-[1rem] lg:mx-6 lg:rounded-[1rem] md:mx-6 md:rounded-[1rem]">
       <div className="container pb-16 xl:pb-20 lg:pb-20 md:pb-20">
         <div
           className="card image-wrapper bg-full bg-image bg-overlay -translate-y-2/4 xl:mx-5 lg:mx-5 md:mx-5 [background-size:100%] bg-[center_center] bg-no-repeat bg-scroll relative z-0 before:content-[''] before:block before:absolute before:z-[1] before:w-full before:h-full before:left-0 before:top-0 before:bg-[rgba(30,34,40,.5)] before:rounded-[0.4rem]"

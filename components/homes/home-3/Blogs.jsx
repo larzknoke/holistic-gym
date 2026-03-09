@@ -11,7 +11,7 @@ export default function Blogs() {
       <div className="container py-[4.5rem] xl:!py-24 lg:!py-24 md:!py-24">
         <div className="flex flex-wrap mx-[-15px]">
           <div className="lg:w-9/12 xl:w-8/12 xxl:w-7/12 w-full flex-[0_0_auto] !px-[15px] max-w-full">
-            <h2 className="!text-[0.8rem] uppercase inline-flex !leading-[1.35] text-line relative align-top !pl-[1.4rem] !tracking-[0.02rem] before:content-[''] before:absolute before:inline-block before:translate-y-[-60%] before:w-3 before:h-[0.05rem] before:left-0 before:top-2/4 before:bg-[#54a8c7] !text-[#54a8c7] !mb-3">
+            <h2 className="!text-[0.8rem] uppercase inline-flex !leading-[1.35] text-line relative align-top !pl-[1.4rem] !tracking-[0.02rem] before:content-[''] before:absolute before:inline-block before:translate-y-[-60%] before:w-3 before:h-[0.05rem] before:left-0 before:top-2/4 before:bg-gym-primary !text-gym-primary !mb-3">
               Case Studies
             </h2>
             <h3 className="!text-[calc(1.315rem_+_0.78vw)] font-bold xl:!text-[1.9rem] !leading-[1.25] !mb-9">
@@ -69,7 +69,7 @@ export default function Blogs() {
                   <div className="post-header">
                     <h2 className="post-title h3 !mb-3 !text-[1.15rem] !leading-[1.4]">
                       <Link
-                        className="!text-[#343f52] hover:!text-[#54a8c7]"
+                        className="!text-[#343f52] hover:!text-gym-primary"
                         href={`/blog-post`}
                       >
                         {blog.title}
@@ -85,7 +85,7 @@ export default function Blogs() {
                       </li>
                       <li className="post-comments inline-block before:content-[''] before:inline-block before:w-[0.2rem] before:h-[0.2rem] before:opacity-50 before:mx-[0.6rem] before:my-0 before:rounded-[100%] before:bg-[#aab0bc] before:align-[0.15rem] !text-[.75rem]">
                         <a
-                          className="!text-[#aab0bc] hover:!text-[#54a8c7]"
+                          className="!text-[#aab0bc] hover:!text-gym-primary"
                           href="#"
                         >
                           <i className="uil uil-file-alt !text-[.75rem] pr-[0.2rem] align-[-.05rem] before:content-['\eaec']" />

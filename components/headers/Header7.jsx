@@ -7,12 +7,12 @@ export default function Header7() {
   return (
     <header className="relative wrapper !bg-[#eff7fa]">
       <div
-        className="alert !bg-[#54a8c7] opacity-100 !text-white alert-dismissible fade show !rounded-none !mb-[.25rem] xl:text-center lg:text-center !border-0"
+        className="alert !bg-gym-primary opacity-100 !text-white alert-dismissible fade show !rounded-none !mb-[.25rem] xl:text-center lg:text-center !border-0"
         role="alert"
       >
         <div className="container">
           <div className="alert-inner flex justify-center items-center !p-0">
-            <span className="badge badge-lg !bg-[#ffffff] opacity-100 !text-[#54a8c7] uppercase !rounded-[.4rem] !mr-2">
+            <span className="badge badge-lg !bg-[#ffffff] opacity-100 !text-gym-primary uppercase !rounded-[.4rem] !mr-2">
               Update
             </span>
             New version of our product is finally
@@ -96,7 +96,7 @@ export default function Header7() {
               <li className="nav-item hidden xl:block lg:block md:block">
                 <a
                   href="#"
-                  className="!text-[.85rem] !tracking-[normal] btn btn-sm btn-aqua !text-white !bg-[#54a8c7] border-[#54a8c7] hover:text-white hover:bg-[#54a8c7] hover:!border-[#54a8c7] focus:shadow-[rgba(79,152,181,1)] active:text-white active:bg-[#54a8c7] active:border-[#54a8c7] disabled:text-white disabled:bg-[#54a8c7] disabled:border-[#54a8c7] rounded"
+                  className="!text-[.85rem] !tracking-[normal] btn btn-sm btn-aqua !text-white !bg-gym-primary border-gym-primary hover:text-white hover:bg-gym-primary hover:!border-gym-primary focus:shadow-[rgba(79,152,181,1)] active:text-white active:bg-gym-primary active:border-gym-primary disabled:text-white disabled:bg-gym-primary disabled:border-gym-primary rounded"
                 >
                   Free Trial
                 </a>

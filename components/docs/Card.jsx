@@ -110,7 +110,7 @@ export default function Card() {
                 {/*/.card-footer */}
                 <div
                   id="collapse-1"
-                  className="card-footer  !bg-[#21262c] opacity-100  !p-0 accordion-collapse collapse"
+                  className="card-footer  !bg-gym-dark opacity-100  !p-0 accordion-collapse collapse"
                 >
                   <div className="code-wrapper relative !mb-0">
                     <div className="code-wrapper-inner">
@@ -198,7 +198,7 @@ export default function Card() {
                 {/*/.card-footer */}
                 <div
                   id="collapse-2"
-                  className="card-footer  !bg-[#21262c] opacity-100  !p-0 accordion-collapse collapse"
+                  className="card-footer  !bg-gym-dark opacity-100  !p-0 accordion-collapse collapse"
                 >
                   <div className="code-wrapper relative !mb-0">
                     <div className="code-wrapper-inner">
@@ -433,7 +433,7 @@ export default function Card() {
             </p>
             <p className="lead !leading-[1.65] text-[0.9rem] font-medium !mb-8">
               <code className="code">border-[#3f78e0]</code>,{" "}
-              <code className="code">border-[#54a8c7]</code>,{" "}
+              <code className="code">border-gym-primary</code>,{" "}
               <code className="code">border-[#45c4a0]</code>,{" "}
               <code className="code">border-[#7cb798]</code>,{" "}
               <code className="code">border-[#343f52]</code>,{" "}
@@ -541,7 +541,7 @@ export default function Card() {
                 {/*/.card-footer */}
                 <div
                   id="collapse-3"
-                  className="card-footer  !bg-[#21262c] opacity-100  !p-0 accordion-collapse collapse"
+                  className="card-footer  !bg-gym-dark opacity-100  !p-0 accordion-collapse collapse"
                 >
                   <div className="code-wrapper relative !mb-0">
                     <div className="code-wrapper-inner">
@@ -649,7 +649,7 @@ export default function Card() {
                 {/*/.card-footer */}
                 <div
                   id="collapse-4"
-                  className="card-footer  !bg-[#21262c] opacity-100  !p-0 accordion-collapse collapse"
+                  className="card-footer  !bg-gym-dark opacity-100  !p-0 accordion-collapse collapse"
                 >
                   <div className="code-wrapper relative !mb-0">
                     <div className="code-wrapper-inner">

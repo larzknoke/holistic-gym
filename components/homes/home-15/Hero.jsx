@@ -28,7 +28,7 @@ export default function Hero() {
           }}
         >
           <SwiperSlide
-            className="swiper-slide max-h-full bg-overlay bg-overlay-400 bg-[#21262c] opacity-100 bg-image !bg-cover !bg-[center_center] !h-[750px] before:content-[''] before:block before:absolute before:z-[1] before:w-full before:h-full before:left-0 before:top-0 before:bg-[rgba(30,34,40,.4)]"
+            className="swiper-slide max-h-full bg-overlay bg-overlay-400 bg-gym-dark opacity-100 bg-image !bg-cover !bg-[center_center] !h-[750px] before:content-[''] before:block before:absolute before:z-[1] before:w-full before:h-full before:left-0 before:top-0 before:bg-[rgba(30,34,40,.4)]"
             style={{
               backgroundImage: "url(/assets/img/photos/bg7.jpg)",
             }}
@@ -60,7 +60,7 @@ export default function Hero() {
           </SwiperSlide>
           {/*/.swiper-slide */}
           <SwiperSlide
-            className="swiper-slide max-h-full bg-overlay bg-overlay-400 bg-[#21262c] opacity-100 bg-image !bg-cover !bg-[center_center] !h-[750px] before:content-[''] before:block before:absolute before:z-[1] before:w-full before:h-full before:left-0 before:top-0 before:bg-[rgba(30,34,40,.4)]"
+            className="swiper-slide max-h-full bg-overlay bg-overlay-400 bg-gym-dark opacity-100 bg-image !bg-cover !bg-[center_center] !h-[750px] before:content-[''] before:block before:absolute before:z-[1] before:w-full before:h-full before:left-0 before:top-0 before:bg-[rgba(30,34,40,.4)]"
             style={{
               backgroundImage: "url(/assets/img/photos/bg8.jpg)",
             }}
@@ -91,7 +91,7 @@ export default function Hero() {
           </SwiperSlide>
           {/*/.swiper-slide */}
           <SwiperSlide
-            className="swiper-slide max-h-full bg-overlay bg-overlay-400 bg-[#21262c] opacity-100 bg-image !bg-cover !bg-[center_center] !h-[750px] before:content-[''] before:block before:absolute before:z-[1] before:w-full before:h-full before:left-0 before:top-0 before:bg-[rgba(30,34,40,.4)]"
+            className="swiper-slide max-h-full bg-overlay bg-overlay-400 bg-gym-dark opacity-100 bg-image !bg-cover !bg-[center_center] !h-[750px] before:content-[''] before:block before:absolute before:z-[1] before:w-full before:h-full before:left-0 before:top-0 before:bg-[rgba(30,34,40,.4)]"
             style={{
               backgroundImage: "url(/assets/img/photos/bg9.jpg)",
             }}

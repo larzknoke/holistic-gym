@@ -270,7 +270,7 @@ export default function SvgIcons() {
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 409.6 404.3"
                           data-inject-url="https://sandbox-tailwind-template.netlify.app/assets/img/icons/lineal/printer.svg"
-                          className="svg-inject icon-svg !w-[1.8rem] !h-[1.8rem] inline-block text-aqua !text-[#54a8c7] mx-2"
+                          className="svg-inject icon-svg !w-[1.8rem] !h-[1.8rem] inline-block text-aqua !text-gym-primary mx-2"
                         >
                           <path
                             className="lineal-fill"
@@ -285,7 +285,7 @@ export default function SvgIcons() {
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 294.2 409.6"
                           data-inject-url="https://sandbox-tailwind-template.netlify.app/assets/img/icons/lineal/rocket.svg"
-                          className="svg-inject icon-svg !w-[1.8rem] !h-[1.8rem] inline-block text-aqua !text-[#54a8c7] mx-2"
+                          className="svg-inject icon-svg !w-[1.8rem] !h-[1.8rem] inline-block text-aqua !text-gym-primary mx-2"
                         >
                           <path
                             className="lineal-stroke"
@@ -7848,7 +7848,7 @@ export default function SvgIcons() {
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 256 256"
                           data-inject-url="https://sandbox-tailwind-template.netlify.app/assets/img/icons/solid/printer.svg"
-                          className="svg-inject icon-svg !w-[1.8rem] !h-[1.8rem] inline-block  solid-mono text-aqua !text-[#54a8c7] mx-2"
+                          className="svg-inject icon-svg !w-[1.8rem] !h-[1.8rem] inline-block  solid-mono text-aqua !text-gym-primary mx-2"
                         >
                           <path
                             className="fill-secondary"
@@ -7867,7 +7867,7 @@ export default function SvgIcons() {
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 255.99 256.01"
                           data-inject-url="https://sandbox-tailwind-template.netlify.app/assets/img/icons/solid/rocket.svg"
-                          className="svg-inject icon-svg !w-[1.8rem] !h-[1.8rem] inline-block  solid-mono text-aqua !text-[#54a8c7] mx-2"
+                          className="svg-inject icon-svg !w-[1.8rem] !h-[1.8rem] inline-block  solid-mono text-aqua !text-gym-primary mx-2"
                         >
                           <path
                             className="fill-primary"

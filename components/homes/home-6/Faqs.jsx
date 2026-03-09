@@ -16,7 +16,7 @@ export default function Faqs() {
                 data-cue="slideInUp"
               >
                 <a
-                  className="btn btn-circle btn-aqua !text-white !bg-[#54a8c7] border-[#54a8c7] hover:text-white hover:bg-[#54a8c7] hover:!border-[#54a8c7] focus:shadow-[rgba(79,152,181,1)] active:text-white active:bg-[#54a8c7] active:border-[#54a8c7] disabled:text-white disabled:bg-[#54a8c7] disabled:border-[#54a8c7] btn-play ripple !mx-auto !mb-5 !absolute xl:!text-[2.3rem] !text-[calc(1.355rem_+_1.26vw)] w-[3.5rem] h-[3.5rem] !inline-flex !items-center !justify-center !leading-none !p-0 !rounded-[100%] before:!bg-[#54a8c7] after:!bg-[#54a8c7] before:content-[''] before:block before:absolute before:opacity-80 before:animate-[ripple-1_2s_infinite_ease-in-out] before:z-[-1] before:rounded-[50%] before:inset-0 after:opacity-60 after:animate-[ripple-2_2s_infinite_ease-in-out] after:content-[''] after:block after:absolute after:z-[-1] after:rounded-[50%] after:inset-0 after:[animation-delay:.5s]"
+                  className="btn btn-circle btn-aqua !text-white !bg-gym-primary border-gym-primary hover:text-white hover:bg-gym-primary hover:!border-gym-primary focus:shadow-[rgba(79,152,181,1)] active:text-white active:bg-gym-primary active:border-gym-primary disabled:text-white disabled:bg-gym-primary disabled:border-gym-primary btn-play ripple !mx-auto !mb-5 !absolute xl:!text-[2.3rem] !text-[calc(1.355rem_+_1.26vw)] w-[3.5rem] h-[3.5rem] !inline-flex !items-center !justify-center !leading-none !p-0 !rounded-[100%] before:!bg-gym-primary after:!bg-gym-primary before:content-[''] before:block before:absolute before:opacity-80 before:animate-[ripple-1_2s_infinite_ease-in-out] before:z-[-1] before:rounded-[50%] before:inset-0 after:opacity-60 after:animate-[ripple-2_2s_infinite_ease-in-out] after:content-[''] after:block after:absolute after:z-[-1] after:rounded-[50%] after:inset-0 after:[animation-delay:.5s]"
                   style={{
                     top: "50%",
                     left: "50%",
@@ -54,7 +54,7 @@ export default function Faqs() {
                         id="accordion-heading-1-1"
                       >
                         <button
-                          className="text-[#343f52] !text-[0.9rem] hover:!text-[#54a8c7] before:!text-[#54a8c7] collapsed"
+                          className="text-[#343f52] !text-[0.9rem] hover:!text-gym-primary before:!text-gym-primary collapsed"
                           data-bs-toggle="collapse"
                           data-bs-target="#accordion-collapse-1-1"
                           aria-expanded="false"
@@ -93,7 +93,7 @@ export default function Faqs() {
                         id="accordion-heading-1-2"
                       >
                         <button
-                          className="text-[#343f52] !text-[0.9rem] hover:!text-[#54a8c7] before:!text-[#54a8c7] collapsed"
+                          className="text-[#343f52] !text-[0.9rem] hover:!text-gym-primary before:!text-gym-primary collapsed"
                           data-bs-toggle="collapse"
                           data-bs-target="#accordion-collapse-1-2"
                           aria-expanded="false"
@@ -132,7 +132,7 @@ export default function Faqs() {
                         id="accordion-heading-1-3"
                       >
                         <button
-                          className="text-[#343f52] !text-[0.9rem] hover:!text-[#54a8c7] before:!text-[#54a8c7] collapsed"
+                          className="text-[#343f52] !text-[0.9rem] hover:!text-gym-primary before:!text-gym-primary collapsed"
                           data-bs-toggle="collapse"
                           data-bs-target="#accordion-collapse-1-3"
                           aria-expanded="false"
@@ -177,7 +177,7 @@ export default function Faqs() {
                         id="accordion-heading-2-1"
                       >
                         <button
-                          className="text-[#343f52] !text-[0.9rem] hover:!text-[#54a8c7] before:!text-[#54a8c7] collapsed"
+                          className="text-[#343f52] !text-[0.9rem] hover:!text-gym-primary before:!text-gym-primary collapsed"
                           data-bs-toggle="collapse"
                           data-bs-target="#accordion-collapse-2-1"
                           aria-expanded="false"
@@ -216,7 +216,7 @@ export default function Faqs() {
                         id="accordion-heading-2-2"
                       >
                         <button
-                          className="text-[#343f52] !text-[0.9rem] hover:!text-[#54a8c7] before:!text-[#54a8c7] collapsed"
+                          className="text-[#343f52] !text-[0.9rem] hover:!text-gym-primary before:!text-gym-primary collapsed"
                           data-bs-toggle="collapse"
                           data-bs-target="#accordion-collapse-2-2"
                           aria-expanded="false"
@@ -255,7 +255,7 @@ export default function Faqs() {
                         id="accordion-heading-2-3"
                       >
                         <button
-                          className="text-[#343f52] !text-[0.9rem] hover:!text-[#54a8c7] before:!text-[#54a8c7] collapsed"
+                          className="text-[#343f52] !text-[0.9rem] hover:!text-gym-primary before:!text-gym-primary collapsed"
                           data-bs-toggle="collapse"
                           data-bs-target="#accordion-collapse-2-3"
                           aria-expanded="false"

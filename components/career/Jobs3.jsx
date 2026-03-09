@@ -57,7 +57,7 @@ export default function Jobs3() {
                   </span>
                 </div>
                 <div>
-                  <span className="badge bg-[#e4f1f6] !text-[#54a8c7] rounded py-1 !mb-2">
+                  <span className="badge bg-[#e4f1f6] !text-gym-primary rounded py-1 !mb-2">
                     Remote
                   </span>
                   <h4 className="!mb-1">UI/UX Designer</h4>

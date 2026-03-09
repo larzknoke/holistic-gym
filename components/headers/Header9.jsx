@@ -80,7 +80,7 @@ export default function Header9() {
               <li className="nav-item hidden xl:block lg:block md:block">
                 <a
                   href="#"
-                  className="btn btn-sm btn-aqua !text-white !bg-[#54a8c7] border-[#54a8c7] hover:text-white hover:bg-[#54a8c7] hover:!border-[#54a8c7] focus:shadow-[rgba(79,152,181,1)] active:text-white active:bg-[#54a8c7] active:border-[#54a8c7] disabled:text-white disabled:bg-[#54a8c7] disabled:border-[#54a8c7] !rounded-[50rem]"
+                  className="btn btn-sm btn-aqua !text-white !bg-gym-primary border-gym-primary hover:text-white hover:bg-gym-primary hover:!border-gym-primary focus:shadow-[rgba(79,152,181,1)] active:text-white active:bg-gym-primary active:border-gym-primary disabled:text-white disabled:bg-gym-primary disabled:border-gym-primary !rounded-[50rem]"
                   data-bs-toggle="modal"
                   data-bs-target="#modal-signin"
                 >
@@ -149,13 +149,13 @@ export default function Header9() {
                     Password
                   </label>
                 </div>
-                <a className="btn btn-aqua !text-white !bg-[#54a8c7] border-[#54a8c7] hover:text-white hover:bg-[#54a8c7] hover:!border-[#54a8c7] focus:shadow-[rgba(79,152,181,1)] focus:text-white active:text-white active:bg-[#54a8c7] active:border-[#54a8c7] disabled:text-white disabled:bg-[#54a8c7] disabled:border-[#54a8c7] !rounded-[50rem] btn-login w-full !mb-2">
+                <a className="btn btn-aqua !text-white !bg-gym-primary border-gym-primary hover:text-white hover:bg-gym-primary hover:!border-gym-primary focus:shadow-[rgba(79,152,181,1)] focus:text-white active:text-white active:bg-gym-primary active:border-gym-primary disabled:text-white disabled:bg-gym-primary disabled:border-gym-primary !rounded-[50rem] btn-login w-full !mb-2">
                   Sign In
                 </a>
               </form>
               {/* /form */}
               <p className="!mb-1">
-                <a href="#" className="hover !text-[#54a8c7]">
+                <a href="#" className="hover !text-gym-primary">
                   Forgot Password?
                 </a>
               </p>
@@ -166,7 +166,7 @@ export default function Header9() {
                   data-bs-target="#modal-signup"
                   data-bs-toggle="modal"
                   data-bs-dismiss="modal"
-                  className="hover !text-[#54a8c7]"
+                  className="hover !text-gym-primary"
                 >
                   Sign up
                 </a>
@@ -283,7 +283,7 @@ export default function Header9() {
                     Confirm Password
                   </label>
                 </div>
-                <a className="btn btn-aqua !text-white !bg-[#54a8c7] border-[#54a8c7] hover:text-white hover:bg-[#54a8c7] hover:!border-[#54a8c7] focus:shadow-[rgba(79,152,181,1)] focus:text-white active:text-white active:bg-[#54a8c7] active:border-[#54a8c7] disabled:text-white disabled:bg-[#54a8c7] disabled:border-[#54a8c7] !rounded-[50rem] btn-login w-full !mb-2">
+                <a className="btn btn-aqua !text-white !bg-gym-primary border-gym-primary hover:text-white hover:bg-gym-primary hover:!border-gym-primary focus:shadow-[rgba(79,152,181,1)] focus:text-white active:text-white active:bg-gym-primary active:border-gym-primary disabled:text-white disabled:bg-gym-primary disabled:border-gym-primary !rounded-[50rem] btn-login w-full !mb-2">
                   Sign Up
                 </a>
               </form>
@@ -295,7 +295,7 @@ export default function Header9() {
                   data-bs-target="#modal-signin"
                   data-bs-toggle="modal"
                   data-bs-dismiss="modal"
-                  className="hover !text-[#54a8c7]"
+                  className="hover !text-gym-primary"
                 >
                   Sign in
                 </a>

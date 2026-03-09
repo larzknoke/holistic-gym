@@ -6,7 +6,7 @@ export default function About() {
       <div className="container pt-36 xl:pt-[12.5rem] lg:pt-[12.5rem] md:pt-[12.5rem] pb-24 xl:pb-32 lg:pb-32 md:pb-32">
         <div className="flex flex-wrap mx-[-15px]">
           <div className="lg:w-8/12 xl:w-7/12 xxl:w-6/12 w-full flex-[0_0_auto] !px-[15px] max-w-full">
-            <h2 className="!text-[0.8rem] uppercase inline-flex !leading-[1.35] text-line relative align-top !pl-[1.4rem] !tracking-[0.02rem] before:content-[''] before:absolute before:inline-block before:translate-y-[-60%] before:w-3 before:h-[0.05rem] before:left-0 before:top-2/4 before:bg-[#54a8c7] !text-[#54a8c7] !mb-3">
+            <h2 className="!text-[0.8rem] uppercase inline-flex !leading-[1.35] text-line relative align-top !pl-[1.4rem] !tracking-[0.02rem] before:content-[''] before:absolute before:inline-block before:translate-y-[-60%] before:w-3 before:h-[0.05rem] before:left-0 before:top-2/4 before:bg-gym-primary !text-gym-primary !mb-3">
               What We Do?
             </h2>
             <h3 className="!text-[calc(1.315rem_+_0.78vw)] font-bold xl:!text-[1.9rem] !leading-[1.25] !mb-9">
@@ -28,7 +28,7 @@ export default function About() {
             </p>
             <a
               href="#"
-              className="more hover !text-[#54a8c7] focus:!text-[#54a8c7] hover:!text-[#54a8c7]"
+              className="more hover !text-gym-primary focus:!text-gym-primary hover:!text-gym-primary"
             >
               Learn More
             </a>
@@ -45,7 +45,7 @@ export default function About() {
             </p>
             <a
               href="#"
-              className="more hover !text-[#54a8c7] focus:!text-[#54a8c7] hover:!text-[#54a8c7]"
+              className="more hover !text-gym-primary focus:!text-gym-primary hover:!text-gym-primary"
             >
               Learn More
             </a>
@@ -62,7 +62,7 @@ export default function About() {
             </p>
             <a
               href="#"
-              className="more hover !text-[#54a8c7] focus:!text-[#54a8c7] hover:!text-[#54a8c7]"
+              className="more hover !text-gym-primary focus:!text-gym-primary hover:!text-gym-primary"
             >
               Learn More
             </a>
@@ -79,7 +79,7 @@ export default function About() {
             </p>
             <a
               href="#"
-              className="more hover !text-[#54a8c7] focus:!text-[#54a8c7] hover:!text-[#54a8c7]"
+              className="more hover !text-gym-primary focus:!text-gym-primary hover:!text-gym-primary"
             >
               Learn More
             </a>
@@ -117,7 +117,7 @@ export default function About() {
           </div>
           {/*/column */}
           <div className="lg:w-5/12 xl:w-4/12 xl:!ml-[8.33333333%] lg:!ml-[8.33333333%] w-full flex-[0_0_auto] xl:!px-[7.5px] lg:!px-[7.5px] !px-[15px] max-w-full !mt-[80px]">
-            <h2 className="!text-[0.8rem] uppercase inline-flex !leading-[1.35] text-line relative align-top !pl-[1.4rem] !tracking-[0.02rem] before:content-[''] before:absolute before:inline-block before:translate-y-[-60%] before:w-3 before:h-[0.05rem] before:left-0 before:top-2/4 before:bg-[#54a8c7] !text-[#54a8c7] !mb-3">
+            <h2 className="!text-[0.8rem] uppercase inline-flex !leading-[1.35] text-line relative align-top !pl-[1.4rem] !tracking-[0.02rem] before:content-[''] before:absolute before:inline-block before:translate-y-[-60%] before:w-3 before:h-[0.05rem] before:left-0 before:top-2/4 before:bg-gym-primary !text-gym-primary !mb-3">
               How It Works?
             </h2>
             <h3 className="!text-[calc(1.315rem_+_0.78vw)] font-bold xl:!text-[1.9rem] !leading-[1.25] !mb-7">
@@ -205,7 +205,7 @@ export default function About() {
           </div>
           {/*/column */}
           <div className="xl:w-5/12 lg:w-5/12 w-full flex-[0_0_auto] !px-[15px] !mt-[50px] xl:!mt-[80px] lg:!mt-[80px] md:!mt-[80px] sm:!mt-[80px] xl:!px-[7.5px] lg:!px-[7.5px] max-w-full">
-            <h2 className="!text-[0.8rem] uppercase inline-flex !leading-[1.35] text-line relative align-top !pl-[1.4rem] !tracking-[0.02rem] before:content-[''] before:absolute before:inline-block before:translate-y-[-60%] before:w-3 before:h-[0.05rem] before:left-0 before:top-2/4 before:bg-[#54a8c7] !text-[#54a8c7] !mb-3">
+            <h2 className="!text-[0.8rem] uppercase inline-flex !leading-[1.35] text-line relative align-top !pl-[1.4rem] !tracking-[0.02rem] before:content-[''] before:absolute before:inline-block before:translate-y-[-60%] before:w-3 before:h-[0.05rem] before:left-0 before:top-2/4 before:bg-gym-primary !text-gym-primary !mb-3">
               Why Choose Us?
             </h2>
             <h3 className="!text-[calc(1.315rem_+_0.78vw)] font-bold xl:!text-[1.9rem] !leading-[1.25] !mb-7">
@@ -218,7 +218,7 @@ export default function About() {
                   id="headingOne"
                 >
                   <button
-                    className="before:!text-[#54a8c7] hover:!text-[#54a8c7] !p-[0_0_0_1.1rem] !text-[.9rem] accordion-button"
+                    className="before:!text-gym-primary hover:!text-gym-primary !p-[0_0_0_1.1rem] !text-[.9rem] accordion-button"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseOne"
                     aria-expanded="true"
@@ -253,7 +253,7 @@ export default function About() {
                   id="headingTwo"
                 >
                   <button
-                    className="before:!text-[#54a8c7] hover:!text-[#54a8c7] !p-[0_0_0_1.1rem] !text-[.9rem] collapsed"
+                    className="before:!text-gym-primary hover:!text-gym-primary !p-[0_0_0_1.1rem] !text-[.9rem] collapsed"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseTwo"
                     aria-expanded="false"
@@ -288,7 +288,7 @@ export default function About() {
                   id="headingThree"
                 >
                   <button
-                    className="before:!text-[#54a8c7] hover:!text-[#54a8c7] !p-[0_0_0_1.1rem] !text-[.9rem] collapsed"
+                    className="before:!text-gym-primary hover:!text-gym-primary !p-[0_0_0_1.1rem] !text-[.9rem] collapsed"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseThree"
                     aria-expanded="false"

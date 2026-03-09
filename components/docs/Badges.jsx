@@ -100,7 +100,7 @@ export default function Badges() {
                 <span className="badge bg-[rgba(96,93,186)] opacity-100 !rounded-[50rem]">
                   Badge
                 </span>{" "}
-                <span className="badge  bg-[#21262c] opacity-100  !rounded-[50rem]">
+                <span className="badge  bg-gym-dark opacity-100  !rounded-[50rem]">
                   Badge
                 </span>{" "}
                 <span className="badge bg-[rgba(148,153,163)] opacity-100 !text-white !rounded-[50rem]">
@@ -128,7 +128,7 @@ export default function Badges() {
                 <span className="badge bg-[#e0e9fa] !text-[#3f78e0] !rounded-[50rem]">
                   Badge
                 </span>{" "}
-                <span className="badge bg-[#e4f1f6] !text-[#54a8c7] !rounded-[50rem]">
+                <span className="badge bg-[#e4f1f6] !text-gym-primary !rounded-[50rem]">
                   Badge
                 </span>{" "}
                 <span className="badge bg-[#e1f6f0] !text-[#45c4a0] !rounded-[50rem]">
@@ -167,7 +167,7 @@ export default function Badges() {
                 {/*/.card-footer */}
                 <div
                   id="collapse-1"
-                  className="card-footer  !bg-[#21262c] opacity-100  !p-0 accordion-collapse collapse"
+                  className="card-footer  !bg-gym-dark opacity-100  !p-0 accordion-collapse collapse"
                 >
                   <div className="code-wrapper relative !mb-0">
                     <div className="code-wrapper-inner">
@@ -202,7 +202,7 @@ export default function Badges() {
                           opacity-100 !rounded-[50rem]"&gt;Badge&lt;/span&gt;
                           {"\n"}&lt;span className="badge bg-[rgba(96,93,186)]
                           opacity-100 !rounded-[50rem]"&gt;Badge&lt;/span&gt;
-                          {"\n"}&lt;span className="badge{"  "}bg-[#21262c]
+                          {"\n"}&lt;span className="badge{"  "}bg-gym-dark
                           opacity-100{"  "}
                           !rounded-[50rem]"&gt;Badge&lt;/span&gt;{"\n"}&lt;span
                           className="badge bg-[rgba(148,153,163)] opacity-100
@@ -230,7 +230,7 @@ export default function Badges() {
                           !rounded-[50rem]"&gt;Badge&lt;/span&gt;{"\n"}&lt;span
                           className="badge bg-[#e0e9fa] !text-[#3f78e0]
                           !rounded-[50rem]"&gt;Badge&lt;/span&gt;{"\n"}&lt;span
-                          className="badge bg-[#e4f1f6] !text-[#54a8c7]
+                          className="badge bg-[#e4f1f6] !text-gym-primary
                           !rounded-[50rem]"&gt;Badge&lt;/span&gt;{"\n"}&lt;span
                           className="badge bg-[#e1f6f0] !text-[#45c4a0]
                           !rounded-[50rem]"&gt;Badge&lt;/span&gt;{"\n"}&lt;span
@@ -269,7 +269,9 @@ export default function Badges() {
                 <span className="badge gradient-4 !rounded-[50rem]">Badge</span>{" "}
                 <span className="badge gradient-5 !rounded-[50rem]">Badge</span>{" "}
                 <span className="badge gradient-6 !rounded-[50rem]">Badge</span>{" "}
-                <span className="badge gradient-7 !rounded-[50rem]">Badge</span>{" "}
+                <span className="badge gradient-7 !rounded-[50rem]">
+                  Badge
+                </span>{" "}
               </div>
               {/*/.card-body */}
               <CodeSnippetContainer>
@@ -285,7 +287,7 @@ export default function Badges() {
                 {/*/.card-footer */}
                 <div
                   id="collapse-2"
-                  className="card-footer  !bg-[#21262c] opacity-100  !p-0 accordion-collapse collapse"
+                  className="card-footer  !bg-gym-dark opacity-100  !p-0 accordion-collapse collapse"
                 >
                   <div className="code-wrapper relative !mb-0">
                     <div className="code-wrapper-inner">
@@ -345,7 +347,7 @@ export default function Badges() {
                 {/*/.card-footer */}
                 <div
                   id="collapse-3"
-                  className="card-footer  !bg-[#21262c] opacity-100  !p-0 accordion-collapse collapse"
+                  className="card-footer  !bg-gym-dark opacity-100  !p-0 accordion-collapse collapse"
                 >
                   <div className="code-wrapper relative !mb-0">
                     <div className="code-wrapper-inner">
@@ -395,7 +397,7 @@ export default function Badges() {
                 {/*/.card-footer */}
                 <div
                   id="collapse-4"
-                  className="card-footer  !bg-[#21262c] opacity-100  !p-0 accordion-collapse collapse"
+                  className="card-footer  !bg-gym-dark opacity-100  !p-0 accordion-collapse collapse"
                 >
                   <div className="code-wrapper relative !mb-0">
                     <div className="code-wrapper-inner">

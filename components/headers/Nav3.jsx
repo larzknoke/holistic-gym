@@ -94,7 +94,7 @@ export default function Nav3() {
                           <Image
                             className={`!rounded-[.4rem] ${
                               demo.href == pathname
-                                ? "p-[3px] bg-[#54a8c7]"
+                                ? "p-[3px] bg-gym-primary"
                                 : ""
                             } `}
                             srcSet={demo.srcSet}

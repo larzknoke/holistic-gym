@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 export default function Services() {
   return (
-    <section className="wrapper bg-[#262b32] opacity-100 !text-[#cacaca]">
+    <section className="wrapper bg-gym-dark opacity-100 !text-[#cacaca]">
       <div className="container py-[5rem] xl:!py-[7rem] lg:!py-[7rem] md:!py-[7rem]">
         <div className="flex flex-wrap mx-[-15px] !text-center">
           <div className="lg:w-10/12 xl:w-9/12 xxl:w-8/12 w-full flex-[0_0_auto] !px-[15px] max-w-full !mx-auto">

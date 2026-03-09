@@ -5,7 +5,7 @@ import React from "react";
 
 export default function Footer15() {
   return (
-    <footer className="bg-[#21262c] opacity-100 !text-[#cacaca]">
+    <footer className="bg-gym-dark opacity-100 !text-[#cacaca]">
       <div className="container pt-40 xl:pt-[12.5rem] lg:pt-[12.5rem] pb-7">
         <div className="flex flex-wrap mx-[-15px] !mt-[-30px] xl:!mt-0 lg:!mt-0">
           <div className="xl:w-4/12 lg:w-4/12 w-full flex-[0_0_auto] !px-[15px] max-w-full">

@@ -267,7 +267,7 @@ export default function Pagination() &lbrace;
                 </nav>
                 <nav
                   aria-label="breadcrumb"
-                  className=" bg-[#21262c] opacity-100  p-3 rounded"
+                  className=" bg-gym-dark opacity-100  p-3 rounded"
                 >
                   <ol className="breadcrumb !text-white  !mb-0 flex flex-wrap p-0 rounded-none">
                     <li className="breadcrumb-item flex !text-[#60697b]">
@@ -303,7 +303,7 @@ export default function Pagination() &lbrace;
                 {/*/.card-footer */}
                 <div
                   id="collapse-3"
-                  className="card-footer  !bg-[#21262c] opacity-100  !p-0 accordion-collapse collapse"
+                  className="card-footer  !bg-gym-dark opacity-100  !p-0 accordion-collapse collapse"
                 >
                   <div className="code-wrapper relative !mb-0">
                     <div className="code-wrapper-inner">

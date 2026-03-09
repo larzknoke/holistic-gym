@@ -22,7 +22,7 @@ export default function DemoPage15() {
       <div className="grow shrink-0">
         <Header16 />
         <>
-          <section className="wrapper bg-[#21262c] opacity-100">
+          <section className="wrapper bg-gym-dark opacity-100">
             <Hero />
             {/* /.swiper-container */}
           </section>

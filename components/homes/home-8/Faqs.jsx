@@ -24,7 +24,7 @@ export default function Faqs() {
                   id="headingOne"
                 >
                   <button
-                    className="before:!text-[#54a8c7] hover:!text-[#54a8c7] collapsed"
+                    className="before:!text-gym-primary hover:!text-gym-primary collapsed"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseOne"
                     aria-expanded="false"
@@ -57,7 +57,7 @@ export default function Faqs() {
                   id="headingTwo"
                 >
                   <button
-                    className="before:!text-[#54a8c7] hover:!text-[#54a8c7] collapsed"
+                    className="before:!text-gym-primary hover:!text-gym-primary collapsed"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseTwo"
                     aria-expanded="false"
@@ -90,7 +90,7 @@ export default function Faqs() {
                   id="headingThree"
                 >
                   <button
-                    className="before:!text-[#54a8c7] hover:!text-[#54a8c7] collapsed"
+                    className="before:!text-gym-primary hover:!text-gym-primary collapsed"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseThree"
                     aria-expanded="false"
@@ -123,7 +123,7 @@ export default function Faqs() {
                   id="headingFour"
                 >
                   <button
-                    className="before:!text-[#54a8c7] hover:!text-[#54a8c7] collapsed"
+                    className="before:!text-gym-primary hover:!text-gym-primary collapsed"
                     data-bs-toggle="collapse"
                     data-bs-target="#collapseFour"
                     aria-expanded="false"

@@ -70,7 +70,7 @@ export default function Services() {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 507.4 512"
                     data-inject-url="https://sandbox-tailwind-template.netlify.app/assets/img/icons/lineal/puzzle-2.svg"
-                    className="svg-inject icon-svg icon-svg-md !w-[2.6rem] !h-[2.6rem] text-[#54a8c7] text-aqua mr-5"
+                    className="svg-inject icon-svg icon-svg-md !w-[2.6rem] !h-[2.6rem] text-gym-primary text-aqua mr-5"
                   >
                     <path
                       className="lineal-fill"

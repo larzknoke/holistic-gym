@@ -20,7 +20,7 @@ export default function Pricing() {
         </p>
         <a
           href="#"
-          className="btn btn-aqua !text-white !bg-[#54a8c7] border-[#54a8c7] hover:text-white hover:bg-[#54a8c7] hover:!border-[#54a8c7] focus:shadow-[rgba(79,152,181,1)] focus:text-white active:text-white active:bg-[#54a8c7] active:border-[#54a8c7] disabled:text-white disabled:bg-[#54a8c7] disabled:border-[#54a8c7] !rounded-[50rem] !mt-2 hover:translate-y-[-0.15rem] hover:shadow-[0_0.25rem_0.75rem_rgba(30,34,40,0.15)]"
+          className="btn btn-aqua !text-white !bg-gym-primary border-gym-primary hover:text-white hover:bg-gym-primary hover:!border-gym-primary focus:shadow-[rgba(79,152,181,1)] focus:text-white active:text-white active:bg-gym-primary active:border-gym-primary disabled:text-white disabled:bg-gym-primary disabled:border-gym-primary !rounded-[50rem] !mt-2 hover:translate-y-[-0.15rem] hover:shadow-[0_0.25rem_0.75rem_rgba(30,34,40,0.15)]"
         >
           See All Prices
         </a>
@@ -45,7 +45,7 @@ export default function Pricing() {
                 !isMonthly ? "pricing-switcher-active !text-white" : ""
               }`}
             />
-            <div className="h-4 w-4 block absolute z-[555] transition-[0.3s] duration-[ease-in-out] m-0 rounded-[100%] border-[none] left-0 top-0 !bg-[#54a8c7] opacity-100 switcher-button" />
+            <div className="h-4 w-4 block absolute z-[555] transition-[0.3s] duration-[ease-in-out] m-0 rounded-[100%] border-[none] left-0 top-0 !bg-gym-primary opacity-100 switcher-button" />
           </div>
           <p className="!mb-0 !pl-3 !relative">
             Yearly <span className="!text-[#e2626b]">(Save 30%)</span>
@@ -93,7 +93,7 @@ export default function Pricing() {
                             feature.included ? "uil-check" : "uil-times"
                           } absolute left-0 w-4 h-4 text-[0.8rem] leading-none !tracking-[normal] !text-center flex items-center justify-center ${
                             feature.included
-                              ? "bg-[#e6e8f7] !text-[#54a8c7]"
+                              ? "bg-[#e6e8f7] !text-gym-primary"
                               : "!bg-[#fae3e4] !text-[#e2626b]"
                           } rounded-[100%] top-[0.2rem] before:content-['\e9dd'] before:align-middle before:table-cell`}
                         />
@@ -105,7 +105,7 @@ export default function Pricing() {
                   </ul>
                   <a
                     href="#"
-                    className="btn btn-grape !text-white !bg-[#54a8c7] border-[#54a8c7] hover:text-white hover:bg-[#54a8c7] hover:!border-[#54a8c7] active:text-white active:bg-[#54a8c7] active:border-[#54a8c7] disabled:text-white disabled:bg-[#54a8c7] disabled:border-[#54a8c7] !text-[.85rem] !rounded-[.4rem] hover:translate-y-[-0.15rem] hover:shadow-[0_0.25rem_0.75rem_rgba(30,34,40,0.15)]"
+                    className="btn btn-grape !text-white !bg-gym-primary border-gym-primary hover:text-white hover:bg-gym-primary hover:!border-gym-primary active:text-white active:bg-gym-primary active:border-gym-primary disabled:text-white disabled:bg-gym-primary disabled:border-gym-primary !text-[.85rem] !rounded-[.4rem] hover:translate-y-[-0.15rem] hover:shadow-[0_0.25rem_0.75rem_rgba(30,34,40,0.15)]"
                   >
                     Choose Plan
                   </a>

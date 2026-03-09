@@ -8,7 +8,7 @@ export default function Pricing() {
   return (
     <div className="flex flex-wrap mx-[-15px] !mt-[-30px] !mb-24 xl:!mb-[8rem] lg:!mb-[8rem] md:!mb-[8rem]">
       <div className="xl:w-4/12 lg:w-4/12 w-full flex-[0_0_auto] !px-[15px] max-w-full">
-        <h2 className="!text-[0.8rem] uppercase inline-flex !leading-[1.35] text-line relative align-top !pl-[1.4rem] !tracking-[0.02rem] before:content-[''] before:absolute before:inline-block before:translate-y-[-60%] before:w-3 before:h-[0.05rem] before:left-0 before:top-2/4 before:bg-[#54a8c7] !text-[#54a8c7] lg:!mt-32 xl:!mt-32 !mb-3">
+        <h2 className="!text-[0.8rem] uppercase inline-flex !leading-[1.35] text-line relative align-top !pl-[1.4rem] !tracking-[0.02rem] before:content-[''] before:absolute before:inline-block before:translate-y-[-60%] before:w-3 before:h-[0.05rem] before:left-0 before:top-2/4 before:bg-gym-primary !text-gym-primary lg:!mt-32 xl:!mt-32 !mb-3">
           Our Pricing
         </h2>
         <h3 className="!text-[calc(1.315rem_+_0.78vw)] font-bold xl:!text-[1.9rem] !leading-[1.25] !mb-3">
@@ -16,14 +16,14 @@ export default function Pricing() {
         </h3>
         <p>
           Enjoy a{" "}
-          <a href="#" className="hover !text-[#54a8c7]">
+          <a href="#" className="hover !text-gym-primary">
             free 30-day trial
           </a>{" "}
           and experience the full service. No credit card required!
         </p>
         <a
           href="#"
-          className="btn btn-aqua !text-white !bg-[#54a8c7] border-[#54a8c7] hover:text-white hover:bg-[#54a8c7] hover:!border-[#54a8c7] focus:shadow-[rgba(79,152,181,1)] focus:text-white active:text-white active:bg-[#54a8c7] active:border-[#54a8c7] disabled:text-white disabled:bg-[#54a8c7] disabled:border-[#54a8c7] !text-[.85rem] rounded !mt-2"
+          className="btn btn-aqua !text-white !bg-gym-primary border-gym-primary hover:text-white hover:bg-gym-primary hover:!border-gym-primary focus:shadow-[rgba(79,152,181,1)] focus:text-white active:text-white active:bg-gym-primary active:border-gym-primary disabled:text-white disabled:bg-gym-primary disabled:border-gym-primary !text-[.85rem] rounded !mt-2"
         >
           See All Prices
         </a>
@@ -117,7 +117,7 @@ export default function Pricing() {
                             feature.included ? "uil-check" : "uil-times"
                           } absolute left-0 w-4 h-4 text-[0.8rem] leading-none !tracking-[normal] !text-center flex items-center justify-center ${
                             feature.included
-                              ? "bg-[#e0eff5] !text-[#54a8c7]"
+                              ? "bg-[#e0eff5] !text-gym-primary"
                               : "!bg-[#e0eff5] !text-[#e2626b]"
                           } rounded-[100%] top-[0.2rem] before:content-['\e9dd'] before:align-middle before:table-cell`}
                         />
@@ -129,7 +129,7 @@ export default function Pricing() {
                   </ul>
                   <a
                     href="#"
-                    className="btn btn-grape !text-white !bg-[#54a8c7] border-[#54a8c7] hover:text-white hover:bg-[#54a8c7] hover:!border-[#54a8c7] active:text-white active:bg-[#54a8c7] active:border-[#54a8c7] disabled:text-white disabled:bg-[#54a8c7] disabled:border-[#54a8c7] !text-[.85rem] !rounded-[.4rem] hover:translate-y-[-0.15rem] hover:shadow-[0_0.25rem_0.75rem_rgba(30,34,40,0.15)]"
+                    className="btn btn-grape !text-white !bg-gym-primary border-gym-primary hover:text-white hover:bg-gym-primary hover:!border-gym-primary active:text-white active:bg-gym-primary active:border-gym-primary disabled:text-white disabled:bg-gym-primary disabled:border-gym-primary !text-[.85rem] !rounded-[.4rem] hover:translate-y-[-0.15rem] hover:shadow-[0_0.25rem_0.75rem_rgba(30,34,40,0.15)]"
                   >
                     Choose Plan
                   </a>

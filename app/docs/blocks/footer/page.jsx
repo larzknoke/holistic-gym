@@ -20,7 +20,7 @@ export default function DocsPageFooter() {
         {/* /section */}
         <section id="snippet-1" className="wrapper !bg-[#ffffff] ">
           <div className="container-fluid pt-20 xl:pt-28 lg:pt-28 md:pt-28 pb-16 xl:pb-20 lg:pb-20 md:pb-20 xxl:!px-10">
-            <footer className="bg-[#21262c] opacity-100 !text-[#cacaca]">
+            <footer className="bg-gym-dark opacity-100 !text-[#cacaca]">
               <div className="container py-16 xl:!py-20 lg:!py-20 md:!py-20">
                 <div className="flex flex-wrap mx-[-15px] !mt-[-30px] xl:!mt-0 lg:!mt-0">
                   <div className="md:w-4/12 xl:w-3/12 lg:w-3/12 w-full flex-[0_0_auto] !px-[15px] max-w-full xl:!mt-0 lg:!mt-0 !mt-[30px]">
@@ -239,7 +239,7 @@ export default function DocsPageFooter() {
         <CodeSnippet
           code={`&lt;section id&#x3D;&quot;snippet-1&quot; className&#x3D;&quot;wrapper !bg-[#ffffff] &quot;&gt;
           &lt;div className&#x3D;&quot;container-fluid pt-20 xl:pt-28 lg:pt-28 md:pt-28 pb-16 xl:pb-20 lg:pb-20 md:pb-20 xxl:!px-10&quot;&gt;
-            &lt;footer className&#x3D;&quot;bg-[#21262c] opacity-100 !text-[#cacaca]&quot;&gt;
+            &lt;footer className&#x3D;&quot;bg-gym-dark opacity-100 !text-[#cacaca]&quot;&gt;
               &lt;div className&#x3D;&quot;container py-16 xl:!py-20 lg:!py-20 md:!py-20&quot;&gt;
                 &lt;div className&#x3D;&quot;flex flex-wrap mx-[-15px] !mt-[-30px] xl:!mt-0 lg:!mt-0&quot;&gt;
                   &lt;div className&#x3D;&quot;md:w-4&#x2F;12 xl:w-3&#x2F;12 lg:w-3&#x2F;12 w-full flex-[0_0_auto] !px-[15px] max-w-full xl:!mt-0 lg:!mt-0 !mt-[30px]&quot;&gt;
@@ -718,7 +718,7 @@ export default function DocsPageFooter() {
         {/* /section */}
         <section id="snippet-3" className="wrapper !bg-[#ffffff] ">
           <div className="container-fluid pt-20 xl:pt-28 lg:pt-28 md:pt-28 pb-16 xl:pb-20 lg:pb-20 md:pb-20 xxl:!px-10">
-            <footer className="bg-[#21262c] opacity-100 !text-[#cacaca]">
+            <footer className="bg-gym-dark opacity-100 !text-[#cacaca]">
               <div className="container pt-[4.5rem] xl:pt-[7rem] lg:pt-[7rem] md:pt-[7rem] pb-[1.75rem]">
                 <div className="flex flex-wrap mx-[-15px] !mt-[-30px] xl:!mt-0 lg:!mt-0">
                   <div className="xl:w-4/12 lg:w-4/12 w-full flex-[0_0_auto] !px-[15px] max-w-full xl:!mt-0 lg:!mt-0 !mt-[30px]">
@@ -902,7 +902,7 @@ export default function DocsPageFooter() {
         <CodeSnippet
           code={`  &lt;section id&#x3D;&quot;snippet-3&quot; className&#x3D;&quot;wrapper !bg-[#ffffff] &quot;&gt;
           &lt;div className&#x3D;&quot;container-fluid pt-20 xl:pt-28 lg:pt-28 md:pt-28 pb-16 xl:pb-20 lg:pb-20 md:pb-20 xxl:!px-10&quot;&gt;
-            &lt;footer className&#x3D;&quot;bg-[#21262c] opacity-100 !text-[#cacaca]&quot;&gt;
+            &lt;footer className&#x3D;&quot;bg-gym-dark opacity-100 !text-[#cacaca]&quot;&gt;
               &lt;div className&#x3D;&quot;container pt-[4.5rem] xl:pt-[7rem] lg:pt-[7rem] md:pt-[7rem] pb-[1.75rem]&quot;&gt;
                 &lt;div className&#x3D;&quot;flex flex-wrap mx-[-15px] !mt-[-30px] xl:!mt-0 lg:!mt-0&quot;&gt;
                   &lt;div className&#x3D;&quot;xl:w-4&#x2F;12 lg:w-4&#x2F;12 w-full flex-[0_0_auto] !px-[15px] max-w-full xl:!mt-0 lg:!mt-0 !mt-[30px]&quot;&gt;
@@ -1884,7 +1884,7 @@ export default function DocsPageFooter() {
         {/* /section */}
         <section id="snippet-7" className="wrapper !bg-[#ffffff] ">
           <div className="container-fluid pt-20 xl:pt-28 lg:pt-28 md:pt-28 pb-16 xl:pb-20 lg:pb-20 md:pb-20 xxl:!px-10">
-            <footer className="bg-[#21262c] opacity-100 !text-[#cacaca]">
+            <footer className="bg-gym-dark opacity-100 !text-[#cacaca]">
               <div className="container py-16 xl:!py-20 lg:!py-20 md:!py-20">
                 <div className="flex flex-wrap mx-[-15px] !mt-[-30px] xl:!mt-0 lg:!mt-0">
                   <div className="md:w-4/12 lg:w-3/12 xl:w-3/12 w-full flex-[0_0_auto] !px-[15px] max-w-full xl:!mt-0 lg:!mt-0 !mt-[30px]">
@@ -2147,7 +2147,7 @@ export default function DocsPageFooter() {
           code={`
 &lt;section id&#x3D;&quot;snippet-7&quot; className&#x3D;&quot;wrapper !bg-[#ffffff] &quot;&gt;
 &lt;div className&#x3D;&quot;container-fluid pt-20 xl:pt-28 lg:pt-28 md:pt-28 pb-16 xl:pb-20 lg:pb-20 md:pb-20 xxl:!px-10&quot;&gt;
-  &lt;footer className&#x3D;&quot;bg-[#21262c] opacity-100 !text-[#cacaca]&quot;&gt;
+  &lt;footer className&#x3D;&quot;bg-gym-dark opacity-100 !text-[#cacaca]&quot;&gt;
     &lt;div className&#x3D;&quot;container py-16 xl:!py-20 lg:!py-20 md:!py-20&quot;&gt;
       &lt;div className&#x3D;&quot;flex flex-wrap mx-[-15px] !mt-[-30px] xl:!mt-0 lg:!mt-0&quot;&gt;
         &lt;div className&#x3D;&quot;md:w-4&#x2F;12 lg:w-3&#x2F;12 xl:w-3&#x2F;12 w-full flex-[0_0_auto] !px-[15px] max-w-full xl:!mt-0 lg:!mt-0 !mt-[30px]&quot;&gt;

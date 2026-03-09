@@ -18,7 +18,7 @@ export default function Features() {
             }}
             onClick={() => setIsOpen(true)}
           >
-            <i className="icn-caret-right !ml-[0.15rem] !relative z-[2] before:content-['\e900'] !text-[calc(1.355rem_+_1.26vw)] !text-[#262b32]" />
+            <i className="icn-caret-right !ml-[0.15rem] !relative z-[2] before:content-['\e900'] !text-[calc(1.355rem_+_1.26vw)] !text-gym-dark" />
           </a>
           <figure className="!rounded-[.4rem] relative z-[2]">
             <Image

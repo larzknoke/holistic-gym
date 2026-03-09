@@ -53,7 +53,7 @@ const slidesData2 = [
 export default function Hero() {
   const [swiperRef, setSwiperRef] = useState(null);
   return (
-    <section className="wrapper bg-[#21262c] opacity-100">
+    <section className="wrapper bg-gym-dark opacity-100">
       <div className="swiper-container swiper-thumbs-container swiper-fullscreen nav-dark relative z-10">
         <Swiper
           className="swiper"
@@ -73,7 +73,7 @@ export default function Hero() {
           {slidesData.map((slide, index) => (
             <SwiperSlide
               key={index}
-              className="swiper-slide bg-overlay bg-overlay-400 bg-[#21262c] opacity-100 bg-image !bg-cover !bg-[center_center] before:content-[''] before:block before:absolute before:z-[1] before:w-full before:h-full before:left-0 before:top-0 before:bg-[rgba(30,34,40,.4)]"
+              className="swiper-slide bg-overlay bg-overlay-400 bg-gym-dark opacity-100 bg-image !bg-cover !bg-[center_center] before:content-[''] before:block before:absolute before:z-[1] before:w-full before:h-full before:left-0 before:top-0 before:bg-[rgba(30,34,40,.4)]"
               style={{
                 backgroundImage: slide.backgroundImage,
               }}

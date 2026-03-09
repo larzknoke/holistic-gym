@@ -6,7 +6,7 @@ import { footerLinks } from "@/data/footerLinks";
 import Link from "next/link";
 export default function Footer11() {
   return (
-    <footer className="bg-[#21262c] opacity-100 !text-[#cacaca]">
+    <footer className="bg-gym-dark opacity-100 !text-[#cacaca]">
       <div className="container py-16 xl:!py-20 lg:!py-20 md:!py-20">
         <div className="!mt-10" />
         <div className="flex flex-wrap mx-[-15px] !mt-[-30px] xl:!mt-0 lg:!mt-0">

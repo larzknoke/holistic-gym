@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function Footer5({ hasMarginTop = true }) {
   return (
     <footer
-      className={`bg-[#21262c] opacity-100 !text-[#cacaca] ${
+      className={`bg-gym-dark opacity-100 !text-[#cacaca] ${
         hasMarginTop ? "!mt-5 xl:!mt-24 lg:!mt-24 md:!mt-24" : ""
       } `}
     >
