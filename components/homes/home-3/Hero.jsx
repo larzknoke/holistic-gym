@@ -19,32 +19,25 @@ export default function Hero() {
               data-delay={600}
             >
               <h1 className="!text-[calc(1.375rem_+_1.5vw)] font-bold !leading-[1.15] xl:!text-[2.5rem] !text-white !mb-4">
-                Sandbox focuses on <br />
+                Das Gym mit Fokus auf <br />
                 <span
                   className="typer !text-gym-secondary whitespace-nowrap"
                   data-delay={100}
                   data-words=""
                 >
                   <TypeWriter
-                    strings={[
-                      "customer satisfaction",
-                      "business needs",
-                      "creative ideas",
-                    ]}
+                    strings={["Fitness", "Regeneration", "Balance"]}
                   />
                 </span>
                 <span className="cursor !text-gym-primary" data-owner="typer" />
               </h1>
               <p className="lead !text-[1.2rem] !leading-[1.5] !text-white !mb-7 md:!pr-32 xl:!pr-0 lg:!pr-0 xxl:!pr-20">
-                We carefully consider our solutions to support each and every
-                stage of your growth.
+                Unser Ziel ist es, Ihre körperliche und geistige Gesundheit zu
+                verbessern und ein ausgewogenes Leben zu führen.
               </p>
               <div>
-                <Link
-                  href={`/signup`}
-                  className="btn btn-lg btn-aqua !text-white !bg-gym-primary border-gym-primary hover:text-white hover:bg-gym-primary hover:!border-gym-primary focus:shadow-[rgba(79,152,181,1)] active:!text-[#343f52] active:bg-gym-primary active:border-gym-primary disabled:!text-[#343f52] disabled:bg-gym-primary disabled:border-gym-primary rounded"
-                >
-                  Get Started
+                <Link href={`/signup`} className="btn btn-lg btn-gym">
+                  Hier anmelden
                 </Link>
               </div>
             </div>
@@ -69,9 +62,9 @@ export default function Hero() {
                 <figure className="!rounded-[.4rem] !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)]">
                   <Image
                     className="!rounded-[.4rem]"
-                    srcSet="/assets/img/photos/about13@2x.jpg 2x"
+                    // srcSet="/assets/img/photos/about13@2x.jpg 2x"
                     alt="image"
-                    src="/assets/img/photos/about13.jpg"
+                    src="/assets/gym/milon/turm.jpg"
                     width={590}
                     height={650}
                   />

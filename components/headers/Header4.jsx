@@ -25,7 +25,7 @@ export default function Header4() {
             </nav>
             {/* /.social */}
           </div>
-          <div className="flex flex-row gap-5">
+          <div className="flex flex-row gap-5 text-xs">
             <div className="flex flex-row gap-1">
               <div>
                 <div className="icon !text-white">
@@ -154,17 +154,18 @@ export default function Header4() {
                           Trainingsfläche
                         </a>
                       </li>
-                      <li className="nav-item">
-                        <a className="dropdown-item" href="#">
-                          Spa & Wellness
-                        </a>
-                      </li>
+
                       <li className="nav-item">
                         <a className="dropdown-item" href="#">
                           Galerie
                         </a>
                       </li>
                     </ul>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link" href="#">
+                      Spa & Wellness
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -229,6 +230,24 @@ export default function Header4() {
                   </div>
                 </div>
               </div>
+            </div>
+            <div className="navbar-other lg:!ml-4 xl:!ml-4">
+              <ul className="navbar-nav !flex-row !items-center !ml-auto">
+                <li className="nav-item hidden xl:block lg:block md:block">
+                  <a
+                    href="#"
+                    className="!text-[.85rem] !tracking-[normal] btn btn-sm btn-aqua !text-white !bg-gym-primary border-gym-primary hover:text-white hover:bg-gym-primary hover:!border-gym-primary focus:shadow-[rgba(79,152,181,1)] active:text-white active:bg-gym-primary active:border-gym-primary disabled:text-white disabled:bg-gym-primary disabled:border-gym-primary rounded"
+                  >
+                    HolisticApp
+                  </a>
+                </li>
+                <li className="nav-item xl:!hidden lg:!hidden">
+                  <button className="hamburger offcanvas-nav-btn">
+                    <span />
+                  </button>
+                </li>
+              </ul>
+              {/* /.navbar-nav */}
             </div>
             {/* /.navbar-collapse */}
           </div>

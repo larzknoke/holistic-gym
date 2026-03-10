@@ -10741,3 +10741,7 @@ footer.bg-dark {
 .offcanvas.showing .offcanvas-header {
   @apply flex flex-row items-start justify-between;
 }
+
+.btn-gym {
+  @apply uppercase tracking-widest !text-white !bg-gym-primary border-gym-primary hover:text-white hover:bg-gym-primary hover:!border-gym-primary focus:shadow-[rgba(79,152,181,1)] active:!text-[#343f52] active:bg-gym-primary active:border-gym-primary disabled:!text-[#343f52] disabled:bg-gym-primary disabled:border-gym-primary rounded;
+}
