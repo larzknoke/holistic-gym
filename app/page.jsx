@@ -1,49 +1,53 @@
-import Header1 from "@/components/headers/Header1";
-import Banner from "@/components/preview/Banner";
-import Demos from "@/components/preview/Demos";
-import Demoslider from "@/components/preview/Demoslider";
-import Features from "@/components/preview/Features";
-import FeaturesSlider from "@/components/preview/FeaturesSlider";
-import Hero from "@/components/preview/Hero";
+import Footer3 from "@/components/footers/Footer3";
+import HeaderGym from "@/components/headers/HeaderGym";
+import About from "@/components/homes/home-3/About";
+import Blogs from "@/components/homes/home-3/Blogs";
+import Contact from "@/components/homes/home-3/Contact";
+import Cta from "@/components/homes/home-3/Cta";
+import Facts from "@/components/homes/home-3/Facts";
+import Hero from "@/components/homes/home-3/Hero";
+import Pricing from "@/components/homes/home-3/Pricing";
+import Testimonials from "@/components/homes/home-3/Testimonials";
+import React from "react";
+
 export const metadata = {
-  title:
-    "Preview || Sandbox - Modern & Multipurpose React Next.js Template with Tailwind CSS",
+  title: "HolisticGym | Fitness + Regeneration + Balance",
   description:
-    "Sandbox - Modern & Multipurpose React Next.js Template with Tailwind CSS",
+    "HolisticGym - Das Gym mit Fokus auf Fitness, Regeneration und Balance. Unser Ziel ist es, Ihre körperliche und geistige Gesundheit zu verbessern und ein ausgewogenes Leben zu führen.",
 };
-export default function PreviewPage() {
+export default function Home() {
   return (
     <>
-      {" "}
-      <div className="font-space">
-        <div className="!bg-[#f0f0f8]">
+      <div className="color-aqua font-thicccboi demo3">
+        <div className="font-THICCCBOI text-[.85rem]">
           <div className="grow shrink-0">
-            <Header1 />
-            {/* /header */}
-            <section className="wrapper overflow-hidden">
+            <HeaderGym />
+            <>
               <Hero />
-              {/* /.container */}
-              <Demoslider />
-              {/* /.swiper-container */}
-            </section>
-            {/* /section */}
-            <section
-              className="wrapper !bg-[#f0f0f8] overflow-hidden"
-              id="demos"
-            >
-              <Demos />
-              {/* /.container */}
-              <FeaturesSlider />
-              {/* /.container */}
-              <Features />
-              {/*/.container */}
-            </section>
-            {/* /section */}
-            <section className="wrapper overflow-hidden">
-              <Banner />
-            </section>
-            {/* /section */}
+              {/* /section */}
+              <About />
+              {/* /section */}
+              <Cta />
+              {/* /section */}
+              <Blogs />
+              {/* /section */}
+              <Facts />
+              {/* /section */}
+              <section className="wrapper !bg-[#ffffff] angled upper-end lower-start relative border-0 before:top-[-4rem] before:content-[''] before:block before:absolute before:z-0 before:border-l-transparent before:border-r-[100vw] before:border-t-[4rem] before:border-y-transparent before:border-[#fefefe] before:border-0 before:border-solid before:right-0 after:bottom-[-4rem] after:content-[''] after:block after:absolute after:z-0 after:border-l-[100vw] after:border-r-transparent after:border-b-[4rem] after:border-y-transparent after:border-[#fefefe] after:border-0 after:border-solid after:right-0">
+                <div className="container py-24 xl:!py-[8rem] lg:!py-[8rem] md:!py-[8rem] !relative">
+                  <Testimonials />
+                  {/* /div */}
+                  <Pricing />
+                  {/*/.row */}
+                  <Contact />
+                  {/*/.row */}
+                </div>
+                {/* /.container */}
+              </section>
+              {/* /section */}
+            </>
           </div>
+          <Footer3 />
         </div>
       </div>
     </>
