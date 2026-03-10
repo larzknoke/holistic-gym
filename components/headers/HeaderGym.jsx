@@ -71,11 +71,10 @@ export default function HeaderGym() {
             <div className="navbar-brand">
               <Link href={`/index`}>
                 <Image
-                  srcSet="/assets/img/logo-light@2x.png 2x"
                   alt="image"
-                  width="134"
-                  height="26"
-                  src="/assets/img/logo-light.png"
+                  width="250"
+                  height="48"
+                  src="/assets/gym/gym-logo-v3.svg"
                 />
               </Link>
             </div>
@@ -240,11 +239,6 @@ export default function HeaderGym() {
                   >
                     HolisticApp
                   </a>
-                </li>
-                <li className="nav-item xl:!hidden lg:!hidden">
-                  <button className="hamburger offcanvas-nav-btn">
-                    <span />
-                  </button>
                 </li>
               </ul>
               {/* /.navbar-nav */}
