@@ -1,5 +1,5 @@
 import Footer3 from "@/components/footers/Footer3";
-import Header4 from "@/components/headers/Header4";
+import HeaderGym from "@/components/headers/HeaderGym";
 import About from "@/components/homes/home-3/About";
 import Blogs from "@/components/homes/home-3/Blogs";
 import Contact from "@/components/homes/home-3/Contact";
@@ -11,18 +11,17 @@ import Testimonials from "@/components/homes/home-3/Testimonials";
 import React from "react";
 
 export const metadata = {
-  title:
-    "Demo 03 || Sandbox - Modern & Multipurpose React Next.js Template with Tailwind CSS",
+  title: "HolisticGym | Fitness + Regeneration + Balance",
   description:
-    "Sandbox - Modern & Multipurpose React Next.js Template with Tailwind CSS",
+    "HolisticGym - Das Gym mit Fokus auf Fitness, Regeneration und Balance. Unser Ziel ist es, Ihre körperliche und geistige Gesundheit zu verbessern und ein ausgewogenes Leben zu führen.",
 };
-export default function DemoPage3() {
+export default function Home() {
   return (
     <>
       <div className="color-aqua font-thicccboi demo3">
         <div className="font-THICCCBOI text-[.85rem]">
           <div className="grow shrink-0">
-            <Header4 />
+            <HeaderGym />
             <>
               <Hero />
               {/* /section */}

@@ -4,7 +4,7 @@ import Nav2 from "./Nav2";
 import Link from "next/link";
 import { socialLinks } from "@/data/socials";
 
-export default function Header4() {
+export default function HeaderGym() {
   return (
     <header className="relative wrapper !bg-[#edf2fc]">
       <div className="bg-gym-primary p-1 w-full">
