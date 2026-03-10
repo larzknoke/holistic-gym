@@ -10725,15 +10725,21 @@ footer.bg-dark {
   }
 }
 
+.navbar-dark {
+  @apply py-1 lg:py-10;
+}
+.navbar-dark.fixed {
+  @apply py-0;
+}
 .navbar-dark.fixed .offcanvas-header img {
-  @apply w-20;
+  @apply w-12;
 }
 /* .navbar-dark.fixed .offcanvas-header {
   @apply !xl:px-2;
 } */
 .offcanvas.show:not(.hiding),
 .offcanvas.showing {
-  @apply px-5;
+  @apply p-5;
 }
 .offcanvas.show:not(.hiding) img,
 .offcanvas.showing img {

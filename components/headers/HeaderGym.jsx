@@ -92,8 +92,8 @@ export default function HeaderGym() {
           </div>
           {/* /.flex */}
           <div className="navbar-collapse-wrapper flex flex-row items-center w-full">
-            <div className="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
-              <div className="offcanvas-header my-5 xl:my-10 lg:mx-auto xl:mx-auto order-0 lg:!order-1 lg:!flex lg:!px-[5rem] xl:!order-1 xl:!flex xl:!px-[5rem]">
+            <div className="navbar-collapse offcanvas offcanvas-nav offcanvas-start gap-3">
+              <div className="offcanvas-header lg:mx-auto xl:mx-auto order-0 lg:!order-1 lg:!flex lg:!px-[5rem] xl:!order-1 xl:!flex xl:!px-[5rem]">
                 <Image
                   className="logo-light"
                   alt="image"
@@ -169,7 +169,7 @@ export default function HeaderGym() {
                 </ul>
               </div>
               <div className="w-full order-3 lg:!order-2 lg:!flex">
-                <ul className="navbar-nav lg:!mr-auto xl:!mr-auto items-center">
+                <ul className="navbar-nav lg:!mr-auto xl:!mr-auto lg:items-center">
                   <li className="nav-item">
                     <a className="nav-link" href="#">
                       Das Team
@@ -197,7 +197,7 @@ export default function HeaderGym() {
                       href="mailto:first.last@email.com"
                       className="link-inverse"
                     >
-                      info@email.com
+                      info@holistic-gym.de
                     </a>
                     <br />
                     00 (123) 456 78 90 <br />
@@ -206,31 +206,19 @@ export default function HeaderGym() {
                         className="m-[0_.7rem_0_0] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 hover:translate-y-[-0.15rem]"
                         href="#"
                       >
-                        <i className="uil uil-twitter before:content-['ed59'] text-[1rem] !text-[#5daed5]" />
+                        <i className="uil uil-facebook-f before:content-['eae2'] text-[1rem] !text-gym-secondary" />
                       </a>
                       <a
                         className="m-[0_.7rem_0_0] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 hover:translate-y-[-0.15rem]"
                         href="#"
                       >
-                        <i className="uil uil-facebook-f before:content-['eae2'] text-[1rem] !text-[#4470cf]" />
+                        <i className="uil uil-instagram before:content-['eb9c'] text-[1rem] !text-gym-secondary" />
                       </a>
                       <a
                         className="m-[0_.7rem_0_0] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 hover:translate-y-[-0.15rem]"
                         href="#"
                       >
-                        <i className="uil uil-dribbble before:content-['eaa2'] text-[1rem] !text-[#e94d88]" />
-                      </a>
-                      <a
-                        className="m-[0_.7rem_0_0] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 hover:translate-y-[-0.15rem]"
-                        href="#"
-                      >
-                        <i className="uil uil-instagram before:content-['eb9c'] text-[1rem] !text-[#d53581]" />
-                      </a>
-                      <a
-                        className="m-[0_.7rem_0_0] text-[1rem] transition-all duration-[0.2s] ease-in-out translate-y-0 hover:translate-y-[-0.15rem]"
-                        href="#"
-                      >
-                        <i className="uil uil-youtube before:content-['edb5'] text-[1rem] !text-[#c8312b]" />
+                        <i className="uil uil-youtube before:content-['edb5'] text-[1rem] !text-gym-secondary" />
                       </a>
                     </nav>
                     {/* /.social */}
