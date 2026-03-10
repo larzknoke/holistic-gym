@@ -60,6 +60,12 @@ export default function Hero() {
                   <i className="icn-caret-right !ml-[0.15rem] !relative z-[2] before:content-['\e900'] !text-[calc(1.355rem_+_1.26vw)]" />
                 </a>
                 <figure className="!rounded-[.4rem] !shadow-[0_0.25rem_1.75rem_rgba(30,34,40,0.07)]">
+                  <div className="hover:cursor-pointer hover:shadow-lg hover:translate-y-[-0.25rem] transition-all duration-[0.2s] ease-in-out motion-reduce:transition-none bg-gym-danger text-white text-center px-5 py-2 rounded absolute -top-8 right-4 z-[2] text-xl shadow-sm rotate-2 font-bold">
+                    Vorrausichtlicher Start: Mai 2026!
+                    <span className="text-base block">
+                      Profitiere als Gründungsmitglied
+                    </span>
+                  </div>
                   <Image
                     className="!rounded-[.4rem]"
                     // srcSet="/assets/img/photos/about13@2x.jpg 2x"

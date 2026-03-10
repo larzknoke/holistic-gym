@@ -23,6 +23,8 @@
   --color-gym-dark: #262b32;
   /* --color-gym-dark: #21262c; */
 
+  --color-gym-danger: #e2626b;
+
   /* responsive Breakpoint */
   --breakpoint-*: initial;
   --breakpoint-xxl: 1400px;

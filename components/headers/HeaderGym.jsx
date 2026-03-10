@@ -169,7 +169,7 @@ export default function HeaderGym() {
                 </ul>
               </div>
               <div className="w-full order-3 lg:!order-2 lg:!flex">
-                <ul className="navbar-nav lg:!mr-auto xl:!mr-auto">
+                <ul className="navbar-nav lg:!mr-auto xl:!mr-auto items-center">
                   <li className="nav-item">
                     <a className="nav-link" href="#">
                       Das Team
@@ -178,6 +178,14 @@ export default function HeaderGym() {
                   <li className="nav-item">
                     <a className="nav-link" href="#">
                       Kontakt
+                    </a>
+                  </li>
+                  <li className="nav-item hidden xl:block lg:block md:block">
+                    <a
+                      href="#"
+                      className=" btn btn-sm btn-gym !normal-case ml-6"
+                    >
+                      HolisticApp
                     </a>
                   </li>
                 </ul>
@@ -230,19 +238,15 @@ export default function HeaderGym() {
                 </div>
               </div>
             </div>
-            <div className="navbar-other lg:!ml-4 xl:!ml-4">
+            {/* <div className="navbar-other lg:!ml-4 xl:!ml-4">
               <ul className="navbar-nav !flex-row !items-center !ml-auto">
                 <li className="nav-item hidden xl:block lg:block md:block">
-                  <a
-                    href="#"
-                    className="!text-[.85rem] !tracking-[normal] btn btn-sm btn-aqua !text-white !bg-gym-primary border-gym-primary hover:text-white hover:bg-gym-primary hover:!border-gym-primary focus:shadow-[rgba(79,152,181,1)] active:text-white active:bg-gym-primary active:border-gym-primary disabled:text-white disabled:bg-gym-primary disabled:border-gym-primary rounded"
-                  >
+                  <a href="#" className=" btn btn-sm btn-gym">
                     HolisticApp
                   </a>
                 </li>
               </ul>
-              {/* /.navbar-nav */}
-            </div>
+            </div> */}
             {/* /.navbar-collapse */}
           </div>
           {/* /.navbar-collapse-wrapper */}
