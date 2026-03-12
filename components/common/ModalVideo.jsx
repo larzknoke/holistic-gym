@@ -1,6 +1,17 @@
 "use client";
 
+import { useEffect, useRef } from "react";
+
 const ModalVideo = ({ videoId, isOpen, setIsOpen, src }) => {
+  const videoRef = useRef(null);
+
+  useEffect(() => {
+    if (!isOpen && videoRef.current) {
+      videoRef.current.pause();
+      videoRef.current.currentTime = 0;
+    }
+  }, [isOpen]);
+
   const closeModal = () => setIsOpen(false);
 
   return (
@@ -18,17 +29,28 @@ const ModalVideo = ({ videoId, isOpen, setIsOpen, src }) => {
             ×
           </button>
           <div style={responsiveIframeContainerStyle}>
-            <iframe
+            {/* <iframe
               src={
                 src
                   ? src
                   : `https://www.youtube.com/embed/${videoId}?autoplay=1`
               }
-              title="YouTube video player"
+              title="holisticgym video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
               style={iframeStyle}
-            ></iframe>
+            ></iframe> */}
+            <video
+              ref={videoRef}
+              style={iframeStyle}
+              className="w-full h-full object-cover"
+              src="/assets/gym/videos/HolisticGymTeaser.mp4"
+              autoPlay
+              muted
+              loop
+              playsInline
+              controls
+            />
           </div>
         </div>
       </div>
@@ -55,7 +77,7 @@ const overlayStyle = {
 const modalStyle = {
   position: "relative",
   width: "90%",
-  maxWidth: "1100px",
+  maxWidth: "800px",
   backgroundColor: "#fff",
   borderRadius: "4px",
   overflow: "hidden",

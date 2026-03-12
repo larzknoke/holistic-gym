@@ -10732,7 +10732,10 @@ footer.bg-dark {
   @apply py-0;
 }
 .navbar-dark.fixed .offcanvas-header img {
-  @apply w-12;
+  @apply w-12 my-3;
+}
+.navbar-dark.fixed .teaser {
+  @apply hidden;
 }
 /* .navbar-dark.fixed .offcanvas-header {
   @apply !xl:px-2;
