@@ -7,7 +7,7 @@ import Link from "next/link";
 export default function Footer3() {
   return (
     <footer className="bg-gym-dark opacity-100 !text-[#cacaca]">
-      <div className="container pt-28 xl:pt-36 lg:pt-36 md:pt-36 pb-16 xl:pb-20 lg:pb-20 md:pb-20">
+      <div className="container pt-28 xl:pt-36 lg:pt-36 md:pt-36 pb-16 xl:pb-20 lg:pb-20 md:pb-20 !px-6">
         <div className="flex flex-wrap mx-[-15px] !mt-[-30px] xl:!mt-0 lg:!mt-0">
           <div className="md:w-4/12 xl:w-3/12 lg:w-3/12 w-full flex-[0_0_auto] !px-[15px] max-w-full xl:!mt-0 lg:!mt-0 !mt-[30px]">
             <div className="widget !text-[#cacaca]">

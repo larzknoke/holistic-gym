@@ -5,7 +5,7 @@ export default function GymTeaser2() {
   return (
     <section className="wrapper !bg-gym-primary angled lower-start">
       <div className="container py-20 px-20">
-        <div className="flex flex-wrap mx-[-15px] !mb-5 gap-12 px-6">
+        <div className="flex flex-wrap mx-[-15px] !mb-5 gap-12 px-4">
           <div className="md:w-10/12 lg:w-10/12 xl:w-8/12 xxl:w-7/12 w-full flex-[0_0_auto] !px-[15px] max-w-full !mx-auto !text-center">
             <div className="flex flex-row items-center justify-center gap-2">
               <Image
