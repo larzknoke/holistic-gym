@@ -54,7 +54,7 @@ export default function HeaderGymWip() {
         </div>
       </div>
       <nav className="pt-8 md:pt-12 pb-8 center-logo  bg-gym-dark">
-        <div className="container justify-around md:justify-between items-start md:items-center w-full flex flex-row">
+        <div className="container justify-around items-start md:items-center w-full flex flex-row">
           <Image
             className="logo-light w-16 md:w-32 opacity-50"
             alt="image"
