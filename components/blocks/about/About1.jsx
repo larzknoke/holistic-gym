@@ -29,7 +29,7 @@ export default function About1() {
           {/*/column */}
           <div className="xl:w-6/12 lg:w-6/12 w-full flex-[0_0_auto] xl:!px-[35px] lg:!px-[20px] !px-[15px] max-w-full !mt-[50px]">
             <h2 className="!text-[calc(1.305rem_+_0.66vw)] font-bold xl:!text-[1.8rem] !leading-[1.3] !mb-3">
-              Who Are We?
+              Who Are We?!1
             </h2>
             <p className="lead !text-[1.05rem] !leading-[1.6] font-medium">
               We are a digital and branding company that believes in the power

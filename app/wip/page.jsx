@@ -1,12 +1,13 @@
 import Footer3 from "@/components/footers/Footer3";
+import GymHeroWip from "@/components/gym/GymHeroWip";
+import GymTeaser from "@/components/gym/GymTeaser";
+import GymTeaser2 from "@/components/gym/GymTeaser2";
 import HeaderGymWip from "@/components/headers/HeaderGymWip";
 import About from "@/components/homes/home-3/About";
 import Blogs from "@/components/homes/home-3/Blogs";
 import Contact from "@/components/homes/home-3/Contact";
 import Cta from "@/components/homes/home-3/Cta";
 import Facts from "@/components/homes/home-3/Facts";
-import Hero from "@/components/homes/home-3/Hero";
-import HeroWip from "@/components/homes/home-3/HeroWip";
 import Pricing from "@/components/homes/home-3/Pricing";
 import Testimonials from "@/components/homes/home-3/Testimonials";
 import React from "react";
@@ -24,21 +25,18 @@ export default function HomeWip() {
           <div className="grow shrink-0">
             <HeaderGymWip />
             <>
-              <HeroWip />
-              {/* /section */}
-              <About />
-              {/* /section */}
+              <GymHeroWip />
+              <GymTeaser />
+              <GymTeaser2 />
+              {/* <About />
               <Cta />
-              {/* /section */}
               <Blogs />
-              {/* /section */}
-              <Facts />
-              {/* /section */}
+              <Facts /> */}
               <section className="wrapper !bg-[#ffffff] angled upper-end lower-start relative border-0 before:top-[-4rem] before:content-[''] before:block before:absolute before:z-0 before:border-l-transparent before:border-r-[100vw] before:border-t-[4rem] before:border-y-transparent before:border-[#fefefe] before:border-0 before:border-solid before:right-0 after:bottom-[-4rem] after:content-[''] after:block after:absolute after:z-0 after:border-l-[100vw] after:border-r-transparent after:border-b-[4rem] after:border-y-transparent after:border-[#fefefe] after:border-0 after:border-solid after:right-0">
                 <div className="container py-24 xl:!py-[8rem] lg:!py-[8rem] md:!py-[8rem] !relative">
-                  <Testimonials />
+                  {/* <Testimonials /> */}
                   {/* /div */}
-                  <Pricing />
+                  {/* <Pricing /> */}
                   {/*/.row */}
                   <Contact />
                   {/*/.row */}

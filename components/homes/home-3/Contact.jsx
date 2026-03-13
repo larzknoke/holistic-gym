@@ -22,9 +22,8 @@ export default function Contact() {
         <figure className="rounded-[0.4rem] relative z-[2]">
           <Image
             className="rounded-[.4rem]"
-            srcSet="/assets/img/photos/about14@2x.jpg 2x"
             alt="image"
-            src="/assets/img/photos/about14.jpg"
+            src="/assets/gym/milon/milon2.jpg"
             width={575}
             height={550}
           />
@@ -33,10 +32,10 @@ export default function Contact() {
       {/*/column */}
       <div className="lg:w-5/12 xl:w-4/12 xl:!ml-[8.33333333%] lg:!ml-[8.33333333%] w-full flex-[0_0_auto] !mt-[80px] xl:!px-[7.5px] lg:!px-[7.5px] !px-[15px] max-w-full">
         <h2 className="!text-[0.8rem] uppercase inline-flex !leading-[1.35] text-line relative align-top !pl-[1.4rem] !tracking-[0.02rem] before:content-[''] before:absolute before:inline-block before:translate-y-[-60%] before:w-3 before:h-[0.05rem] before:left-0 before:top-2/4 before:bg-gym-primary !text-gym-primary !mb-3">
-          Get In Touch
+          Kontakt
         </h2>
         <h2 className="!text-[calc(1.315rem_+_0.78vw)] font-bold xl:!text-[1.9rem] !leading-[1.25] !mb-8">
-          Convinced yet? Let's make something great together.
+          Überzeugt? Lass uns etwas Großartiges zusammen schaffen.
         </h2>
         <div className="flex flex-row">
           <div>
@@ -45,11 +44,11 @@ export default function Contact() {
             </div>
           </div>
           <div>
-            <h5 className="!mb-1 !text-[0.95rem] !leading-[1.5]">Address</h5>
+            <h5 className="!mb-1 !text-[0.95rem] !leading-[1.5]">Adresse</h5>
             <address className="not-italic !leading-[inherit] !mb-4">
-              Moonshine St. 14/05 Light City,
+              Büttnerstraße 4
               <br className="hidden xl:block lg:block md:block" />
-              London, United Kingdom
+              Holzminden, Deutschland
             </address>
           </div>
         </div>
@@ -60,8 +59,8 @@ export default function Contact() {
             </div>
           </div>
           <div>
-            <h5 className="!mb-1 !text-[0.95rem] !leading-[1.5]">Phone</h5>
-            <p>00 (123) 456 78 90</p>
+            <h5 className="!mb-1 !text-[0.95rem] !leading-[1.5]">Telefon</h5>
+            <p>05531 / 700 344</p>
           </div>
         </div>
         <div className="flex flex-row">
@@ -73,8 +72,8 @@ export default function Contact() {
           <div>
             <h5 className="!mb-1 !text-[0.95rem] !leading-[1.5]">E-mail</h5>
             <p className="!mb-0">
-              <a href="mailto:sandbox@email.com" className="!text-[#60697b]">
-                sandbox@email.com
+              <a href="mailto:info@holisic-gym.de" className="!text-[#60697b]">
+                info@holisic-gym.de
               </a>
             </p>
           </div>

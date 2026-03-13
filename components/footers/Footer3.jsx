@@ -13,16 +13,15 @@ export default function Footer3() {
             <div className="widget !text-[#cacaca]">
               <Image
                 className="!mb-4"
-                srcSet="/assets/img/logo-light@2x.png 2x"
                 alt="image"
-                src="/assets/img/logo-light.png"
+                src="/assets/gym/gym-logo-v3_white.svg"
                 width={134}
                 height={26}
               />
               <p className="!mb-4">
-                © {new Date().getFullYear()} Sandbox.
+                © {new Date().getFullYear()} HolisticGym.
                 <br className="hidden xl:block lg:block !text-[#cacaca]" />
-                All rights reserved.
+                Alle Rechte vorbehalten.
               </p>
               <nav className="nav social social-white">
                 {socialLinks.map((elm, i) => (
@@ -45,24 +44,24 @@ export default function Footer3() {
           <div className="md:w-4/12 xl:w-3/12 lg:w-3/12 w-full flex-[0_0_auto] !px-[15px] max-w-full xl:!mt-0 lg:!mt-0 !mt-[30px]">
             <div className="widget !text-[#cacaca]">
               <h4 className="widget-title !text-white !mb-3 !text-[1rem] !leading-[1.45]">
-                Get in Touch
+                Kontakt
               </h4>
               <address className="xl:!pr-20 xxl:!pr-28 not-italic !leading-[inherit] block !mb-4">
-                Moonshine St. 14/05 Light City, London, United Kingdom
+                Büttnerstraße 4, 37603 Holzminden, Deutschland
               </address>
               <a
                 className="!text-[#cacaca] hover:!text-gym-primary"
-                href="mailto:first.last@email.com"
+                href="mailto:info@holistic-gym.de"
               >
-                info@email.com
+                info@holistic-gym.de
               </a>
               <br />
-              00 (123) 456 78 90
+              05531 / 700 344
             </div>
             {/* /.widget */}
           </div>
           {/* /column */}
-          <div className="md:w-4/12 xl:w-3/12 lg:w-3/12 w-full flex-[0_0_auto] !px-[15px] max-w-full xl:!mt-0 lg:!mt-0 !mt-[30px]">
+          {/* <div className="md:w-4/12 xl:w-3/12 lg:w-3/12 w-full flex-[0_0_auto] !px-[15px] max-w-full xl:!mt-0 lg:!mt-0 !mt-[30px]">
             <div className="widget !text-[#cacaca]">
               <h4 className="widget-title !text-white !mb-3 !text-[1rem] !leading-[1.45]">
                 Learn More
@@ -80,17 +79,16 @@ export default function Footer3() {
                 ))}
               </ul>
             </div>
-            {/* /.widget */}
-          </div>
+          </div> */}
           {/* /column */}
           <div className="md:w-full xl:w-3/12 lg:w-3/12 w-full flex-[0_0_auto] !px-[15px] max-w-full xl:!mt-0 lg:!mt-0 !mt-[30px]">
             <div className="widget !text-[#cacaca]">
               <h4 className="widget-title !text-white !mb-3 !text-[1rem] !leading-[1.45]">
-                Our Newsletter
+                Newsletter
               </h4>
               <p className="!mb-5">
-                Subscribe to our newsletter to get our news &amp; deals
-                delivered to you.
+                Abonniere unseren Newsletter, um die neuesten Updates und
+                Angebote zu erhalten.
               </p>
               <div className="newsletter-wrapper">
                 {/* Begin Mailchimp Signup Form */}
@@ -115,11 +113,11 @@ export default function Footer3() {
                           className="!ml-[0.05rem] !text-[#959ca9] text-[.75rem] absolute z-[2] h-full overflow-hidden text-start text-ellipsis whitespace-nowrap pointer-events-none origin-[0_0] px-4 py-[0.6rem] left-0 top-0"
                           htmlFor="mce-EMAIL2"
                         >
-                          Email Address
+                          Email Addresse
                         </label>
                         <input
                           type="submit"
-                          defaultValue="Join"
+                          defaultValue="Abonnieren"
                           name="subscribe"
                           id="mc-embedded-subscribe2"
                           className="btn btn-aqua !text-white !bg-gym-primary border-gym-primary hover:text-white hover:bg-gym-primary hover:!border-gym-primary active:text-white active:bg-gym-primary active:border-gym-primary disabled:text-white disabled:bg-gym-primary disabled:border-gym-primary !relative z-[2] hover:!transform-none hover:!translate-none border-0 !text-[.85rem]"

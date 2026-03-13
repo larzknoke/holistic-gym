@@ -5,7 +5,7 @@ import Image from "next/image";
 import TypeWriter from "@/components/common/TypeWriter";
 import { useState } from "react";
 import Link from "next/link";
-export default function HeroWip() {
+export default function GymHeroWip() {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>

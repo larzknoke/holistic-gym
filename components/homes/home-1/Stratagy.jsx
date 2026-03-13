@@ -76,7 +76,7 @@ export default function Stratagy() {
               Our Strategy
             </h2>
             <h3 className="!text-[calc(1.315rem_+_0.78vw)] font-bold xl:!text-[1.9rem] !leading-[1.25] !mb-5">
-              Here are 3 working steps to organize our business projects.
+              Here are 3 working steps to organize our business projects.1
             </h3>
             <p>
               Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis

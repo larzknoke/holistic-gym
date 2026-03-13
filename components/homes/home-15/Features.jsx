@@ -66,7 +66,7 @@ export default function Features() {
           />
         </svg>
         <h2 className="!text-[calc(1.305rem_+_0.66vw)] font-bold xl:!text-[1.8rem] !leading-[1.3] !mb-3">
-          Who Are We?
+          Who Are We?!3
         </h2>
         <p className="lead !text-[1.05rem] !leading-[1.6] font-medium">
           We are a digital and branding company that believes in the power of
