@@ -3,13 +3,7 @@ import GymHeroWip from "@/components/gym/GymHeroWip";
 import GymTeaser from "@/components/gym/GymTeaser";
 import GymTeaser2 from "@/components/gym/GymTeaser2";
 import HeaderGymWip from "@/components/headers/HeaderGymWip";
-import About from "@/components/homes/home-3/About";
-import Blogs from "@/components/homes/home-3/Blogs";
 import Contact from "@/components/homes/home-3/Contact";
-import Cta from "@/components/homes/home-3/Cta";
-import Facts from "@/components/homes/home-3/Facts";
-import Pricing from "@/components/homes/home-3/Pricing";
-import Testimonials from "@/components/homes/home-3/Testimonials";
 import React from "react";
 import ImageCarousel from "@/components/gym/ImageCarousel";
 
