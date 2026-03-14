@@ -46,7 +46,7 @@ export default function Contact() {
           <div>
             <h5 className="!mb-1 !text-[0.95rem] !leading-[1.5]">Adresse</h5>
             <address className="not-italic !leading-[inherit] !mb-4">
-              Büttnerstraße 4
+              Büttnerweg 4
               <br className="hidden xl:block lg:block md:block" />
               Holzminden, Deutschland
             </address>

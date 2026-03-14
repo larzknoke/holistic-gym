@@ -20,7 +20,7 @@ export default function Footer3() {
               />
               <p className="!mb-4">
                 © {new Date().getFullYear()} HolisticGym.
-                <br className="hidden xl:block lg:block !text-[#cacaca]" />
+                <br />
                 Alle Rechte vorbehalten.
               </p>
               <nav className="nav social social-white">
@@ -47,7 +47,9 @@ export default function Footer3() {
                 Kontakt
               </h4>
               <address className="xl:!pr-20 xxl:!pr-28 not-italic !leading-[inherit] block !mb-4">
-                Büttnerstraße 4, 37603 Holzminden, Deutschland
+                Büttnerweg 4
+                <br />
+                37603 Holzminden
               </address>
               <a
                 className="!text-[#cacaca] hover:!text-gym-primary"
