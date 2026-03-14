@@ -79,10 +79,10 @@ export default function Contact() {
                 <h5 className="!mb-1 !text-[0.95rem] !leading-[1.5]">E-mail</h5>
                 <p className="!mb-0">
                   <a
-                    href="mailto:info@holisic-gym.de"
+                    href="mailto:info@holistic-gym.de"
                     className="!text-[#60697b]"
                   >
-                    info@holisic-gym.de
+                    info@holistic-gym.de
                   </a>
                 </p>
               </div>
