@@ -23,13 +23,8 @@ export default function HomeWip() {
               <GymHeroWip />
               <GymTeaser />
               <GymTeaser2 />
-              {/* <About />
-              <Cta />
-              <Blogs />
-              <Facts /> */}
               <ImageCarousel />
               <Contact />
-              {/* /section */}
             </>
           </div>
           <Footer3 />

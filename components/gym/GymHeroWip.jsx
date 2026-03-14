@@ -36,11 +36,8 @@ export default function GymHeroWip() {
                 verbessern und ein ausgewogenes Leben zu führen.
               </p>
               <div>
-                <Link
-                  href={`/signup`}
-                  className="btn btn-lg btn-gym !normal-case"
-                >
-                  HolisticApp
+                <Link href={`/#konzept`} className="btn btn-lg btn-gym">
+                  Hier gehts los
                 </Link>
               </div>
             </div>

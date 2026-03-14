@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 export default function GymTeaser() {
   return (
-    <section className="wrapper !bg-[#ffffff]">
+    <section className="wrapper !bg-[#ffffff]" id="konzept">
       <div className="container pt-36 md:pt-[12.5rem] pb-24 md:pb-32">
         <div className="flex flex-wrap">
           <div className="md:w-6/12 w-full flex-[0_0_auto] !px-[15px] max-w-full">
