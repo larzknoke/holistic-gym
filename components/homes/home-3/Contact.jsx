@@ -50,9 +50,9 @@ export default function Contact() {
                   Adresse
                 </h5>
                 <address className="not-italic !leading-[inherit] !mb-4">
-                  Büttnerweg 4
-                  <br className="hidden xl:block lg:block md:block" />
-                  Holzminden, Deutschland
+                  Büttnerweg 4, Holzminden
+                  <br />
+                  (ab Mai 2026)
                 </address>
               </div>
             </div>
@@ -66,7 +66,10 @@ export default function Contact() {
                 <h5 className="!mb-1 !text-[0.95rem] !leading-[1.5]">
                   Telefon
                 </h5>
-                <p>05531 / 700 344</p>
+                <p>
+                  05531 / 700 344 <br />
+                  (Praxis Humanus)
+                </p>
               </div>
             </div>
             <div className="flex flex-row">

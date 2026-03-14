@@ -23,7 +23,7 @@ export default function Footer3() {
                 <br />
                 Alle Rechte vorbehalten.
               </p>
-              <nav className="nav social social-white">
+              {/* <nav className="nav social social-white">
                 {socialLinks.map((elm, i) => (
                   <a
                     key={i}
@@ -35,7 +35,7 @@ export default function Footer3() {
                     />
                   </a>
                 ))}
-              </nav>
+              </nav> */}
               {/* /.social */}
             </div>
             {/* /.widget */}
@@ -46,10 +46,12 @@ export default function Footer3() {
               <h4 className="widget-title !text-white !mb-3 !text-[1rem] !leading-[1.45]">
                 Kontakt
               </h4>
-              <address className="xl:!pr-20 xxl:!pr-28 not-italic !leading-[inherit] block !mb-4">
+              <address className="xl:!pr-20 xxl:!pr-28 not-italic !leading-[inherit] block !mb-4 text-nowrap">
                 Büttnerweg 4
                 <br />
                 37603 Holzminden
+                <br />
+                (ab Mai 2026)
               </address>
               <a
                 className="!text-[#cacaca] hover:!text-gym-primary"
@@ -58,7 +60,7 @@ export default function Footer3() {
                 info@holistic-gym.de
               </a>
               <br />
-              05531 / 700 344
+              05531 / 700 344 (Praxis Humanus)
             </div>
             {/* /.widget */}
           </div>
