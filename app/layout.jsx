@@ -10,6 +10,7 @@ import ProgressWrap from "@/components/common/ProgressWrap";
 import initPlayer from "@/utlis/initPlayer";
 import SearchModal from "@/components/modals/SearchModal";
 import InfoModal from "@/components/modals/InfoModal";
+import { Analytics } from "@vercel/analytics/next";
 
 export default function RootLayout({ children }) {
   const pathname = usePathname();
@@ -217,6 +218,7 @@ export default function RootLayout({ children }) {
           <SearchModal />
           <InfoModal />
           <ProgressWrap />
+          <Analytics /  >
         </Context>
       </body>
     </html>
