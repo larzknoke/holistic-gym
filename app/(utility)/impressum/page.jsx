@@ -4,9 +4,9 @@ import React from "react";
 
 export const metadata = {
   title:
-    "Impressum || Sandbox - Modern & Multipurpose React Next.js Template with Tailwind CSS",
+    "Impressum || HolisticGym | Fitness + Regeneration + Balance - Praxis Humanus | Osteopathie & Physiotherapie",
   description:
-    "Sandbox - Modern & Multipurpose React Next.js Template with Tailwind CSS",
+    "HolisticGym - Fitness + Regeneration + Balance - Praxis Humanus | Osteopathie & Physiotherapie",
 };
 
 export default function ImpressumPage() {
