@@ -1,8 +1,6 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import { socialLinks } from "@/data/socials";
-import { footerLinks } from "@/data/footerLinks";
 import Link from "next/link";
 export default function Footer3() {
   return (
@@ -23,6 +21,13 @@ export default function Footer3() {
                 <br />
                 Alle Rechte vorbehalten.
               </p>
+              <br />
+              <Link
+                className="!text-[#cacaca] hover:!text-gym-primary"
+                href="/impressum"
+              >
+                Impressum
+              </Link>
               {/* <nav className="nav social social-white">
                 {socialLinks.map((elm, i) => (
                   <a
@@ -60,7 +65,7 @@ export default function Footer3() {
                 info@holistic-gym.de
               </a>
               <br />
-              05531 / 700 344 (Praxis Humanus)
+              05531 / 700 344 (Praxis Humanus){" "}
             </div>
             {/* /.widget */}
           </div>

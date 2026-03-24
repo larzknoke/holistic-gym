@@ -4,6 +4,7 @@ export const footerLinks = [
   { text: "Projects", href: "/projects" },
   { text: "Terms of Use", href: "/terms" },
   { text: "Privacy Policy", href: "/terms" },
+  { text: "Impressum", href: "/impressum" },
 ];
 
 export const footerLinks2 = [
