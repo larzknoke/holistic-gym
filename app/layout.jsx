@@ -218,7 +218,7 @@ export default function RootLayout({ children }) {
           <SearchModal />
           <InfoModal />
           <ProgressWrap />
-          <Analytics /  >
+          <Analytics />
         </Context>
       </body>
     </html>
