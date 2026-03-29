@@ -24,9 +24,7 @@ export default function HomeWip() {
               <GymTeaser />
               <GymTeaser2 />
               <ImageCarousel />
-              <GymPricing />
               <Contact />
-              {/* /section */}
             </>
           </div>
           <Footer3 />
