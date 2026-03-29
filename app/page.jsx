@@ -6,6 +6,8 @@ import HeaderGymWip from "@/components/headers/HeaderGymWip";
 import Contact from "@/components/homes/home-3/Contact";
 import React from "react";
 import ImageCarousel from "@/components/gym/ImageCarousel";
+import GymPricing from "@/components/gym/GymPricing";
+import SearchModal from "@/components/modals/SearchModal";
 
 export const metadata = {
   title: "HolisticGym | Fitness + Regeneration + Balance",
@@ -24,6 +26,7 @@ export default function HomeWip() {
               <GymTeaser />
               <GymTeaser2 />
               <ImageCarousel />
+              <GymPricing />
               <Contact />
             </>
           </div>
