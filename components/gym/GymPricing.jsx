@@ -151,7 +151,6 @@ const CARD_BODY_CLASS =
 const ICON_CLASS =
   "svg-inject icon-svg text-gym-primary !mb-3 !w-10 !h-10 mx-auto";
 const PRICES_CLASS = "prices !text-[#343f52]";
-const PRICE_ROW_CLASS = "!justify-start";
 const FEATURE_LIST_CLASS =
   "pl-0 list-none bullet-bg bullet-soft-primary !mt-7 !mb-8 text-left";
 const FEATURE_ITEM_BASE_CLASS = "relative !pl-6";
@@ -180,16 +179,12 @@ function FeatureLabel({ text }) {
 function PlanPrices({ isMonthly, monthlyPrice, yearlyPrice }) {
   return (
     <div className={PRICES_CLASS}>
-      <div
-        className={`price ${isMonthly ? "price-show" : "price-hidden"} ${PRICE_ROW_CLASS}`}
-      >
+      <div className={`price ${isMonthly ? "price-show" : "price-hidden"} `}>
         <span className="price-currency">€</span>
         <span className="price-value">{monthlyPrice}</span>
         <span className="price-duration">Monat</span>
       </div>
-      <div
-        className={`price ${!isMonthly ? "price-show" : "price-hidden"} ${PRICE_ROW_CLASS}`}
-      >
+      <div className={`price ${!isMonthly ? "price-show" : "price-hidden"} `}>
         <span className="price-currency">€</span>
         <span className="price-value">{yearlyPrice}</span>
         <span className="price-duration">Jahr</span>
