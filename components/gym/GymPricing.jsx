@@ -325,7 +325,7 @@ export default function GymPricing() {
                 <div className="inline-block !mb-4 px-3 py-1 rounded text-[0.75rem] font-semibold uppercase tracking-wide bg-gym-primary text-white">
                   {gruenderLimitHint}
                 </div>
-                <h3 className="!mb-2 !text-[1.45rem] lg:!text-[1.75rem] !leading-[1.25] font-bold text-[#343f52]">
+                <h3 className="!mb-2 !text-[1.45rem] lg:!text-2xl !leading-[1.25] font-bold text-[#343f52]">
                   {gruenderPlan.title}
                 </h3>
                 <p className="!mb-5 text-[#4b5563] max-w-2xl">
@@ -351,7 +351,7 @@ export default function GymPricing() {
                   <p className="!mb-2 text-[#6b7280] uppercase tracking-wide text-[0.72rem] font-semibold">
                     Beitrag
                   </p>
-                  <p className="!mb-4 text-[#343f52] text-[1.75rem] font-bold leading-none">
+                  <p className="!mb-4 text-[#343f52] text-2xl font-bold leading-none">
                     60 € / Monat
                   </p>
                   <button
