@@ -15,6 +15,29 @@ const gruenderFeatures = [
   },
 ];
 
+const premiereFeatures = [
+  {
+    text: "Premierenkonditionen bis 01.02.2027",
+    included: true,
+  },
+  {
+    text: "Laufzeit bis 01.02.2027",
+    included: true,
+  },
+  {
+    text: "Zugang zu verfügbaren Trainingsbereichen: Milon, FIVE und Kraftgeräte",
+    included: true,
+  },
+  {
+    text: "App-Nutzung, Wasser-/Kaffeespender und ausgewählte Betreuungsleistungen inklusive",
+    included: true,
+  },
+  {
+    text: "Kündigung spätestens 4 Wochen vor Umstellung möglich",
+    included: true,
+  },
+];
+
 const foerderFeatures = [
   {
     text: "24 Monate Mindestlaufzeit, Kündigung erstmals zum Laufzeitende",
@@ -79,6 +102,43 @@ const PLAN_MODAL_CONTENT = {
           "Monatlicher Beitrag: 60 EUR",
           "Laufzeit: 12 Monate",
           "Begrenzte Anzahl: 150 Mitgliedschaften",
+        ],
+      },
+    ],
+  },
+  premiere: {
+    title: "Premierenmitgliedschaft",
+    price: "69 EUR / Monat",
+    description: [
+      "Die Premierenmitgliedschaft bietet dir Zugang zu den verfügbaren Trainingsbereichen und ausgewählten Leistungen in der Aufbauphase.",
+      "Die Premierenkonditionen gelten bis zum 01.02.2027.",
+    ],
+    sections: [
+      {
+        title: "Leistungsumfang",
+        items: [
+          "Zugang zu den verfügbaren Trainingsbereichen: Milon, FIVE und Kraftgeräte",
+          "App-Nutzung inklusive",
+          "Wasser- und Kaffeespender inklusive",
+          "Ausgewählte Betreuungsleistungen inklusive",
+        ],
+      },
+      {
+        title: "Rahmenbedingungen",
+        items: [
+          "Einmalige Aufnahmegebühr: 15 €",
+          "Monatlicher Beitrag: 69 EUR",
+          "Laufzeit bis 01.02.2027",
+          "Kündigung bis spätestens 4 Wochen vor Umstellung möglich",
+          "Danach Angebot zur Umstellung in ein reguläres Mitgliedschaftsmodell gemäß gültiger Preisausschreibungen und Leistungen",
+        ],
+      },
+      {
+        title: "Wichtiger Hinweis",
+        items: [
+          "Während der Aufbauphase können einzelne Trainingsbereiche oder Zusatzleistungen zeitweise eingeschränkt oder noch nicht vollständig verfügbar sein",
+          "Die Nutzung aller Angebote erfolgt im Rahmen der jeweiligen Verfügbarkeit und Kapazitäten",
+          "Aktuelle Preise und Leistungsumfänge werden transparent vor der Umstellung mitgeteilt",
         ],
       },
     ],
@@ -264,20 +324,24 @@ export default function GymPricing() {
             <div className={COLUMN_CLASS}>
               <div className="pricing card !text-center">
                 <div className={CARD_BODY_CLASS}>
-                  <i className="uil uil-shovel text-4xl text-gym-primary"></i>
-                  <h4 className="card-title">Gründermitgliedschaft</h4>
+                  <i className="uil uil-star text-4xl text-gym-primary"></i>
+                  <h4 className="card-title">
+                    Premierenmitgliedschaft
+                  </h4>
                   <PlanPrices
                     isMonthly={isMonthly}
-                    monthlyPrice={60}
-                    yearlyPrice={60}
+                    monthlyPrice={69}
+                    yearlyPrice={69}
                   />
                   {/*/.prices */}
                   <PlanFeatureList
-                    features={gruenderFeatures}
+                    features={premiereFeatures}
                     noFirstItemMargin
                   />
                   <button
-                    onClick={() => openModal("gruender")}
+                    onClick={() =>
+                      openModal("premiere")
+                    }
                     className={PLAN_BUTTON_CLASS}
                   >
                     Mehr Infos
