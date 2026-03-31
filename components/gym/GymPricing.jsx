@@ -3,7 +3,6 @@
 import { useState } from "react";
 import GymPricingModal from "./GymPricingModal";
 const gruenderFeatures = [
-  { text: "Laufzeit 12 Monate", included: true },
   { text: "Begrenzte Anzahl: 150", included: true },
   {
     text: "Zugang zu verfügbaren Trainingsbereichen: Milon, FIVE und Kraftgeräte",
@@ -13,6 +12,7 @@ const gruenderFeatures = [
     text: "App-Nutzung, Wasser-/Kaffeespender und ausgewählte Betreuungsleistungen inklusive",
     included: true,
   },
+  { text: "Laufzeit 12 Monate", included: true },
 ];
 
 const premiereFeatures = [
@@ -283,6 +283,14 @@ export default function GymPricing() {
   const [isMonthly, setIsMonthly] = useState(true);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [activePlanKey, setActivePlanKey] = useState(null);
+  const gruenderPlan = PLAN_MODAL_CONTENT.gruender;
+  const gruenderLimitHint =
+    gruenderFeatures.find((feature) =>
+      feature.text.toLowerCase().includes("begrenzte anzahl"),
+    )?.text || "Begrenzte Anzahl: 150";
+  const gruenderHeroFeatures = gruenderFeatures.filter(
+    (feature) => feature.text !== gruenderLimitHint,
+  );
 
   const openModal = (planKey) => {
     setActivePlanKey(planKey);
@@ -309,6 +317,55 @@ export default function GymPricing() {
           {/*/column */}
         </div>
         {/*/.row */}
+
+        <div className="my-10">
+          <div className="rounded bg-[linear-gradient(135deg,rgba(24,120,95,0.12),rgba(24,120,95,0.04))] border border-[rgba(24,120,95,0.2)] !p-6 lg:!p-8">
+            <div className="flex flex-wrap -mx-4 items-start lg:items-center">
+              <div className="w-full lg:w-8/12 !px-4">
+                <div className="inline-block !mb-4 px-3 py-1 rounded text-[0.75rem] font-semibold uppercase tracking-wide bg-gym-primary text-white">
+                  {gruenderLimitHint}
+                </div>
+                <h3 className="!mb-2 !text-[1.45rem] lg:!text-[1.75rem] !leading-[1.25] font-bold text-[#343f52]">
+                  {gruenderPlan.title}
+                </h3>
+                <p className="!mb-5 text-[#4b5563] max-w-2xl">
+                  {gruenderPlan.description[0]}
+                </p>
+                <ul className="pl-0 list-none !mb-0 text-left grid md:grid-cols-2 gap-x-6 gap-y-2">
+                  {gruenderHeroFeatures.map((feature, index) => (
+                    <li key={index} className="relative !pl-6">
+                      <i
+                        className={`uil-check opacity-50 ${FEATURE_ICON_CLASS}`}
+                        style={{
+                          backgroundColor: "var(--color-gym-primary)",
+                          color: "white",
+                        }}
+                      />
+                      <FeatureLabel text={feature.text} />
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div className="w-full lg:w-4/12 !px-4 !mt-6 lg:!mt-0">
+                <div className="bg-white rounded border border-[rgba(24,120,95,0.14)] !p-5 text-center lg:text-left">
+                  <p className="!mb-2 text-[#6b7280] uppercase tracking-wide text-[0.72rem] font-semibold">
+                    Beitrag
+                  </p>
+                  <p className="!mb-4 text-[#343f52] text-[1.75rem] font-bold leading-none">
+                    60 € / Monat
+                  </p>
+                  <button
+                    onClick={() => openModal("gruender")}
+                    className={`${PLAN_BUTTON_CLASS} !w-full lg:!w-auto`}
+                  >
+                    Mehr Infos
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="pricing-wrapper !relative">
           <div
             className="shape bg-dot primary rellax !w-24 !h-32 bg-[radial-gradient(var(--color-gym-primary)_2px,transparent_2.5px)] absolute z-[1] opacity-50"
@@ -325,9 +382,7 @@ export default function GymPricing() {
               <div className="pricing card !text-center">
                 <div className={CARD_BODY_CLASS}>
                   <i className="uil uil-star text-4xl text-gym-primary"></i>
-                  <h4 className="card-title">
-                    Premierenmitgliedschaft
-                  </h4>
+                  <h4 className="card-title">Premierenmitgliedschaft</h4>
                   <PlanPrices
                     isMonthly={isMonthly}
                     monthlyPrice={69}
@@ -339,9 +394,7 @@ export default function GymPricing() {
                     noFirstItemMargin
                   />
                   <button
-                    onClick={() =>
-                      openModal("premiere")
-                    }
+                    onClick={() => openModal("premiere")}
                     className={PLAN_BUTTON_CLASS}
                   >
                     Mehr Infos
