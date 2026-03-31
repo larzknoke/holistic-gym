@@ -3,60 +3,82 @@
 import { useState } from "react";
 import GymPricingModal from "./GymPricingModal";
 const gruenderFeatures = [
-  { text: "12 Monate Laufzeit, endet automatisch", included: true },
-  { text: "Eintrainieren inklusive", included: true },
+  { text: "Laufzeit 12 Monate", included: true },
+  { text: "Begrenzte Anzahl: 150", included: true },
   {
-    text: "Einmalig 15 EUR für Zugangsarmband inkl. Holistic- & Milon-App",
+    text: "Zugang zu verfügbaren Trainingsbereichen: Milon, FIVE und Kraftgeräte",
     included: true,
   },
   {
-    text: "Anschließender Wechsel in reguläre Mitgliedschaften möglich",
+    text: "App-Nutzung, Wasser-/Kaffeespender und ausgewählte Betreuungsleistungen inklusive",
     included: true,
   },
 ];
 
 const foerderFeatures = [
-  { text: "24 Monate Laufzeit", included: true },
   {
-    text: "Armband, App-Nutzung und Eintrainieren inklusive",
+    text: "24 Monate Mindestlaufzeit, Kündigung erstmals zum Laufzeitende",
     included: true,
   },
   {
-    text: "Weiterentwicklungen des Trainingskonzepts und neue Angebote inklusive",
+    text: "Voller Zugang zu Trainings-, Regenerations- und Zusatzangeboten",
     included: true,
   },
-  { text: "Zusätzliche Vorteile und Bonusaktionen", included: true },
   {
-    text: "Pause bis zu 4 Monate möglich, Laufzeit verlängert sich entsprechend",
+    text: "Holistic- und Milon-App sowie Einweisung und Trainingsplanung inklusive",
+    included: true,
+  },
+  {
+    text: "Dauerhaft 10 % Preisvorteil auf reguläre Mitgliedschaften nach Inbetriebnahme",
+    included: true,
+  },
+  {
+    text: "Pause aus wichtigem Grund bis zu 4 Monate möglich",
     included: true,
   },
 ];
 
 const flexFeatures = [
-  { text: "Monatlich kündbar", included: true },
-  { text: "Einmalig 15 EUR Eintrainieren", included: true },
+  { text: "Monatlich kündbar ohne Mindestlaufzeit", included: true },
   {
-    text: "Digitalpauschale für App- und Systemnutzung enthalten",
+    text: "Kündigungsfrist 14 Tage vor Monatsende",
     included: true,
   },
-  { text: "Maximale Flexibilität ohne lange Bindung", included: true },
-  { text: "Voller Zugang zu Trainingsangeboten nach Wahl", included: true },
+  {
+    text: "Automatische Verlängerung um jeweils einen Monat ohne Kündigung",
+    included: true,
+  },
+  {
+    text: "Voller Zugang zu allen verfügbaren Trainings- und Zusatzangeboten",
+    included: true,
+  },
 ];
 
 const PLAN_MODAL_CONTENT = {
   gruender: {
     title: "Gründermitgliedschaft",
-    price: "60 EUR / Monat (12 Monate, endet automatisch ohne Verlängerung)",
+    price: "60 EUR / Monat",
     description: [
-      "Ideal für den Einstieg mit klarer Laufzeit und der Möglichkeit, danach flexibel in reguläre Mitgliedschaften zu wechseln.",
+      "Starte mit der exklusiven Gründermitgliedschaft in ein Training auf einem anderen Level.",
+      "Das Angebot ist auf 150 Plätze begrenzt und richtet sich an Mitglieder in der Aufbauphase.",
     ],
     sections: [
       {
-        title: "Leistungen",
+        title: "Leistungsumfang",
         items: [
-          "Eintrainieren inklusive",
-          "Einmalig 15 EUR für Zugangsarmband inkl. Holistic- und Milon-App",
-          "Möglichkeit zum anschließenden Wechsel in reguläre Mitgliedschaften",
+          "Zugang zu den verfügbaren Trainingsbereichen: Milon, FIVE und Kraftgeräte",
+          "App-Nutzung inklusive",
+          "Wasser- und Kaffeespender inklusive",
+          "Ausgewählte Betreuungsleistungen inklusive",
+        ],
+      },
+      {
+        title: "Rahmenbedingungen",
+        items: [
+          "Einmalige Aufnahmegebühr: 15 €",
+          "Monatlicher Beitrag: 60 EUR",
+          "Laufzeit: 12 Monate",
+          "Begrenzte Anzahl: 150 Mitgliedschaften",
         ],
       },
     ],
@@ -65,44 +87,50 @@ const PLAN_MODAL_CONTENT = {
     title: "Fördermitgliedschaft",
     price: "79 EUR / Monat",
     description: [
-      "Du unterstützt aktiv den Aufbau des HolisticGym und trägst dazu bei, eine moderne, zukunftsfähige Gesundheits- und Trainingsstruktur in der Region zu entwickeln.",
-      "Gerade in der Aufbauphase ist dieses Konzept mit erhöhtem organisatorischem und strukturellem Aufwand verbunden.",
-      "Deine Unterstützung ermöglicht es, Innovationen schneller umzusetzen und das Projekt nachhaltig wachsen zu lassen.",
+      "Die Fördermitgliedschaft richtet sich an Mitglieder, die das Gym bereits in der Aufbauphase nutzen und von erweiterten Leistungen und Konditionen profitieren wollen.",
+      "Du sicherst dir den vollen Zugang zu den verfügbaren Angeboten sowie einen dauerhaften Preisvorteil von 10 % auf den regulären Mitgliedschaftspreis nach vollständiger Inbetriebnahme.",
     ],
     sections: [
       {
-        title: "Dein Vorteil",
+        title: "Leistungsumfang",
         items: [
-          "Inklusive Armband und App-Nutzung sowie kostenlosem Eintrainieren",
-          "Weiterentwicklungen des Trainingskonzepts und neue Angebote inklusive",
-          "Zusätzliche Vorteile und Bonusaktionen",
+          "Nutzung aller verfügbaren Trainingsbereiche: Milon Kraft- und Ausdauerzirkel, konventionelles Krafttraining und funktionelle Trainingsflächen",
+          "Zugang zu Regenerations- und Zusatzangeboten: Spa-/Recovery-Bereich (soweit verfügbar), Getränke und Credits für Zusatzanwendungen (z. B. Hydrojet, sobald verfügbar)",
+          "Digitale Trainingssteuerung mit Holistic- und Milon-App",
+          "Einweisung, Trainingsplanung und individuelle Betreuung durch qualifiziertes Fachpersonal",
         ],
       },
       {
-        title: "Konditionen",
+        title: "Rahmenbedingungen",
         items: [
-          "24 Monate Laufzeit",
-          "Pause bis zu 4 Monate möglich, entsprechende Verlängerung der Laufzeit",
-          "Wenn du aus persönlichen Gründen Unterstützung brauchst, geben wir diese gerne zurück",
+          "Einmalige Aufnahmegebühr: 15 €",
+          "Mindestlaufzeit 24 Monate, ordentliche Kündigung erstmals zum Ende der Mindestlaufzeit, danach monatlich kündbar",
+          "Vertragspause aus wichtigem Grund bis maximal 4 Monate möglich; die Laufzeit verlängert sich entsprechend",
+          "Alle Leistungen gelten im Rahmen der jeweiligen Verfügbarkeit und Kapazitäten",
         ],
       },
     ],
   },
   flex: {
     title: "Flexibler Tarif",
-    price: "85 EUR / Monat (monatlich kündbar)",
+    price: "89 EUR / Monat",
     description: [
-      "Maximale Freiheit zum Start ohne langfristige Bindung.",
-      "Du bleibst stets flexibel in deiner Nutzung und kannst im Zuge von Erweiterungen und Innovationen in weitere Modelle wechseln (Angaben laut aktueller Preisliste).",
+      "Der Flex-Tarif bietet dir vollen Zugang zu allen verfügbaren Trainings- und Zusatzangeboten ohne Mindestlaufzeit.",
+      "Damit bleibst du komplett flexibel und kannst monatlich entscheiden, ob du weitermachen möchtest.",
     ],
     sections: [
       {
-        title: "Leistungen",
+        title: "Leistungsumfang",
         items: [
-          "Einmalig 15 EUR Eintrainieren",
-          "Monatliche Digitalpauschale für App- und Systemnutzung enthalten",
-          "Maximale Flexibilität ohne lange Bindung",
-          "Voller Zugang zu Trainingsangeboten nach Wahl",
+          "Voller Zugang zu allen verfügbaren Trainings-, Regenerations- und Zusatzangeboten",
+        ],
+      },
+      {
+        title: "Rahmenbedingungen",
+        items: [
+          "Einmalige Aufnahmegebühr: 15 €",
+          "Monatlich kündbar mit Kündigungsfrist von 14 Tagen vor Monatsende",
+          "Erfolgt keine Kündigung, verlängert sich der Vertrag jeweils um einen weiteren Monat",
         ],
       },
     ],
@@ -134,9 +162,9 @@ const PLAN_BUTTON_CLASS =
   "btn btn-primary !text-white uppercase !bg-gym-primary border-gym-primary hover:text-white hover:bg-gym-primary hover:!border-gym-primary active:text-white active:bg-gym-primary active:border-gym-primary disabled:text-white disabled:bg-gym-primary disabled:border-gym-primary  hover:translate-y-[-0.15rem] hover:shadow-[0_0.25rem_0.75rem_rgba(30,34,40,0.15)]";
 
 const getFeatureIconStyles = (included) => ({
-  className: included ? "uil-check" : "uil-times bullet-soft-red",
-  backgroundColor: included ? "#dce7f9" : "#fae3e4",
-  color: included ? "var(--color-gym-primary)" : "#e2626b",
+  className: included ? "uil-check opacity-50" : "uil-times bullet-soft-red",
+  backgroundColor: included ? "var(--color-gym-primary)" : "#fae3e4",
+  color: included ? "white" : "#e2626b",
 });
 
 function FeatureLabel({ text }) {
@@ -296,8 +324,8 @@ export default function GymPricing() {
                   <h4 className="card-title">Flexibler Tarif</h4>
                   <PlanPrices
                     isMonthly={isMonthly}
-                    monthlyPrice={85}
-                    yearlyPrice={85}
+                    monthlyPrice={89}
+                    yearlyPrice={89}
                   />
                   {/*/.prices */}
                   <PlanFeatureList features={flexFeatures} />
