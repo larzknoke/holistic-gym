@@ -112,10 +112,6 @@ const PLAN_MODAL_CONTENT = {
 const SECTION_CLASS = "wrapper !bg-white";
 const CONTAINER_CLASS =
   "container pt-20 xl:pt-28 lg:pt-28 md:pt-28 pb-16 xl:pb-20 lg:pb-20 md:pb-20";
-const PRICE_SWITCHER_CLASS =
-  "pricing-switchers w-8 h-4 clear-both !text-center !relative bg-[rgba(30,34,40,0.07)] !box-content rounded-3xl border-[0.2rem] border-solid border-transparent";
-const PRICE_SWITCHER_ITEM_CLASS =
-  "pricing-switcher cursor-pointer w-full float-left h-4 leading-4 !relative z-[888] transition-[0.3s] duration-[ease-in-out] uppercas";
 const COLUMN_CLASS =
   "md:w-6/12 lg:w-4/12 xl:w-4/12 w-full flex-none !px-4 max-w-full !mt-8";
 const CARD_BODY_CLASS =
