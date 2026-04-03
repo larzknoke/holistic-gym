@@ -21,58 +21,77 @@ const premiereFeatures = [
     included: true,
   },
   {
-    text: "Laufzeit bis 01.02.2027",
+    text: "Zugang zu FIVE, Kardio- und Kraftgeräten",
     included: true,
   },
   {
-    text: "Zugang zu verfügbaren Trainingsbereichen: Milon, FIVE und Kraftgeräte",
+    text: "Zusätzlicher Zugang zu Milon Q+ und Milon X sowie Regenerationsangeboten bis 01.02.2027",
     included: true,
   },
   {
-    text: "App-Nutzung, Wasser-/Kaffeespender und ausgewählte Betreuungsleistungen inklusive",
+    text: "App-Nutzung, Wasserspender und ausgewählte Betreuungsleistungen inklusive",
     included: true,
   },
   {
-    text: "Kündigung spätestens 4 Wochen vor Umstellung möglich",
+    text: "Kündigung bis spätestens 4 Wochen vor Umstellung möglich",
+    included: true,
+  },
+  {
+    text: "Einmalige Aufnahmegebühr: 15 EUR",
+    included: true,
+  },
+  {
+    text: "Monatlicher Beitrag: 69 EUR",
     included: true,
   },
 ];
 
 const foerderFeatures = [
   {
-    text: "24 Monate Mindestlaufzeit, Kündigung erstmals zum Laufzeitende",
+    text: "Mindestlaufzeit 24 Monate, danach monatlich kündbar",
     included: true,
   },
   {
-    text: "Voller Zugang zu Trainings-, Regenerations- und Zusatzangeboten",
+    text: "Nutzung aller verfügbaren Trainingsbereiche inklusive Milon, FIVE und Kraftgeräte",
     included: true,
   },
   {
-    text: "Holistic- und Milon-App sowie Einweisung und Trainingsplanung inklusive",
+    text: "Zugang zu Regenerations- und Zusatzangeboten nach Verfügbarkeit",
     included: true,
   },
   {
-    text: "Dauerhaft 10 % Preisvorteil auf reguläre Mitgliedschaften nach Inbetriebnahme",
+    text: "Digitale Trainingssteuerung mit Holistic- und Milon-App",
     included: true,
   },
   {
-    text: "Pause aus wichtigem Grund bis zu 4 Monate möglich",
+    text: "Wasser und Heißgetränke zum Eigenbedarf inklusive",
+    included: true,
+  },
+  {
+    text: "Keine Aufnahmegebühr inkl. Zugangsarmband nach Wahl",
+    included: true,
+  },
+  {
+    text: "Vertragspause nach Rücksprache bis maximal 4 Monate möglich",
     included: true,
   },
 ];
 
 const flexFeatures = [
-  { text: "Monatlich kündbar ohne Mindestlaufzeit", included: true },
   {
-    text: "Kündigungsfrist 14 Tage vor Monatsende",
+    text: "Voller Zugang zu allen verfügbaren Trainings-, Regenerations- und Zusatzangeboten",
     included: true,
   },
   {
-    text: "Automatische Verlängerung um jeweils einen Monat ohne Kündigung",
+    text: "Einmalige Aufnahmegebühr: 15 €",
     included: true,
   },
   {
-    text: "Voller Zugang zu allen verfügbaren Trainings- und Zusatzangeboten",
+    text: "Monatlich kündbar mit Kündigungsfrist von 14 Tagen vor Monatsende",
+    included: true,
+  },
+  {
+    text: "Erfolgt keine Kündigung, verlängert sich der Vertrag jeweils um einen weiteren Monat",
     included: true,
   },
 ];
@@ -107,19 +126,20 @@ const PLAN_MODAL_CONTENT = {
     ],
   },
   premiere: {
-    title: "Premierenmitgliedschaft",
+    title: "Premierenmitgliedschaft / Basis",
     price: "69 EUR / Monat",
     description: [
-      "Die Premierenmitgliedschaft bietet dir Zugang zu den verfügbaren Trainingsbereichen und ausgewählten Leistungen in der Aufbauphase.",
+      "Die Premierenmitgliedschaft bietet dir umfassenden Zugang zu den verfügbaren Trainingsbereichen und ausgewählten Leistungen in der Aufbauphase. Finde dein individuelles Set up!",
       "Die Premierenkonditionen gelten bis zum 01.02.2027.",
     ],
     sections: [
       {
         title: "Leistungsumfang",
         items: [
-          "Zugang zu den verfügbaren Trainingsbereichen: Milon, FIVE und Kraftgeräte",
-          "App-Nutzung inklusive",
-          "Wasser- und Kaffeespender inklusive",
+          "Zugang zu den verfügbaren Trainingsbereichen: FIVE, Kardio- und Kraftgeräten",
+          "Zusätzlicher Zugang zu Milon Q+ Kraft- Ausdauerzirkel und Milon X, sowie Regenerationsangebote nach Verfügbarkeit bis 01.02.2027",
+          "App-Nutzungen inklusive",
+          "Wasserspender inklusive",
           "Ausgewählte Betreuungsleistungen inklusive",
         ],
       },
@@ -128,23 +148,14 @@ const PLAN_MODAL_CONTENT = {
         items: [
           "Einmalige Aufnahmegebühr: 15 €",
           "Monatlicher Beitrag: 69 EUR",
-          "Laufzeit bis 01.02.2027",
+          "Laufzeit mit voller Nutzung bis 01.02.2027, danach 69€ im Monat mit optionaler Zubuchung von z. B. Milon oder Regeneration/Spa je nach Preisausschreibung",
           "Kündigung bis spätestens 4 Wochen vor Umstellung möglich",
-          "Danach Angebot zur Umstellung in ein reguläres Mitgliedschaftsmodell gemäß gültiger Preisausschreibungen und Leistungen",
-        ],
-      },
-      {
-        title: "Wichtiger Hinweis",
-        items: [
-          "Während der Aufbauphase können einzelne Trainingsbereiche oder Zusatzleistungen zeitweise eingeschränkt oder noch nicht vollständig verfügbar sein",
-          "Die Nutzung aller Angebote erfolgt im Rahmen der jeweiligen Verfügbarkeit und Kapazitäten",
-          "Aktuelle Preise und Leistungsumfänge werden transparent vor der Umstellung mitgeteilt",
         ],
       },
     ],
   },
   foerder: {
-    title: "Fördermitgliedschaft",
+    title: "Fördermitgliedschaft/ Premium",
     price: "79 EUR / Monat",
     description: [
       "Die Fördermitgliedschaft richtet sich an Mitglieder, die das Gym bereits in der Aufbauphase nutzen und von erweiterten Leistungen und Konditionen profitieren wollen.",
@@ -157,15 +168,16 @@ const PLAN_MODAL_CONTENT = {
           "Nutzung aller verfügbaren Trainingsbereiche: Milon Kraft- und Ausdauerzirkel, konventionelles Krafttraining und funktionelle Trainingsflächen",
           "Zugang zu Regenerations- und Zusatzangeboten: Spa-/Recovery-Bereich (soweit verfügbar), Getränke und Credits für Zusatzanwendungen (z. B. Hydrojet, sobald verfügbar)",
           "Digitale Trainingssteuerung mit Holistic- und Milon-App",
+          "Wasser und Heißgetränke zum Eigenbedarf inklusive",
           "Einweisung, Trainingsplanung und individuelle Betreuung durch qualifiziertes Fachpersonal",
         ],
       },
       {
         title: "Rahmenbedingungen",
         items: [
-          "Einmalige Aufnahmegebühr: 15 €",
+          "Keine Aufnahmegebühr, inkl. Zugangsarmband nach Wahl und 2. Sichtungstermin mit Physiotherapeut*innen",
           "Mindestlaufzeit 24 Monate, ordentliche Kündigung erstmals zum Ende der Mindestlaufzeit, danach monatlich kündbar",
-          "Vertragspause aus wichtigem Grund bis maximal 4 Monate möglich; die Laufzeit verlängert sich entsprechend",
+          "Vertragspause nach Rücksprache bis maximal 4 Monate möglich; die Laufzeit verlängert sich entsprechend",
           "Alle Leistungen gelten im Rahmen der jeweiligen Verfügbarkeit und Kapazitäten",
         ],
       },
@@ -347,7 +359,7 @@ export default function GymPricing() {
                   <p className="!mb-2 text-[#6b7280] uppercase tracking-wide text-[0.72rem] font-semibold">
                     Beitrag
                   </p>
-                  <p className="!mb-4 text-[#343f52] text-2xl font-bold leading-none">
+                  <p className="!mb-4 text-[#343f52] text-3xl font-bold leading-none">
                     60 € / Monat
                   </p>
                   <button
@@ -378,7 +390,9 @@ export default function GymPricing() {
               <div className="pricing card !text-center">
                 <div className={CARD_BODY_CLASS}>
                   <i className="uil uil-star text-4xl text-gym-primary"></i>
-                  <h4 className="card-title">Premierenmitgliedschaft</h4>
+                  <h4 className="card-title">
+                    Premierenmitgliedschaft / Basis
+                  </h4>
                   <PlanPrices
                     isMonthly={isMonthly}
                     monthlyPrice={69}
@@ -405,7 +419,7 @@ export default function GymPricing() {
               <div className="pricing card !text-center">
                 <div className={CARD_BODY_CLASS}>
                   <i className="uil uil-heart text-4xl text-gym-primary"></i>
-                  <h4 className="card-title">Fördermitgliedschaft</h4>
+                  <h4 className="card-title">Fördermitgliedschaft / Premium</h4>
                   <PlanPrices
                     isMonthly={isMonthly}
                     monthlyPrice={79}
