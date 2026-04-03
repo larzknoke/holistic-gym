@@ -330,7 +330,7 @@ export default function GymPricing() {
           <div className="rounded bg-[linear-gradient(135deg,rgba(24,120,95,0.12),rgba(24,120,95,0.04))] border border-[rgba(24,120,95,0.2)] !p-6 lg:!p-8">
             <div className="flex flex-wrap -mx-4 items-start lg:items-center">
               <div className="w-full lg:w-8/12 !px-4">
-                <div className="inline-block !mb-4 px-3 py-1 rounded text-[0.75rem] font-semibold uppercase tracking-wide bg-gym-primary text-white">
+                <div className="inline-block !mb-4 px-3 py-1 pb-[2px] rounded text-[0.75rem] font-semibold uppercase tracking-wide bg-gym-primary text-white">
                   {gruenderLimitHint}
                 </div>
                 <h3 className="!mb-2 !text-[1.45rem] lg:!text-2xl !leading-[1.25] font-bold text-[#343f52]">
