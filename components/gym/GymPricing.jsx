@@ -17,7 +17,7 @@ const gruenderFeatures = [
 
 const premiereFeatures = [
   {
-    text: "Premierenkonditionen bis 01.02.2027",
+    text: "Startkonditionen bis 01.02.2027",
     included: true,
   },
   {
@@ -126,11 +126,11 @@ const PLAN_MODAL_CONTENT = {
     ],
   },
   premiere: {
-    title: "Premierenmitgliedschaft / Basis",
+    title: "Startmitgliedschaft / Basis",
     price: "69 EUR / Monat",
     description: [
-      "Die Premierenmitgliedschaft bietet dir umfassenden Zugang zu den verfügbaren Trainingsbereichen und ausgewählten Leistungen in der Aufbauphase. Finde dein individuelles Set up!",
-      "Die Premierenkonditionen gelten bis zum 01.02.2027.",
+      "Die Startmitgliedschaft bietet dir umfassenden Zugang zu den verfügbaren Trainingsbereichen und ausgewählten Leistungen in der Aufbauphase. Finde dein individuelles Set up!",
+      "Die Startkonditionen gelten bis zum 01.02.2027.",
     ],
     sections: [
       {
@@ -390,9 +390,7 @@ export default function GymPricing() {
               <div className="pricing card !text-center">
                 <div className={CARD_BODY_CLASS}>
                   <i className="uil uil-star text-4xl text-gym-primary"></i>
-                  <h4 className="card-title">
-                    Premierenmitgliedschaft / Basis
-                  </h4>
+                  <h4 className="card-title">Startmitgliedschaft / Basis</h4>
                   <PlanPrices
                     isMonthly={isMonthly}
                     monthlyPrice={69}
