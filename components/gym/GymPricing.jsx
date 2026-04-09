@@ -5,14 +5,18 @@ import GymPricingModal from "./GymPricingModal";
 const gruenderFeatures = [
   { text: "Begrenzte Anzahl: 150", included: true },
   {
-    text: "Zugang zu verfügbaren Trainingsbereichen: Milon, FIVE und Kraftgeräte",
+    text: "Training an modernen Systemen: Milon, FIVE und Kraftgeräte",
     included: true,
   },
   {
-    text: "App-Nutzung, Wasser-/Kaffeespender und ausgewählte Betreuungsleistungen inklusive",
+    text: "App-Nutzung, Wasserspender und Betreuung inklusive",
     included: true,
   },
-  { text: "Laufzeit 12 Monate", included: true },
+  { text: "Mindestlaufzeit 12 Monate, endet automatisch", included: true },
+  {
+    text: "Zugang zu allen verfügbaren Trainingsbereichen und Regenerationsangeboten",
+    included: true,
+  },
 ];
 
 const premiereFeatures = [
@@ -101,27 +105,45 @@ const PLAN_MODAL_CONTENT = {
     title: "Gründermitgliedschaft",
     price: "60 EUR / Monat",
     description: [
-      "Starte mit der exklusiven Gründermitgliedschaft in ein Training auf einem anderen Level.",
-      "Das Angebot ist auf 150 Plätze begrenzt und richtet sich an Mitglieder in der Aufbauphase.",
+      "Werde Teil der Aufbauphase und sei von Anfang an dabei, wenn ein Trainingskonzept entsteht, das neue Maßstäbe setzt.",
+      "Mit der Gründermitgliedschaft sicherst du dir für 12 Monate Zugang zu einem ganzheitlichen Trainings- und Gesundheitsangebot – und erlebst die Entwicklung des Studios von Beginn an.",
+      "Dieses Angebot ist auf 150 Mitglieder begrenzt.",
     ],
     sections: [
       {
-        title: "Leistungsumfang",
+        title: "Dein Vorteil",
         items: [
-          "Zugang zu den verfügbaren Trainingsbereichen: Milon, FIVE und Kraftgeräte",
-          "App-Nutzung inklusive",
-          "Wasser- und Kaffeespender inklusive",
-          "Ausgewählte Betreuungsleistungen inklusive",
+          "Monatlicher Beitrag: 60 €",
+          "Mindestlaufzeit: 12 Monate (endet automatisch)",
+          "Einmalige Gebühr: 15 € für Zugangsarmband inkl. App",
         ],
       },
       {
-        title: "Rahmenbedingungen",
+        title: "Das erwartet dich",
         items: [
-          "Einmalige Aufnahmegebühr: 15 €",
-          "Monatlicher Beitrag: 60 EUR",
-          "Laufzeit: 12 Monate",
-          "Begrenzte Anzahl: 150 Mitgliedschaften",
+          "Training an modernen Systemen wie Milon, FIVE und Kraftgeräten",
+          "Individuelles Eintrainieren für einen sicheren Start",
+          "Nutzung der Holistic- und Milon-App",
+          "Kostenfreie Nutzung des Wasserspenders",
+          "Betreuung im Rahmen des aktuellen Angebots",
         ],
+      },
+      {
+        title: "Entwicklung inklusive",
+        description:
+          "Als Gründungsmitglied erlebst du während deiner Laufzeit die kontinuierliche Weiterentwicklung des Angebots:",
+        items: [
+          "Ausbau der Trainingsfläche, insbesondere im Bereich klassisches Kraft- und Ausdauertraining",
+          "Ergänzende Regenerationsangebote (nach Verfügbarkeit)",
+          "Begleitung durch Physiotherapeutinnen und Physiotherapeuten zu festgelegten Zeiten",
+        ],
+        footer:
+          "Du bist von Anfang an dabei – und erlebst, wie sich das Konzept Schritt für Schritt weiterentwickelt.",
+      },
+      {
+        title: "Nach der Laufzeit",
+        description:
+          "Nach Ablauf der Mindestlaufzeit endet die Gründermitgliedschaft automatisch.",
       },
     ],
   },
@@ -336,7 +358,7 @@ export default function GymPricing() {
                 <h3 className="!mb-2 !text-[1.45rem] lg:!text-2xl !leading-[1.25] font-bold text-[#343f52]">
                   {gruenderPlan.title}
                 </h3>
-                <p className="!mb-5 text-[#4b5563] max-w-2xl">
+                <p className="!mb-5 text-[#4b5563] max-w-2xl text-balance">
                   {gruenderPlan.description[0]}
                 </p>
                 <ul className="pl-0 list-none !mb-0 text-left grid md:grid-cols-2 gap-x-6 gap-y-2">
