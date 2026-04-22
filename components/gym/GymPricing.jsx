@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import GymPricingModal from "./GymPricingModal";
+import GymWebshopModal from "./GymWebshopModal";
 const gruenderFeatures = [
   { text: "Begrenzte Anzahl: 150", included: true },
   {
@@ -290,6 +291,7 @@ function PlanFeatureList({ features, noFirstItemMargin = false }) {
 export default function GymPricing() {
   const [isMonthly, setIsMonthly] = useState(true);
   const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isWebshopModalOpen, setIsWebshopModalOpen] = useState(false);
   const [activePlanKey, setActivePlanKey] = useState(null);
   const gruenderPlan = PLAN_MODAL_CONTENT.gruender;
   const gruenderLimitHint =
@@ -309,6 +311,9 @@ export default function GymPricing() {
     setIsModalOpen(false);
     setActivePlanKey(null);
   };
+
+  const openWebshopModal = () => setIsWebshopModalOpen(true);
+  const closeWebshopModal = () => setIsWebshopModalOpen(false);
 
   return (
     <section id="snippet-2" className={SECTION_CLASS}>
@@ -465,12 +470,43 @@ export default function GymPricing() {
           {/*/.row */}
         </div>
         {/*/.pricing-wrapper */}
+
+        <div className="!mt-14">
+          <div className="relative overflow-hidden rounded bg-[linear-gradient(135deg,rgba(24,120,95,0.1),rgba(24,120,95,0.03))] border border-[rgba(24,120,95,0.2)] !p-6 lg:!p-8 text-center">
+            <img
+              src="/assets/gym/gym-circle.svg"
+              alt=""
+              aria-hidden="true"
+              loading="lazy"
+              width="320"
+              height="320"
+              className="w-80 h-80 absolute left-1/2 top-20 -translate-x-1/2 -translate-y-1/2 opacity-40 pointer-events-none select-none"
+              // style={{ color: "transparent" }}
+            />
+            <div className="relative z-[1]">
+              <h4 className="!mb-3 !text-[1.35rem] lg:!text-[1.5rem] font-bold ">
+                Direkt in den Webshop
+              </h4>
+              <p className="!mb-5 text-[#4b5563] max-w-2xl !mx-auto text-lg">
+                Sichere dir jetzt deinen Tarif und starte direkt online im
+                HolisticGym Webshop.
+              </p>
+              <button onClick={openWebshopModal} className={PLAN_BUTTON_CLASS}>
+                Zum Webshop
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
       {/* /.container */}
       <GymPricingModal
         isOpen={isModalOpen}
         onClose={closeModal}
         plan={activePlanKey ? PLAN_MODAL_CONTENT[activePlanKey] : null}
+      />
+      <GymWebshopModal
+        isOpen={isWebshopModalOpen}
+        onClose={closeWebshopModal}
       />
     </section>
   );
