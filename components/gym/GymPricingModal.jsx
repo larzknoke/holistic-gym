@@ -49,13 +49,26 @@ const GymPricingModal = ({ isOpen, onClose, plan }) => {
             {plan.sections?.map((section) => (
               <div key={`${plan.title}-${section.title}`} style={sectionStyle}>
                 <h4 style={sectionTitleStyle}>{section.title}</h4>
-                <ul style={listStyle}>
-                  {section.items.map((item, index) => (
-                    <li key={`${section.title}-${index}`} style={listItemStyle}>
-                      {item}
-                    </li>
-                  ))}
-                </ul>
+                {section.description && (
+                  <p style={paragraphStyle}>{section.description}</p>
+                )}
+                {section.items && (
+                  <ul style={listStyle}>
+                    {section.items.map((item, index) => (
+                      <li
+                        key={`${section.title}-${index}`}
+                        style={listItemStyle}
+                      >
+                        {item}
+                      </li>
+                    ))}
+                  </ul>
+                )}
+                {section.footer && (
+                  <p style={{ ...paragraphStyle, marginTop: "12px" }}>
+                    {section.footer}
+                  </p>
+                )}
               </div>
             ))}
           </div>
