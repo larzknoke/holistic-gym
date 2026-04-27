@@ -68,10 +68,10 @@ export default function GymHeroWip() {
                     width={590}
                     height={650}
                   />
-                  <div className=" md:absolute mx-6 -mt-6 md:mt-0 -top-12 right-4 hover:cursor-pointer hover:shadow-lg hover:translate-y-[-0.25rem] transition-all duration-[0.2s] ease-in-out motion-reduce:transition-none bg-gym-danger text-white text-center px-5 py-2 rounded z-[2] text-xl shadow-sm rotate-2 font-bold">
-                    Vorrausichtlicher Start: Mai 2026!
+                  <div className=" md:absolute mx-6 -mt-6 md:mt-0 -top-12 right-9 hover:cursor-pointer hover:shadow-lg hover:translate-y-[-0.25rem] transition-all duration-[0.2s] ease-in-out motion-reduce:transition-none bg-gym-danger text-white text-center px-8 py-2 rounded z-[2] text-xl shadow-sm rotate-2 font-bold">
+                    Tag der offenen Tür
                     <span className="text-base block">
-                      Profitiere als Gründungsmitglied
+                      02. Mai 2026 / 10.00-14.00 Uhr
                     </span>
                   </div>
                 </figure>
