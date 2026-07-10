@@ -51,8 +51,6 @@ export default function Contact() {
                 </h5>
                 <address className="not-italic !leading-[inherit] !mb-4">
                   Büttnerweg 4, Holzminden
-                  <br />
-                  (ab Mai 2026)
                 </address>
               </div>
             </div>

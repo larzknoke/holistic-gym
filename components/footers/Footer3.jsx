@@ -55,8 +55,6 @@ export default function Footer3() {
                 Büttnerweg 4
                 <br />
                 37603 Holzminden
-                <br />
-                (ab Mai 2026)
               </address>
               <a
                 className="!text-[#cacaca] hover:!text-gym-primary"

@@ -16,43 +16,38 @@ export default function GymTeaser2() {
                 height={32}
               />
               <i className="uil uil-shovel mb-2 text-2xl before:content-['\e83e'] text-white" />
-              <h3 className=" !text-white">Der Start</h3>
+              <h3 className=" !text-white">Es geht weiter</h3>
             </div>
             <h1 className="font-bold uppercase !text-white !tracking-wide !text-3xl">
-              Im Mai beginnt der erste Schritt.
+              Ein Start, der begeistert.
             </h1>
           </div>
           <div className="flex flex-col md:flex-row gap-12 w-full justify-center items-start">
             <div className="w-full md:w-6/12  text-white text-balance">
               <p>
-                Mit dem HOListicGym starten wir mit einem innovativen und
-                hochfunktionellen Trainingsbereich auf Basis des Milon-Systems –
-                digital gesteuert, effizient und präzise auf dein Training
-                abgestimmt.
+                Der Start des <strong>HolisticGym</strong> war ein voller
+                Erfolg: Unser innovativer Trainingsbereich auf Basis des
+                Milon-Systems ist erfolgreich gestartet und wird seit dem ersten
+                Tag begeistert genutzt.
               </p>
 
               <p>
-                Dieser erste Trainingsbereich ist der Auftakt zu einem größeren
-                Projekt: dem zukünftigen Therapie- und Trainingszentrum, welches
-                derzeit entsteht.
-              </p>
-
-              <p>Schon jetzt kannst du Teil dieser Entwicklung werden.</p>
-
-              <p>
-                Als Gründungs- oder Premieremitglied gehörst du zu den ersten,
-                die das neue Trainingskonzept erleben und von exklusiven
-                Vorteilen profitieren.
-              </p>
-
-              <p className="underline underline-offset-3">
-                <strong>Die Anzahl der Plätze ist begrenzt.</strong>
+                Besonders freut es uns, dass sich bereits viele Mitglieder für
+                das neue Trainingskonzept entschieden haben und von den modernen
+                Möglichkeiten profitieren.
               </p>
 
               <p>
-                Lass dich jetzt auf die Interessenliste setzen und sichere dir
-                frühzeitig deinen Platz.
+                Doch das ist erst der Anfang: Das <strong>HolisticGym</strong>{" "}
+                bildet den Auftakt zu unserem zukünftigen Therapie- und
+                Trainingszentrum – ein Ort, an dem Gesundheit, Bewegung und
+                persönliche Betreuung perfekt miteinander verbunden werden.
               </p>
+
+              {/* <p>
+                Du möchtest von Anfang an dabei sein? Dann melde dich jetzt an
+                und sichere dir deinen Platz im <strong>HolisticGym</strong>.
+              </p> */}
               <Link
                 href={`mailto:info@holistic-gym.de`}
                 className="btn btn-lg btn-gym-secondary  mt-5"
