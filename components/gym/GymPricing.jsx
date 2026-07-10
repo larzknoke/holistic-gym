@@ -42,11 +42,11 @@ const premiereFeatures = [
     included: true,
   },
   {
-    text: "Einmalige Aufnahmegebühr: 15 EUR",
+    text: "Einmalige Aufnahmegebühr: 60 €",
     included: true,
   },
   {
-    text: "Monatlicher Beitrag: 69 EUR",
+    text: "Monatlicher Beitrag: 69 €",
     included: true,
   },
 ];
@@ -88,7 +88,7 @@ const flexFeatures = [
     included: true,
   },
   {
-    text: "Einmalige Aufnahmegebühr: 15 €",
+    text: "Einmalige Aufnahmegebühr: 75 €",
     included: true,
   },
   {
@@ -104,7 +104,7 @@ const flexFeatures = [
 const PLAN_MODAL_CONTENT = {
   gruender: {
     title: "Gründermitgliedschaft",
-    price: "60 EUR / Monat",
+    price: "60 € / Monat",
     description: [
       "Werde Teil der Aufbauphase und sei von Anfang an dabei, wenn ein Trainingskonzept entsteht, das neue Maßstäbe setzt.",
       "Mit der Gründermitgliedschaft sicherst du dir für 12 Monate Zugang zu einem ganzheitlichen Trainings- und Gesundheitsangebot – und erlebst die Entwicklung des Studios von Beginn an.",
@@ -150,7 +150,7 @@ const PLAN_MODAL_CONTENT = {
   },
   premiere: {
     title: "Startmitgliedschaft / Basis",
-    price: "69 EUR / Monat",
+    price: "69 € / Monat",
     description: [
       "Die Startmitgliedschaft bietet dir umfassenden Zugang zu den verfügbaren Trainingsbereichen und ausgewählten Leistungen in der Aufbauphase. Finde dein individuelles Set up!",
       "Die Startkonditionen gelten bis zum 01.02.2027.",
@@ -169,9 +169,9 @@ const PLAN_MODAL_CONTENT = {
       {
         title: "Rahmenbedingungen",
         items: [
-          "Einmalige Aufnahmegebühr: 15 €",
-          "Monatlicher Beitrag: 69 EUR",
-          "Laufzeit mit voller Nutzung bis 01.02.2027, danach 69€ im Monat mit optionaler Zubuchung von z. B. Milon oder Regeneration/Spa je nach Preisausschreibung",
+          "Einmalige Aufnahmegebühr: 60 €",
+          "Monatlicher Beitrag: 69 €",
+          "Laufzeit mit voller Nutzung bis 01.02.2027, danach 69 € im Monat mit optionaler Zubuchung von z. B. Milon oder Regeneration/Spa je nach Preisausschreibung",
           "Kündigung bis spätestens 4 Wochen vor Umstellung möglich",
         ],
       },
@@ -179,7 +179,7 @@ const PLAN_MODAL_CONTENT = {
   },
   foerder: {
     title: "Fördermitgliedschaft/ Premium",
-    price: "79 EUR / Monat",
+    price: "79 € / Monat",
     description: [
       "Die Fördermitgliedschaft richtet sich an Mitglieder, die das Gym bereits in der Aufbauphase nutzen und von erweiterten Leistungen und Konditionen profitieren wollen.",
       "Du sicherst dir den vollen Zugang zu den verfügbaren Angeboten sowie einen dauerhaften Preisvorteil von 10 % auf den regulären Mitgliedschaftspreis nach vollständiger Inbetriebnahme.",
@@ -208,7 +208,7 @@ const PLAN_MODAL_CONTENT = {
   },
   flex: {
     title: "Flexibler Tarif",
-    price: "89 EUR / Monat",
+    price: "89 € / Monat",
     description: [
       "Der Flex-Tarif bietet dir vollen Zugang zu allen verfügbaren Trainings- und Zusatzangeboten ohne Mindestlaufzeit.",
       "Damit bleibst du komplett flexibel und kannst monatlich entscheiden, ob du weitermachen möchtest.",
@@ -223,7 +223,7 @@ const PLAN_MODAL_CONTENT = {
       {
         title: "Rahmenbedingungen",
         items: [
-          "Einmalige Aufnahmegebühr: 15 €",
+          "Einmalige Aufnahmegebühr: 75 €",
           "Monatlich kündbar mit Kündigungsfrist von 14 Tagen vor Monatsende",
           "Erfolgt keine Kündigung, verlängert sich der Vertrag jeweils um einen weiteren Monat",
         ],
