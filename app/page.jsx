@@ -1,3 +1,4 @@
+import "./globals.css";
 import Footer3 from "@/components/footers/Footer3";
 import GymHeroWip from "@/components/gym/GymHeroWip";
 import GymTeaser from "@/components/gym/GymTeaser";

@@ -1,7 +1,6 @@
 "use client";
-import { useEffect, useRef } from "react";
-import "../public/assets/style.css";
-import "photoswipe/dist/photoswipe.css";
+import "./base.css";
+import { useEffect } from "react";
 import iTooltip from "itooltip";
 import { usePathname } from "next/navigation";
 import scrollQue from "../utlis/scrollCue.min.js";
@@ -14,15 +13,19 @@ import { Analytics } from "@vercel/analytics/next";
 
 export default function RootLayout({ children }) {
   const pathname = usePathname();
+  const isAdminRoute = pathname?.startsWith("/admin");
+
   useEffect(() => {
+    if (isAdminRoute) return;
     if (typeof window !== "undefined") {
       import("bootstrap/dist/js/bootstrap.esm").then((module) => {
         // Module is imported, you can access any exported functionality if
       });
     }
-  }, []);
+  }, [isAdminRoute]);
   // const rellaxRef = useRef(null);
   useEffect(() => {
+    if (isAdminRoute) return;
     if (typeof window !== "undefined") {
       scrollQue().init();
       window.dispatchEvent(new Event("scroll"));
@@ -31,8 +34,9 @@ export default function RootLayout({ children }) {
     return () => {
       // rellaxRef.current?.destroy();
     };
-  }, [pathname]);
+  }, [isAdminRoute, pathname]);
   useEffect(() => {
+    if (isAdminRoute) return;
     initPlayer();
     const overlayElements = document.querySelectorAll(
       ".overlay > a, .overlay > span",
@@ -42,8 +46,9 @@ export default function RootLayout({ children }) {
       overlayBg.className = "bg";
       element.appendChild(overlayBg);
     });
-  }, [pathname]);
+  }, [isAdminRoute, pathname]);
   useEffect(() => {
+    if (isAdminRoute) return;
     const tooltipTriggerList = document.querySelectorAll(
       '[data-bs-toggle="tooltip"]',
     );
@@ -76,9 +81,10 @@ export default function RootLayout({ children }) {
         };
       });
     }
-  }, [pathname]);
+  }, [isAdminRoute, pathname]);
 
   useEffect(() => {
+    if (isAdminRoute) return;
     const handleSticky = () => {
       const navbar = document.querySelector(".navbarOFF");
       if (navbar) {
@@ -114,8 +120,12 @@ export default function RootLayout({ children }) {
     };
 
     window.addEventListener("scroll", handleSticky);
-  }, []);
+    return () => {
+      window.removeEventListener("scroll", handleSticky);
+    };
+  }, [isAdminRoute]);
   useEffect(() => {
+    if (isAdminRoute) return;
     // Close any open modal
     const bootstrap = require("bootstrap"); // dynamically import bootstrap
     const modalElements = document.querySelectorAll(".modal.show");
@@ -141,9 +151,10 @@ export default function RootLayout({ children }) {
     backdrops?.forEach((backdrop) => {
       backdrop?.remove();
     });
-  }, [pathname]); // Runs every time the route changes
+  }, [isAdminRoute, pathname]); // Runs every time the route changes
 
   useEffect(() => {
+    if (isAdminRoute) return;
     // Assuming iTooltip is globally available
     var tooltip = new iTooltip(".itooltip");
     tooltip.init({
@@ -153,8 +164,9 @@ export default function RootLayout({ children }) {
       positionX: "right",
       positionY: "bottom",
     });
-  }, [pathname]);
+  }, [isAdminRoute, pathname]);
   useEffect(() => {
+    if (isAdminRoute) return;
     setTimeout(() => {
       import("bootstrap").then(({ Offcanvas }) => {
         const navbar = document.querySelector(".navbar");
@@ -198,10 +210,21 @@ export default function RootLayout({ children }) {
         };
       });
     });
-  }, [pathname]);
+  }, [isAdminRoute, pathname]);
   return (
     <html lang="en">
       <head>
+        {!isAdminRoute && (
+          <>
+            <link rel="stylesheet" href="/assets/style.css" />
+            <link rel="stylesheet" href="/assets/css/colors/aqua.css" />
+            <link rel="stylesheet" href="/assets/css/fonts/thicccboi.css" />
+            <link
+              rel="stylesheet"
+              href="https://unpkg.com/photoswipe@5.4.4/dist/photoswipe.css"
+            />
+          </>
+        )}
         <link
           href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Manrope:wght@400;500;700"
           rel="stylesheet"
