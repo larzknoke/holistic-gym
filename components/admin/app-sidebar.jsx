@@ -24,13 +24,13 @@ import {
 
 const adminItems = [
   { title: "Kurse", url: "/admin/kurse", icon: Calendar },
-  { title: "Produkte", url: "/admin/products", icon: PackageSearch },
-  { title: "Bestellungen", url: "/admin/orders", icon: ClipboardList },
-  {
-    title: "Support",
-    url: "/admin/support",
-    icon: MessageCircleQuestionMark,
-  },
+  // { title: "Produkte", url: "/admin/products", icon: PackageSearch },
+  // { title: "Bestellungen", url: "/admin/orders", icon: ClipboardList },
+  // {
+  //   title: "Support",
+  //   url: "/admin/support",
+  //   icon: MessageCircleQuestionMark,
+  // },
   { title: "Benutzer", url: "/user", icon: UserCog },
 ];
 
@@ -75,7 +75,7 @@ export function AppSidebar() {
         <SidebarGroupLabel>System</SidebarGroupLabel>
         <SidebarMenu>
           <SidebarMenuItem>
-            <SidebarMenuButton asChild variant="outline" size="lg">
+            <SidebarMenuButton asChild variant="outline">
               <a href="/">Zur Website</a>
             </SidebarMenuButton>
           </SidebarMenuItem>

@@ -238,9 +238,13 @@ export default function RootLayout({ children }) {
       <body>
         <Context>
           {children}
-          <SearchModal />
-          <InfoModal />
-          <ProgressWrap />
+          {!isAdminRoute && (
+            <>
+              <SearchModal />
+              <InfoModal />
+              <ProgressWrap />
+            </>
+          )}
           <Analytics />
         </Context>
       </body>

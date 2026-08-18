@@ -185,7 +185,7 @@ export default async function AdminKursePage({ searchParams }) {
         <CardHeader>
           <CardTitle>Alle Kurse</CardTitle>
           <CardDescription>
-            Uebersicht aller angelegten Kurse inklusive Teilnehmeranzahl.
+            Übersicht aller angelegten Kurse inklusive Teilnehmeranzahl.
           </CardDescription>
         </CardHeader>
         <CardContent>
