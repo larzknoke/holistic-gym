@@ -3,7 +3,7 @@ import { LayoutWrapper } from "@/components/admin/layout-wrapper";
 
 export default function AdminLayout({ children }) {
   return (
-    <div className="admin-shell dark">
+    <div>
       <LayoutWrapper>{children}</LayoutWrapper>
     </div>
   );

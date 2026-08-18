@@ -90,9 +90,9 @@ function StatusMessage({ status }) {
 
   const map = {
     created: "Kurs wurde angelegt.",
-    deleted: "Kurs wurde geloescht.",
+    deleted: "Kurs wurde gelöscht.",
     duplicate: "Die URL ist bereits vergeben.",
-    invalid: "Bitte pruefe alle Eingaben.",
+    invalid: "Bitte prüfe alle Eingaben.",
     error: "Es ist ein Fehler aufgetreten.",
   };
 
@@ -130,7 +130,7 @@ export default async function AdminKursePage({ searchParams }) {
         <CardHeader>
           <CardTitle>Kurse verwalten</CardTitle>
           <CardDescription>
-            Hier kannst du Kurse anlegen und loeschen.
+            Hier kannst du Kurse anlegen und löschen.
           </CardDescription>
         </CardHeader>
         <CardContent>
@@ -224,7 +224,7 @@ export default async function AdminKursePage({ searchParams }) {
                       <form action={deleteKurs}>
                         <input type="hidden" name="id" value={kurs.id} />
                         <Button type="submit" variant="destructive">
-                          Loeschen
+                          Löschen
                         </Button>
                       </form>
                     </TableCell>
