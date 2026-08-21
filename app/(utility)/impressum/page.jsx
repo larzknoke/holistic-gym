@@ -34,8 +34,7 @@ export default function ImpressumPage() {
                   Impressum
                 </h1>
                 <p className="lead !mb-0 !text-[1.05rem] !leading-[1.6] !text-white/80">
-                  Rechtliche Informationen zum HolisticGym und zur Praxis
-                  Humanus.
+                  Rechtliche Informationen
                 </p>
               </div>
               <div className="absolute -bottom-16 right-[-3rem] h-56 w-56 rounded-full border-[2rem] border-gym-primary/10" />
