@@ -8,6 +8,7 @@ import Contact from "@/components/homes/home-3/Contact";
 import React from "react";
 import ImageCarousel from "@/components/gym/ImageCarousel";
 import GymPricing from "@/components/gym/GymPricing";
+import GymCourses from "@/components/gym/GymCourses";
 import SearchModal from "@/components/modals/SearchModal";
 
 export const metadata = {
@@ -15,6 +16,7 @@ export const metadata = {
   description:
     "HolisticGym - Das Gym mit Fokus auf Fitness, Regeneration und Balance. Unser Ziel ist es, Ihre körperliche und geistige Gesundheit zu verbessern und ein ausgewogenes Leben zu führen.",
 };
+
 export default function HomeWip() {
   return (
     <>
@@ -24,6 +26,7 @@ export default function HomeWip() {
             <HeaderGymWip />
             <>
               <GymHeroWip />
+              <GymCourses />
               <GymTeaser />
               <GymTeaser2 />
               <ImageCarousel />

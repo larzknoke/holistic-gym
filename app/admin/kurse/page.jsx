@@ -19,6 +19,8 @@ import {
   TableRow,
 } from "@/components/ui/table";
 
+export const dynamic = "force-dynamic";
+
 async function createKurs(formData) {
   "use server";
 
