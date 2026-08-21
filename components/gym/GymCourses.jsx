@@ -44,7 +44,7 @@ const BUTTON_CLASS =
 
 export default function GymCourses() {
   return (
-    <section id="kurse" className="wrapper bg-white">
+    <section id="kurse" className="wrapper bg-white mt-10">
       <div className="container pt-28 xl:pt-32 lg:pt-32 md:pt-32 pb-16 xl:pb-20 lg:pb-20 md:pb-20">
         <div className="flex flex-wrap -mx-4">
           <div className="lg:w-10/12 xl:w-9/12 xxl:w-8/12 w-full flex-none px-4 max-w-full mx-auto text-center">
