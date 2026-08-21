@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 const COURSES = [
   {
@@ -12,6 +13,7 @@ const COURSES = [
     icon: "uil-star",
     registrationUrl:
       "mailto:info@holistic-gym.de?subject=Anmeldung%20Skillcourt",
+    imageUrl: "/kurse/skillcourt.jpg",
   },
   {
     id: "emp-chair",
@@ -23,6 +25,7 @@ const COURSES = [
     icon: "uil-heart",
     registrationUrl:
       "mailto:info@holistic-gym.de?subject=Anmeldung%20EMP%20Chair",
+    imageUrl: "/kurse/emp-chair.jpg",
   },
   {
     id: "praeventionskurse",
@@ -36,6 +39,7 @@ const COURSES = [
     icon: "uil-rocket",
     registrationUrl:
       "mailto:info@holistic-gym.de?subject=Anmeldung%20Pr%C3%A4ventionskurs",
+    imageUrl: "/kurse/milon.jpg",
   },
 ];
 
@@ -70,10 +74,19 @@ export default function GymCourses() {
               }`}
             >
               <article className="card text-center h-full">
-                <div className="card-body flex flex-col items-center h-full px-6 py-6 pb-8 xl:pt-8 xl:px-10 xl:pb-8 lg:pt-8 lg:px-10 lg:pb-8 md:pt-8 md:px-10 md:pb-8">
-                  <i
-                    className={`uil ${course.icon} text-4xl text-gym-primary mb-3`}
+                <div className="relative w-full h-64 overflow-hidden border-b border-[#edf2f7] bg-white rounded-t-md">
+                  <Image
+                    alt={course.title}
+                    src={course.imageUrl}
+                    fill
+                    className="object-cover w-full h-full"
+                    sizes="(min-width: 1280px) 33vw, (min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
                   />
+                </div>
+                <div className="card-body flex flex-col items-center h-full px-6 py-6 pb-8 xl:pt-8 xl:px-10 xl:pb-8 lg:pt-8 lg:px-10 lg:pb-8 md:pt-8 md:px-10 md:pb-8">
+                  {/* <i
+                    className={`uil ${course.icon} text-4xl text-gym-primary mb-3`}
+                  /> */}
                   <h4 className="card-title mb-4">{course.title}</h4>
                   <div className="mb-7 text-[#60697b] leading-relaxed">
                     {course.paragraphs.map((paragraph) => (
