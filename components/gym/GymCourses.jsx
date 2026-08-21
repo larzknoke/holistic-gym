@@ -49,7 +49,7 @@ export default function GymCourses() {
         <div className="flex flex-wrap -mx-4">
           <div className="lg:w-10/12 xl:w-9/12 xxl:w-8/12 w-full flex-none px-4 max-w-full mx-auto text-center">
             <h2 className="text-xs uppercase text-[#aab0bc] mb-3 tracking-wide leading-snug">
-              Kurse
+              Kurse & Angebote
             </h2>
             <h3 className="text-[calc(1.305rem_+_0.66vw)] font-bold xl:text-[1.8rem] leading-[1.3] mb-6 lg:px-10 xl:px-10">
               Gemeinsam aktiv werden
