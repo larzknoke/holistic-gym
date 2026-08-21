@@ -68,12 +68,15 @@ export default function GymHeroWip() {
                     width={590}
                     height={650}
                   />
-                  <div className=" md:absolute mx-6 -mt-6 md:mt-0 -top-12 right-9 hover:cursor-pointer hover:shadow-lg hover:translate-y-[-0.25rem] transition-all duration-[0.2s] ease-in-out motion-reduce:transition-none bg-gym-danger text-white text-center px-8 py-2 rounded z-[2] text-xl shadow-sm rotate-2 font-bold">
-                    Neueröffnung ab Mai 2026!
+                  <Link
+                    href="#kurse"
+                    className="block md:absolute mx-6 -mt-6 md:mt-0 -top-12 right-9 hover:cursor-pointer hover:shadow-lg hover:translate-y-[-0.25rem] transition-all duration-[0.2s] ease-in-out motion-reduce:transition-none bg-gym-danger !text-white text-center px-8 py-2 rounded z-[2] text-xl shadow-sm rotate-2 font-bold"
+                  >
+                    Neue Kurse warten auf Euch!
                     <span className="text-base block">
-                      Wir freuen uns auf Euch!
+                      Melde dich jetzt hier an!
                     </span>
-                  </div>
+                  </Link>
                 </figure>
               </div>
               {/* /div */}

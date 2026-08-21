@@ -3,7 +3,8 @@ import { NextResponse } from "next/server";
 export function middleware(request) {
   const { pathname } = request.nextUrl;
 
-  const allowPrefixes = ["/admin", "/kurse", "/impressum"];
+  const allowPrefixes = ["/impressum"];
+  // const allowPrefixes = ["/admin", "/kurse", "/impressum"];
   const isAllowedPrefix = allowPrefixes.some((prefix) =>
     pathname.startsWith(prefix),
   );
