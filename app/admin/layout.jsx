@@ -1,5 +1,5 @@
 import "./admin.css";
-import { LayoutWrapper } from "@/components/admin/layout-wrapper";
+import { LayoutWrapper } from "@/components/pages/admin/layout-wrapper";
 
 export default function AdminLayout({ children }) {
   return (

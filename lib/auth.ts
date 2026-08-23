@@ -24,7 +24,8 @@ export const auth = betterAuth({
     before: createAuthMiddleware(async (ctx) => {
       if (ctx.path !== "/sign-in/email") return;
 
-      const email = ctx.body?.email;
+      const body = ctx.body as { email?: string } | undefined;
+      const email = body?.email;
       if (typeof email !== "string" || email.length === 0) return;
 
       const rows = (await prisma.$queryRaw`

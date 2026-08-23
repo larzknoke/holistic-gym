@@ -1,15 +1,14 @@
 import "./globals.css";
-import Footer3 from "@/components/footers/Footer3";
-import GymHeroWip from "@/components/gym/GymHeroWip";
-import GymTeaser from "@/components/gym/GymTeaser";
-import GymTeaser2 from "@/components/gym/GymTeaser2";
-import HeaderGymWip from "@/components/headers/HeaderGymWip";
-import Contact from "@/components/homes/home-3/Contact";
+import Footer3 from "@/components/pages/shared/Footer3";
+import GymHeroWip from "@/components/pages/home/GymHeroWip";
+import GymTeaser from "@/components/pages/home/GymTeaser";
+import GymTeaser2 from "@/components/pages/home/GymTeaser2";
+import HeaderGymWip from "@/components/pages/shared/HeaderGymWip";
+import Contact from "@/components/pages/home/Contact";
 import React from "react";
-import ImageCarousel from "@/components/gym/ImageCarousel";
-import GymPricing from "@/components/gym/GymPricing";
-import GymCourses from "@/components/gym/GymCourses";
-import SearchModal from "@/components/modals/SearchModal";
+import ImageCarousel from "@/components/pages/home/ImageCarousel";
+import GymPricing from "@/components/pages/home/GymPricing";
+import GymCourses from "@/components/pages/home/GymCourses";
 
 export const metadata = {
   title: "HolisticGym | Fitness + Regeneration + Balance",

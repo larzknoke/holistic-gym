@@ -1,7 +1,7 @@
 import "@/app/globals.css";
 
-import Footer3 from "@/components/footers/Footer3";
-import HeaderGymWip from "@/components/headers/HeaderGymWip";
+import Footer3 from "@/components/pages/shared/Footer3";
+import HeaderGymWip from "@/components/pages/shared/HeaderGymWip";
 
 export const metadata = {
   title: "Impressum | HolisticGym",
