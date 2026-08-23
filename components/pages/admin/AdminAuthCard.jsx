@@ -71,7 +71,7 @@ export default function AdminAuthCard({ mode }) {
     }
 
     setSuccess(
-      "Registrierung erfolgreich. Dein Account ist gesperrt und muss manuell freigegeben werden.",
+      "Registrierung erfolgreich. Dein Account ist noch gesperrt und muss manuell freigegeben werden.",
     );
     setName("");
     setEmail("");

@@ -28,14 +28,12 @@ export const auth = betterAuth({
       const email = body?.email;
       if (typeof email !== "string" || email.length === 0) return;
 
-      const rows = (await prisma.$queryRaw`
-        SELECT "approved"
-        FROM "user"
-        WHERE "email" = ${email}
-        LIMIT 1
-      `) as Array<{ approved: boolean | null }>;
+      const user = await prisma.user.findUnique({
+        where: { email },
+        select: { approved: true },
+      });
 
-      if (rows.length > 0 && rows[0].approved !== true) {
+      if (user && user.approved !== true) {
         throw new APIError("FORBIDDEN", {
           message: "Dein Account wurde noch nicht freigegeben.",
         });
