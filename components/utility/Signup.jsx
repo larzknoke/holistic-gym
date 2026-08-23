@@ -1,10 +1,54 @@
 "use client";
+import { authClient } from "@/lib/auth-client";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import React, { useState } from "react";
 
 export default function Signup() {
   const [showPass, setShowPass] = useState(false);
   const [showCPass, setShowCPass] = useState(false);
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [confirmPassword, setConfirmPassword] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState("");
+  const [success, setSuccess] = useState("");
+  const router = useRouter();
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setError("");
+    setSuccess("");
+
+    if (password !== confirmPassword) {
+      setError("Passwoerter stimmen nicht ueberein.");
+      return;
+    }
+
+    setIsLoading(true);
+    const { error: signUpError } = await authClient.signUp.email({
+      name,
+      email,
+      password,
+    });
+    setIsLoading(false);
+
+    if (signUpError) {
+      setError(signUpError.message || "Registrierung fehlgeschlagen.");
+      return;
+    }
+
+    setSuccess(
+      "Registrierung erfolgreich. Dein Account ist gesperrt und wird nach manueller Freigabe aktiviert.",
+    );
+    setName("");
+    setEmail("");
+    setPassword("");
+    setConfirmPassword("");
+    setTimeout(() => router.push("/signin"), 1200);
+  };
+
   return (
     <section className="wrapper bg-light !bg-[#ffffff]">
       <div className="container !pb-[4.5rem] xl:!pb-24 lg:!pb-24 md:!pb-24">
@@ -16,14 +60,13 @@ export default function Signup() {
                 <p className="lead text-[0.9rem] font-medium !leading-[1.65] !mb-6 text-left">
                   Registration takes less than a minute.
                 </p>
-                <form
-                  className="text-left !mb-3"
-                  onSubmit={(e) => e.preventDefault()}
-                >
+                <form className="text-left !mb-3" onSubmit={handleSubmit}>
                   <div className="form-floating !relative !mb-4">
                     <input
                       id="loginName"
                       type="text"
+                      value={name}
+                      onChange={(e) => setName(e.target.value)}
                       className="form-control relative block w-full text-[.75rem] font-medium !text-[#60697b] bg-[#fefefe] bg-clip-padding border shadow-[0_0_1.25rem_rgba(30,34,40,0.04)] rounded-[0.4rem] border-solid border-[rgba(8,60,130,0.07)] transition-[border-color] duration-[0.15s] ease-in-out focus:shadow-[0_0_1.25rem_rgba(30,34,40,0.04),unset] focus-visible:!border-[rgba(63,120,224,0.5)] placeholder:!text-[#959ca9] placeholder:opacity-100 m-0 !pr-9 p-[.6rem_1rem] h-[calc(2.5rem_+_2px)] min-h-[calc(2.5rem_+_2px)] !leading-[1.25]"
                       placeholder=""
                       required
@@ -40,6 +83,8 @@ export default function Signup() {
                       id="loginEmail"
                       type="email"
                       name="email"
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
                       className="form-control relative block w-full text-[.75rem] font-medium !text-[#60697b] bg-[#fefefe] bg-clip-padding border shadow-[0_0_1.25rem_rgba(30,34,40,0.04)] rounded-[0.4rem] border-solid border-[rgba(8,60,130,0.07)] transition-[border-color] duration-[0.15s] ease-in-out focus:shadow-[0_0_1.25rem_rgba(30,34,40,0.04),unset] focus-visible:!border-[rgba(63,120,224,0.5)] placeholder:!text-[#959ca9] placeholder:opacity-100 m-0 !pr-9 p-[.6rem_1rem] h-[calc(2.5rem_+_2px)] min-h-[calc(2.5rem_+_2px)] !leading-[1.25]"
                       placeholder=""
                       required
@@ -55,6 +100,8 @@ export default function Signup() {
                     <input
                       id="loginPassword"
                       type={showPass ? "text" : "password"}
+                      value={password}
+                      onChange={(e) => setPassword(e.target.value)}
                       className="form-control relative block w-full text-[.75rem] font-medium !text-[#60697b] bg-[#fefefe] bg-clip-padding border shadow-[0_0_1.25rem_rgba(30,34,40,0.04)] rounded-[0.4rem] border-solid border-[rgba(8,60,130,0.07)] transition-[border-color] duration-[0.15s] ease-in-out focus:shadow-[0_0_1.25rem_rgba(30,34,40,0.04),unset] focus-visible:!border-[rgba(63,120,224,0.5)] placeholder:!text-[#959ca9] placeholder:opacity-100 m-0 !pr-9 p-[.6rem_1rem] h-[calc(2.5rem_+_2px)] min-h-[calc(2.5rem_+_2px)] !leading-[1.25]"
                       placeholder=""
                       required
@@ -76,6 +123,8 @@ export default function Signup() {
                     <input
                       id="loginPasswordConfirm"
                       type={showCPass ? "text" : "password"}
+                      value={confirmPassword}
+                      onChange={(e) => setConfirmPassword(e.target.value)}
                       className="form-control relative block w-full text-[.75rem] font-medium !text-[#60697b] bg-[#fefefe] bg-clip-padding border shadow-[0_0_1.25rem_rgba(30,34,40,0.04)] rounded-[0.4rem] border-solid border-[rgba(8,60,130,0.07)] transition-[border-color] duration-[0.15s] ease-in-out focus:shadow-[0_0_1.25rem_rgba(30,34,40,0.04),unset] focus-visible:!border-[rgba(63,120,224,0.5)] placeholder:!text-[#959ca9] placeholder:opacity-100 m-0 !pr-9 p-[.6rem_1rem] h-[calc(2.5rem_+_2px)] min-h-[calc(2.5rem_+_2px)] !leading-[1.25]"
                       placeholder=""
                       required
@@ -95,9 +144,21 @@ export default function Signup() {
                       Confirm Password
                     </label>
                   </div>
-                  <a className="btn btn-primary !text-white !bg-[#3f78e0] border-[#3f78e0] hover:text-white hover:bg-[#3f78e0] hover:!border-[#3f78e0] active:text-white active:bg-[#3f78e0] active:border-[#3f78e0] disabled:text-white disabled:bg-[#3f78e0] disabled:border-[#3f78e0] !rounded-[50rem] btn-login w-full !mb-2">
-                    Sign Up
-                  </a>
+                  {error ? (
+                    <p className="!mb-3 text-red-600 text-[0.85rem]">{error}</p>
+                  ) : null}
+                  {success ? (
+                    <p className="!mb-3 text-green-700 text-[0.85rem]">
+                      {success}
+                    </p>
+                  ) : null}
+                  <button
+                    type="submit"
+                    disabled={isLoading}
+                    className="btn btn-primary !text-white !bg-[#3f78e0] border-[#3f78e0] hover:text-white hover:bg-[#3f78e0] hover:!border-[#3f78e0] active:text-white active:bg-[#3f78e0] active:border-[#3f78e0] disabled:text-white disabled:bg-[#3f78e0] disabled:border-[#3f78e0] !rounded-[50rem] btn-login w-full !mb-2"
+                  >
+                    {isLoading ? "Bitte warten..." : "Sign Up"}
+                  </button>
                 </form>
                 {/* /form */}
                 <p className="!mb-0">

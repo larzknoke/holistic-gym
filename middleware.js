@@ -1,24 +1,19 @@
 import { NextResponse } from "next/server";
+import { getSessionCookie } from "better-auth/cookies";
 
 export function middleware(request) {
-  const { pathname } = request.nextUrl;
+  const hasSession = !!getSessionCookie(request);
 
-  const allowPrefixes = ["/impressum"];
-  // const allowPrefixes = ["/admin", "/kurse", "/impressum"];
-  const isAllowedPrefix = allowPrefixes.some((prefix) =>
-    pathname.startsWith(prefix),
-  );
-
-  if (pathname === "/" || isAllowedPrefix) {
+  if (hasSession) {
     return NextResponse.next();
   }
 
   const url = request.nextUrl.clone();
-  url.pathname = "/";
+  url.pathname = "/signin";
 
   return NextResponse.redirect(url);
 }
 
 export const config = {
-  matcher: ["/((?!api|_next|.*\\..*).*)"],
+  matcher: ["/admin/:path*"],
 };

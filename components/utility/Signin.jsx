@@ -1,9 +1,38 @@
 "use client";
+import { authClient } from "@/lib/auth-client";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import React, { useState } from "react";
 
 export default function Signin() {
   const [showPass, setShowPass] = useState(false);
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState("");
+  const router = useRouter();
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setError("");
+    setIsLoading(true);
+
+    const { error: signInError } = await authClient.signIn.email({
+      email,
+      password,
+    });
+
+    setIsLoading(false);
+
+    if (signInError) {
+      setError(signInError.message || "Login fehlgeschlagen.");
+      return;
+    }
+
+    router.push("/admin");
+    router.refresh();
+  };
+
   return (
     <section className="wrapper bg-light !bg-[#ffffff]">
       <div className="container !pb-[4.5rem] xl:!pb-24 lg:!pb-24 md:!pb-24">
@@ -15,15 +44,14 @@ export default function Signin() {
                 <p className="lead text-[0.9rem] font-medium !leading-[1.65] !mb-6 text-left">
                   Fill your email and password to sign in.
                 </p>
-                <form
-                  className="text-left !mb-3"
-                  onSubmit={(e) => e.preventDefault()}
-                >
+                <form className="text-left !mb-3" onSubmit={handleSubmit}>
                   <div className="form-floating !relative !mb-4">
                     <input
                       id="loginEmail"
                       type="email"
                       name="email"
+                      value={email}
+                      onChange={(e) => setEmail(e.target.value)}
                       className="form-control relative block w-full text-[.75rem] font-medium !text-[#60697b] bg-[#fefefe] bg-clip-padding border shadow-[0_0_1.25rem_rgba(30,34,40,0.04)] rounded-[0.4rem] border-solid border-[rgba(8,60,130,0.07)] transition-[border-color] duration-[0.15s] ease-in-out focus:shadow-[0_0_1.25rem_rgba(30,34,40,0.04),unset] focus-visible:!border-[rgba(63,120,224,0.5)] placeholder:!text-[#959ca9] placeholder:opacity-100 m-0 !pr-9 p-[.6rem_1rem] h-[calc(2.5rem_+_2px)] min-h-[calc(2.5rem_+_2px)] !leading-[1.25]"
                       placeholder=""
                       required
@@ -39,6 +67,8 @@ export default function Signin() {
                     <input
                       id="loginPassword"
                       type={showPass ? "text" : "password"}
+                      value={password}
+                      onChange={(e) => setPassword(e.target.value)}
                       className="form-control relative block w-full text-[.75rem] font-medium !text-[#60697b] bg-[#fefefe] bg-clip-padding border shadow-[0_0_1.25rem_rgba(30,34,40,0.04)] rounded-[0.4rem] border-solid border-[rgba(8,60,130,0.07)] transition-[border-color] duration-[0.15s] ease-in-out focus:shadow-[0_0_1.25rem_rgba(30,34,40,0.04),unset] focus-visible:!border-[rgba(63,120,224,0.5)] placeholder:!text-[#959ca9] placeholder:opacity-100 m-0 !pr-9 p-[.6rem_1rem] h-[calc(2.5rem_+_2px)] min-h-[calc(2.5rem_+_2px)] !leading-[1.25]"
                       placeholder=""
                       required
@@ -56,9 +86,16 @@ export default function Signin() {
                       Password
                     </label>
                   </div>
-                  <a className="btn btn-primary !text-white !bg-[#3f78e0] border-[#3f78e0] hover:text-white hover:bg-[#3f78e0] hover:!border-[#3f78e0] active:text-white active:bg-[#3f78e0] active:border-[#3f78e0] disabled:text-white disabled:bg-[#3f78e0] disabled:border-[#3f78e0] !rounded-[50rem] btn-login w-full !mb-2">
-                    Sign In
-                  </a>
+                  {error ? (
+                    <p className="!mb-3 text-red-600 text-[0.85rem]">{error}</p>
+                  ) : null}
+                  <button
+                    type="submit"
+                    disabled={isLoading}
+                    className="btn btn-primary !text-white !bg-[#3f78e0] border-[#3f78e0] hover:text-white hover:bg-[#3f78e0] hover:!border-[#3f78e0] active:text-white active:bg-[#3f78e0] active:border-[#3f78e0] disabled:text-white disabled:bg-[#3f78e0] disabled:border-[#3f78e0] !rounded-[50rem] btn-login w-full !mb-2"
+                  >
+                    {isLoading ? "Bitte warten..." : "Sign In"}
+                  </button>
                 </form>
                 {/* /form */}
                 <p className="!mb-1">
