@@ -232,24 +232,24 @@ const PLAN_MODAL_CONTENT = {
   },
 };
 
-const SECTION_CLASS = "wrapper !bg-white";
+const SECTION_CLASS = "wrapper bg-white";
 const CONTAINER_CLASS =
   "container pt-20 xl:pt-28 lg:pt-28 md:pt-28 pb-16 xl:pb-20 lg:pb-20 md:pb-20";
 const COLUMN_CLASS =
-  "md:w-6/12 lg:w-4/12 xl:w-4/12 w-full flex-none !px-4 max-w-full !mt-8";
+  "md:w-6/12 lg:w-4/12 xl:w-4/12 w-full flex-none px-4 max-w-full mt-8";
 const CARD_BODY_CLASS =
-  "card-body flex-auto pb-4 xl:!pt-8 xl:!px-10 xl:!pb-5 lg:!pt-8 lg:!px-10 lg:!pb-5 md:!pt-8 md:!px-10 md:!pb-5";
+  "card-body flex-auto pb-4 px-5 xl:!pt-8 xl:!px-10 xl:!pb-5 lg:!pt-8 lg:!px-10 lg:!pb-5 md:!pt-8 md:!px-10 md:!pb-5";
 const ICON_CLASS =
-  "svg-inject icon-svg text-gym-primary !mb-3 !w-10 !h-10 mx-auto";
-const PRICES_CLASS = "prices !text-[#343f52]";
+  "svg-inject icon-svg text-gym-primary mb-3 !w-10 !h-10 mx-auto";
+const PRICES_CLASS = "prices text-[#343f52]";
 const FEATURE_LIST_CLASS =
   "pl-0 list-none bullet-bg bullet-soft-primary !mt-7 !mb-8 text-left";
-const FEATURE_ITEM_BASE_CLASS = "relative !pl-6";
-const FEATURE_ITEM_MARGIN_CLASS = "!mt-1.5";
+const FEATURE_ITEM_BASE_CLASS = "relative pl-6";
+const FEATURE_ITEM_MARGIN_CLASS = "mt-1.5";
 const FEATURE_ICON_CLASS =
-  "absolute left-0 w-4 h-4 text-[0.8rem] leading-none !tracking-[normal] !text-center flex items-center justify-center rounded-[100%] top-1 before:align-middle before:table-cell";
+  "absolute left-0 w-4 h-4 text-[0.8rem] leading-none tracking-[normal] text-center flex items-center justify-center rounded-[100%] top-1 before:align-middle before:table-cell";
 const PLAN_BUTTON_CLASS =
-  "btn btn-primary !text-white uppercase !bg-gym-primary border-gym-primary hover:text-white hover:bg-gym-primary hover:!border-gym-primary active:text-white active:bg-gym-primary active:border-gym-primary disabled:text-white disabled:bg-gym-primary disabled:border-gym-primary  hover:translate-y-[-0.15rem] hover:shadow-[0_0.25rem_0.75rem_rgba(30,34,40,0.15)]";
+  "btn btn-primary text-white uppercase !bg-gym-primary border-gym-primary hover:text-white hover:bg-gym-primary hover:!border-gym-primary active:text-white active:bg-gym-primary active:border-gym-primary disabled:text-white disabled:bg-gym-primary disabled:border-gym-primary hover:translate-y-[-0.15rem] hover:shadow-[0_0.25rem_0.75rem_rgba(30,34,40,0.15)]";
 
 const getFeatureIconStyles = (included) => ({
   className: included ? "uil-check opacity-50" : "uil-times bullet-soft-red",
@@ -341,11 +341,11 @@ export default function GymPricing() {
     <section id="snippet-2" className={SECTION_CLASS}>
       <div className={CONTAINER_CLASS}>
         <div className="flex flex-wrap -mx-4">
-          <div className="lg:w-10/12 xl:w-9/12 xxl:w-8/12 w-full flex-none !px-4 max-w-full !mx-auto !text-center">
-            <h2 className="!text-xs uppercase !text-[#aab0bc] !mb-3 tracking-wide leading-snug">
+          <div className="lg:w-10/12 xl:w-9/12 xxl:w-8/12 w-full flex-none px-4 max-w-full mx-auto text-center">
+            <h2 className="text-xs! uppercase !text-[#aab0bc] !mb-3 tracking-wide leading-snug">
               Abos
             </h2>
-            <h3 className="!text-[calc(1.305rem_+_0.66vw)] font-bold xl:!text-[1.8rem] !leading-[1.3] !mb-20 xl:!mb-6 lg:!mb-6 md:!mb-6 lg:!px-10 xl:!px-10">
+            <h3 className="!text-[calc(1.305rem_+_0.66vw)] font-bold xl:!text-[1.8rem] !leading-[1.3] !mb-20 xl:!mb-6 lg:!mb-6 md:!mb-6 lg:px-10 xl:px-10">
               Deine Optionen zum Start
             </h3>
           </div>
@@ -354,10 +354,10 @@ export default function GymPricing() {
         {/*/.row */}
 
         <div className="my-10">
-          <div className="rounded bg-[linear-gradient(135deg,rgba(24,120,95,0.12),rgba(24,120,95,0.04))] border border-[rgba(24,120,95,0.2)] !p-6 lg:!p-8">
+          <div className="rounded bg-[linear-gradient(135deg,rgba(24,120,95,0.12),rgba(24,120,95,0.04))] border border-[rgba(24,120,95,0.2)] p-6 lg:p-8">
             <div className="flex flex-wrap -mx-4 items-start lg:items-center">
-              <div className="w-full lg:w-8/12 !px-4">
-                <div className="inline-block !mb-4 px-3 py-1 pb-[2px] rounded text-[0.75rem] font-semibold uppercase tracking-wide bg-gym-danger text-white">
+              <div className="w-full lg:w-8/12 px-4">
+                <div className="inline-block mb-4 px-3 py-1 pb-[2px] rounded text-[0.75rem] font-semibold uppercase tracking-wide bg-gym-danger text-white">
                   Ausgebucht
                 </div>
                 <h3 className="!mb-2 !text-[1.45rem] lg:!text-2xl !leading-[1.25] font-bold text-[#343f52]">
@@ -368,7 +368,7 @@ export default function GymPricing() {
                 </p>
                 <ul className="pl-0 list-none !mb-0 text-left grid md:grid-cols-2 gap-x-6 gap-y-2">
                   {gruenderHeroFeatures.map((feature, index) => (
-                    <li key={index} className="relative !pl-6">
+                    <li key={index} className="relative pl-6">
                       <i
                         className={`uil-check opacity-50 ${FEATURE_ICON_CLASS}`}
                         style={{
@@ -381,8 +381,8 @@ export default function GymPricing() {
                   ))}
                 </ul>
               </div>
-              <div className="w-full lg:w-4/12 !px-4 !mt-6 lg:!mt-0">
-                <div className="bg-white rounded border border-[rgba(24,120,95,0.14)] !p-5 text-center lg:text-left">
+              <div className="w-full lg:w-4/12 px-4 mt-6 lg:mt-0">
+                <div className="bg-white rounded border border-[rgba(24,120,95,0.14)] p-5 text-center lg:text-left">
                   <p className="!mb-2 text-[#6b7280] uppercase tracking-wide text-[0.72rem] font-semibold">
                     Beitrag
                   </p>
@@ -391,7 +391,7 @@ export default function GymPricing() {
                   </p>
                   <button
                     onClick={() => openModal("gruender")}
-                    className={`${PLAN_BUTTON_CLASS} !w-full lg:!w-auto`}
+                    className={`${PLAN_BUTTON_CLASS} w-full lg:w-auto`}
                   >
                     Mehr Infos
                   </button>
@@ -404,20 +404,20 @@ export default function GymPricing() {
           </div>
         </div>
 
-        <div className="pricing-wrapper !relative">
+        <div className="pricing-wrapper relative">
           <div
-            className="shape bg-dot primary rellax !w-24 !h-32 bg-[radial-gradient(var(--color-gym-primary)_2px,transparent_2.5px)] absolute z-[1] opacity-50"
+            className="shape bg-dot primary rellax w-24 h-32 bg-[radial-gradient(var(--color-gym-primary)_2px,transparent_2.5px)] absolute z-[1] opacity-50"
             data-rellax-speed={1}
             style={{ top: "0rem", right: "-2.4rem" }}
           />
           <div
-            className="shape !rounded-[50%] bg-line red rellax !w-32 !h-32 hidden xl:block lg:block absolute z-[1] opacity-50"
+            className="shape rounded-[50%] bg-line red rellax w-32 h-32 hidden xl:block lg:block absolute z-[1] opacity-50"
             data-rellax-speed={1}
             style={{ bottom: "0.5rem", left: "-2.5rem" }}
           />
-          <div className="flex flex-wrap -mx-4 !mt-3 xl:!mt-5 lg:!mt-5 md:!mt-5">
+          <div className="flex flex-wrap -mx-4 mt-3 xl:mt-5 lg:mt-5 md:mt-5">
             <div className={COLUMN_CLASS}>
-              <div className="pricing card !text-center">
+              <div className="pricing card text-center">
                 <div className={CARD_BODY_CLASS}>
                   <i className="uil uil-star text-4xl text-gym-primary"></i>
                   <h4 className="card-title">Startmitgliedschaft / Basis</h4>
@@ -444,7 +444,7 @@ export default function GymPricing() {
             </div>
             {/*/column */}
             <div className={`${COLUMN_CLASS} popular`}>
-              <div className="pricing card !text-center">
+              <div className="pricing card text-center">
                 <div className={CARD_BODY_CLASS}>
                   <i className="uil uil-heart text-4xl text-gym-primary"></i>
                   <h4 className="card-title">Fördermitgliedschaft / Premium</h4>
@@ -467,8 +467,8 @@ export default function GymPricing() {
               {/*/.pricing */}
             </div>
             {/*/column */}
-            <div className={`${COLUMN_CLASS} md:!ml-[25%] xl:!ml-0 lg:!ml-0`}>
-              <div className="pricing card !text-center">
+            <div className={`${COLUMN_CLASS} md:ml-[25%] xl:ml-0 lg:ml-0`}>
+              <div className="pricing card text-center">
                 <div className={CARD_BODY_CLASS}>
                   <i className="uil uil-rocket text-4xl text-gym-primary"></i>
                   <h4 className="card-title">Flexibler Tarif</h4>
@@ -496,8 +496,8 @@ export default function GymPricing() {
         </div>
         {/*/.pricing-wrapper */}
 
-        <div className="!mt-14">
-          <div className="relative overflow-hidden rounded bg-[linear-gradient(135deg,rgba(24,120,95,0.1),rgba(24,120,95,0.03))] border border-[rgba(24,120,95,0.2)] !p-6 lg:!p-8 text-center">
+        <div className="mt-14">
+          <div className="relative overflow-hidden rounded bg-[linear-gradient(135deg,rgba(24,120,95,0.1),rgba(24,120,95,0.03))] border border-[rgba(24,120,95,0.2)] p-6 lg:p-8 text-center">
             <img
               src="/assets/gym/gym-circle.svg"
               alt=""
@@ -512,7 +512,7 @@ export default function GymPricing() {
               <h4 className="!mb-3 !text-[1.35rem] lg:!text-[1.5rem] font-bold ">
                 Direkt in den Webshop
               </h4>
-              <p className="!mb-5 text-[#4b5563] max-w-2xl !mx-auto text-lg">
+              <p className="!mb-5 text-[#4b5563] max-w-2xl mx-auto text-lg">
                 Sichere dir jetzt deinen Tarif und starte direkt online im
                 HolisticGym Webshop.
               </p>
