@@ -9,6 +9,7 @@ import React from "react";
 import ImageCarousel from "@/components/pages/home/ImageCarousel";
 import GymPricing from "@/components/pages/home/GymPricing";
 import GymCourses from "@/components/pages/home/GymCourses";
+import GymLecturePromo from "@/components/pages/home/GymLecturePromo";
 
 export const metadata = {
   title: "HolisticGym | Fitness + Regeneration + Balance",
@@ -25,6 +26,7 @@ export default function HomeWip() {
             <HeaderGymWip />
             <>
               <GymHeroWip />
+              <GymLecturePromo />
               <GymCourses />
               <GymTeaser />
               <GymTeaser2 />
