@@ -76,7 +76,9 @@ export default function GymLecturePromo() {
                 </h4>
                 <p className="text-[#4b5563] leading-relaxed mb-5">
                   Geistig Fit ein Leben lang - warum wir unser Gehirn trainieren
-                  sollten und welches Training wirklich funktioniert.
+                  sollten und welches Training wirklich funktioniert. Der
+                  Vortrag ist kostenlos und für alle Interessierten offen – auch
+                  für Nicht-Mitglieder.
                 </p>
 
                 <ul className="pl-0 list-none mb-0 text-left space-y-2 text-[#343f52]">
@@ -86,6 +88,13 @@ export default function GymLecturePromo() {
                   </li>
                   <li>
                     <span className="font-semibold">Dauer:</span> ca. 1,5 Std.
+                  </li>
+                  <li>
+                    <span className="font-semibold">Eintritt:</span> kostenlos
+                  </li>
+                  <li>
+                    <span className="font-semibold">Zielgruppe:</span> alle
+                    Interessierten, nicht nur Mitglieder
                   </li>
                   <li>
                     <span className="font-semibold">Wo:</span> CreateHub,
