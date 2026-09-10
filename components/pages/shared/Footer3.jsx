@@ -63,7 +63,7 @@ export default function Footer3() {
                 info@holistic-gym.de
               </a>
               <br />
-              05531 / 700 344 (Praxis Humanus){" "}
+              05531 / 99 10 130
             </div>
             {/* /.widget */}
           </div>

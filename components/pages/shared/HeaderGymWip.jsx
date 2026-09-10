@@ -30,7 +30,7 @@ export default function HeaderGymWip() {
                 </div>
               </div>
               <div>
-                <span className="!text-white">05531 / 700 344</span>
+                <span className="!text-white">05531 / 99 10 130</span>
               </div>
             </div>
             <div className="flex flex-row gap-1">

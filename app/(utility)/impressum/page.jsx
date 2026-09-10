@@ -57,7 +57,7 @@ export default function ImpressumPage() {
                         37603 Holzminden
                       </address>
                       <p className="!mb-0 leading-[1.8] text-[#60697b]">
-                        Tel.: 05531 / 700 344
+                        Tel.: 05531 / 99 10 130
                         <br />
                         Fax: 05531 / 140 923
                         <br />

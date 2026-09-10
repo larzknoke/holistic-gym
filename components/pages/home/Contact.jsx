@@ -64,10 +64,7 @@ export default function Contact() {
                 <h5 className="!mb-1 !text-[0.95rem] !leading-[1.5]">
                   Telefon
                 </h5>
-                <p>
-                  05531 / 700 344 <br />
-                  (Praxis Humanus)
-                </p>
+                <p>05531 / 99 10 130</p>
               </div>
             </div>
             <div className="flex flex-row">
