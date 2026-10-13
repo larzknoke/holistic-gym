@@ -55,6 +55,7 @@
     "@types/pg": "^8.23.1",
     "@types/react": "19.2.18",
     "postcss": "^8.5.26",
+    "prettier-plugin-tailwindcss": "^0.8.1",
     "prisma": "^7.9.1",
     "tailwindcss": "^4.3.3",
     "tsx": "^4.23.12",
