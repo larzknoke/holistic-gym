@@ -59,7 +59,7 @@ export default function GymTeaser() {
                   <Image
                     className="!rounded-[.4rem]"
                     alt="image"
-                    src="/studio/Helles-modernes-Fitnessstudio-mit-Milon-Geräten.jpg"
+                    src="/studio/Helles-modernes-Fitnessstudio-mit-Milon-Geraeten.jpg"
                     width={1000}
                     height={1333}
                   />

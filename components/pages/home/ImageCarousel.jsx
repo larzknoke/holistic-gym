@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 const images = [
   {
-    src: "/studio/Helles-modernes-Fitnessstudio-mit-Milon-Geräten.jpg",
+    src: "/studio/Helles-modernes-Fitnessstudio-mit-Milon-Geraeten.jpg",
   },
   {
     src: "/studio/Heller-Pilatesraum-mit-Five-Chest-Geräten.jpg",
