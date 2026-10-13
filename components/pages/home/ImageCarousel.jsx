@@ -6,28 +6,50 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 const images = [
   {
-    src: "/assets/gym/milon/milon4.jpg",
+    src: "/studio/Helles-modernes-Fitnessstudio-mit-Milon-Geräten.jpg",
   },
   {
-    src: "/assets/gym/milon/milon7.jpg",
+    src: "/studio/Heller-Pilatesraum-mit-Five-Chest-Geräten.jpg",
   },
   {
-    src: "/assets/gym/milon/milon9.jpg",
+    src: "/studio/Heller-Skillcourt-Trainingsraum-mit-TV.jpg",
   },
   {
-    src: "/assets/gym/milon/milon3.jpg",
+    src: "/studio/Moderner-Fitnessraum-im-warmen-Tageslicht.jpg",
   },
   {
-    src: "/assets/gym/milon/milon5.jpg",
+    src: "/studio/Modernes-Fitnessstudio-mit-Ledersitzen.jpg",
   },
   {
-    src: "/assets/gym/milon/milon1.jpg",
+    src: "/studio/Modernes-Heimtraining-mit-Skillcourt.jpg",
   },
+  {
+    src: "/studio/Nahaufnahme-eines-warm-beleuchteten-Kurzhantelständers.jpg",
+  },
+  {
+    src: "/studio/Rückansicht-beim-Latziehen-im-Fitnessstudio.jpg",
+  },
+  {
+    src: "/studio/Sonnenlicht-im-modernen-Fitnessstudio.jpg",
+  },
+  {
+    src: "/studio/Warme-Boutique-Fitnessmaschine-im-Sonnenlicht.jpg",
+  },
+  {
+    src: "/studio/studio1.jpg",
+  },
+  {
+    src: "/studio/studio2.jpg",
+  },
+  // {
+  //   src: "/studio/studio3.jpg",
+  // },
+  // {
+  //   src: "/studio/studio4.jpg",
+  // },
 ];
 
-export default function ImageCarousel({
-  firstImage = "/assets/gym/milon/milon4.jpg",
-}) {
+export default function ImageCarousel({ firstImage = images[0].src }) {
   const slides = [{ src: firstImage }, ...images.slice(1)];
 
   return (

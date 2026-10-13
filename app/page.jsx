@@ -26,7 +26,7 @@ export default function HomeWip() {
             <HeaderGymWip />
             <>
               <GymHeroWip />
-              <GymLecturePromo />
+              {/* <GymLecturePromo /> */}
               <GymCourses />
               <GymTeaser />
               <GymTeaser2 />

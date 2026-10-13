@@ -9,7 +9,7 @@ export default function GymTeaser() {
             <h2 className="!text-[0.8rem] uppercase inline-flex !leading-[1.35] text-line relative align-top !pl-[1.4rem] !tracking-[0.02rem] before:content-[''] before:absolute before:inline-block before:translate-y-[-60%] before:w-3 before:h-[0.05rem] before:left-0 before:top-2/4 before:bg-gym-primary !text-gym-primary !mb-3">
               Das Konzept
             </h2>
-            <h3 className="!text-[calc(1.315rem_+_0.78vw)] font-bold xl:!text-[1.9rem] !leading-[1.25] !mb-9">
+            <h3 className="text-[calc(1.315rem+0.78vw)]! font-bold xl:!text-[1.9rem] !leading-[1.25] !mb-9">
               Hier entsteht etwas Neues
             </h3>
             <p>
@@ -59,9 +59,9 @@ export default function GymTeaser() {
                   <Image
                     className="!rounded-[.4rem]"
                     alt="image"
-                    src="/assets/gym/milon/turm.jpg"
+                    src="/studio/Helles-modernes-Fitnessstudio-mit-Milon-Geräten.jpg"
                     width={1000}
-                    height={1000}
+                    height={1333}
                   />
                 </figure>
               </div>
@@ -70,9 +70,9 @@ export default function GymTeaser() {
                   <Image
                     className="!rounded-[.4rem]"
                     alt="image"
-                    src="/assets/gym/milon/milon1.jpg"
-                    width={800}
-                    height={1200}
+                    src="/studio/Gemeinsame-Tablet-Beratung-im-warmen-Studio.jpg"
+                    width={1000}
+                    height={1333}
                   />
                 </figure>
               </div>

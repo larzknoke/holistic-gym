@@ -25,7 +25,7 @@ export default function Contact() {
               <Image
                 className="rounded-[.4rem]"
                 alt="image"
-                src="/assets/gym/milon/milon11_quad.jpg"
+                src="/studio/studio4.jpg"
                 width={575}
                 height={550}
               />

@@ -13,7 +13,8 @@ const COURSES = [
     icon: "uil-star",
     registrationUrl:
       "mailto:info@holistic-gym.de?subject=Anmeldung%20Skillcourt",
-    imageUrl: "/kurse/skillcourt.jpg",
+    // imageUrl: "/kurse/skillcourt.jpg",
+    imageUrl: "/studio/Modernes-Heimtraining-mit-Skillcourt.jpg",
   },
   {
     id: "emp-chair",
@@ -39,7 +40,7 @@ const COURSES = [
     icon: "uil-rocket",
     registrationUrl:
       "mailto:info@holistic-gym.de?subject=Anmeldung%20Pr%C3%A4ventionskurs",
-    imageUrl: "/kurse/milon.jpg",
+    imageUrl: "/studio/Moderner-Fitnessraum-im-warmen-Tageslicht.jpg",
   },
 ];
 
@@ -48,7 +49,7 @@ const BUTTON_CLASS =
 
 export default function GymCourses() {
   return (
-    <section id="kurse" className="wrapper bg-white ">
+    <section id="kurse" className="wrapper bg-white mt-24">
       <div className="container pt-10 md:pt-24 pb-16 xl:pb-20 lg:pb-20 md:pb-20">
         <div className="flex flex-wrap -mx-4">
           <div className="lg:w-10/12 xl:w-9/12 xxl:w-8/12 w-full flex-none px-4 max-w-full mx-auto text-center">
