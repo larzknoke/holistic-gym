@@ -3,22 +3,22 @@ import Image from "next/image";
 import Link from "next/link";
 export default function GymTeaser2() {
   return (
-    <section className="wrapper !bg-gym-primary angled lower-start">
+    <section className="wrapper bg-gym-primary! angled lower-start relative">
       <div className="container py-20 px-20">
-        <div className="flex flex-wrap mx-[-15px] !mb-5 gap-12 px-4">
-          <div className="md:w-10/12 lg:w-10/12 xl:w-8/12 xxl:w-7/12 w-full flex-[0_0_auto] !px-[15px] max-w-full !mx-auto !text-center">
+        <div className="flex flex-wrap -mx-3.75 mb-5! gap-12 px-4">
+          <div className="md:w-10/12 lg:w-10/12 xl:w-8/12 xxl:w-7/12 w-full flex-[0_0_auto] px-3.75! max-w-full mx-auto! text-center!">
             <div className="flex flex-row items-center justify-center gap-2">
               <Image
-                className="w-80 h-80 absolute left-1/2 top-10 -translate-x-1/2 -translate-y-1/2 opacity-10"
+                className="w-80 h-80 absolute left-1/2 top-32 -translate-x-1/2 -translate-y-1/2 opacity-10"
                 src="/assets/gym/gym-circle.svg"
                 alt="Gym Circle"
                 width={32}
                 height={32}
               />
               <i className="uil uil-shovel mb-2 text-2xl before:content-['\e83e'] text-white" />
-              <h3 className=" !text-white">Es geht weiter</h3>
+              <h3 className=" text-white!">Es geht weiter</h3>
             </div>
-            <h1 className="font-bold uppercase !text-white !tracking-wide !text-3xl">
+            <h1 className="font-bold uppercase text-white! tracking-wide! text-3xl!">
               Ein Start, der begeistert.
             </h1>
           </div>
@@ -55,15 +55,15 @@ export default function GymTeaser2() {
                 Jetzt anmelden
               </Link>
             </div>
-            <div className="w-full md:w-6/12 relative">
+            <div className="w-full md:w-6/12 relative isolate">
               <Image
-                className="!rounded-md w-full max-w-full h-auto"
+                className="rounded-md! w-full max-w-full h-auto relative z-10"
                 src="/assets/gym/villa/Villa2_web.jpg"
                 alt="Villa"
                 width={1600}
                 height={632}
               />
-              <div className="-z-10 shape bg-white/10 rounded-md h-full top-4 left-3 w-full absolute"></div>
+              <div className="z-0 shape bg-white/10 rounded-md h-full top-4 left-3 w-full absolute"></div>
             </div>
           </div>
           {/* /column */}

@@ -238,18 +238,18 @@ const CONTAINER_CLASS =
 const COLUMN_CLASS =
   "md:w-6/12 lg:w-4/12 xl:w-4/12 w-full flex-none px-4 max-w-full mt-8";
 const CARD_BODY_CLASS =
-  "card-body flex-auto pb-4 px-5 xl:!pt-8 xl:!px-10 xl:!pb-5 lg:!pt-8 lg:!px-10 lg:!pb-5 md:!pt-8 md:!px-10 md:!pb-5";
+  "card-body flex-auto pb-4 px-5 xl:pt-8! xl:px-10! xl:pb-5! lg:pt-8! lg:px-10! lg:pb-5! md:pt-8! md:px-10! md:pb-5!";
 const ICON_CLASS =
-  "svg-inject icon-svg text-gym-primary mb-3 !w-10 !h-10 mx-auto";
+  "svg-inject icon-svg text-gym-primary mb-3 w-10! h-10! mx-auto";
 const PRICES_CLASS = "prices text-[#343f52]";
 const FEATURE_LIST_CLASS =
-  "pl-0 list-none bullet-bg bullet-soft-primary !mt-7 !mb-8 text-left";
+  "pl-0 list-none bullet-bg bullet-soft-primary mt-7! mb-8! text-left";
 const FEATURE_ITEM_BASE_CLASS = "relative pl-6";
 const FEATURE_ITEM_MARGIN_CLASS = "mt-1.5";
 const FEATURE_ICON_CLASS =
-  "absolute left-0 w-4 h-4 text-[0.8rem] leading-none tracking-[normal] text-center flex items-center justify-center rounded-[100%] top-1 before:align-middle before:table-cell";
+  "absolute left-0 w-4 h-4 text-[0.8rem] leading-none tracking-normal text-center flex items-center justify-center rounded-full top-1 before:align-middle before:table-cell";
 const PLAN_BUTTON_CLASS =
-  "btn btn-primary text-white uppercase !bg-gym-primary border-gym-primary hover:text-white hover:bg-gym-primary hover:!border-gym-primary active:text-white active:bg-gym-primary active:border-gym-primary disabled:text-white disabled:bg-gym-primary disabled:border-gym-primary hover:translate-y-[-0.15rem] hover:shadow-[0_0.25rem_0.75rem_rgba(30,34,40,0.15)]";
+  "btn btn-primary text-white uppercase bg-gym-primary! border-gym-primary hover:text-white hover:bg-gym-primary hover:border-gym-primary! active:text-white active:bg-gym-primary active:border-gym-primary disabled:text-white disabled:bg-gym-primary disabled:border-gym-primary hover:-translate-y-0.6 hover:shadow-[0_0.25rem_0.75rem_rgba(30,34,40,0.15)]";
 
 const getFeatureIconStyles = (included) => ({
   className: included ? "uil-check opacity-50" : "uil-times bullet-soft-red",
@@ -342,10 +342,10 @@ export default function GymPricing() {
       <div className={CONTAINER_CLASS}>
         <div className="flex flex-wrap -mx-4">
           <div className="lg:w-10/12 xl:w-9/12 xxl:w-8/12 w-full flex-none px-4 max-w-full mx-auto text-center">
-            <h2 className="text-xs! uppercase !text-[#aab0bc] !mb-3 tracking-wide leading-snug">
+            <h2 className="text-xs! uppercase text-[#aab0bc]! mb-3! tracking-wide leading-snug">
               Abos
             </h2>
-            <h3 className="!text-[calc(1.305rem_+_0.66vw)] font-bold xl:!text-[1.8rem] !leading-[1.3] !mb-20 xl:!mb-6 lg:!mb-6 md:!mb-6 lg:px-10 xl:px-10">
+            <h3 className="text-[calc(1.305rem+0.66vw)]! font-bold xl:text-[1.8rem]! leading-[1.3]! mb-20! xl:mb-6! lg:mb-6! md:mb-6! lg:px-10 xl:px-10">
               Deine Optionen zum Start
             </h3>
           </div>
@@ -360,13 +360,13 @@ export default function GymPricing() {
                 <div className="inline-block mb-4 px-3 py-1 pb-[2px] rounded text-[0.75rem] font-semibold uppercase tracking-wide bg-gym-danger text-white">
                   Ausgebucht
                 </div>
-                <h3 className="!mb-2 !text-[1.45rem] lg:!text-2xl !leading-[1.25] font-bold text-[#343f52]">
+                <h3 className="mb-2! text-[1.45rem]! lg:text-2xl! leading-tight! font-bold text-[#343f52]">
                   {gruenderPlan.title}
                 </h3>
-                <p className="!mb-5 text-[#4b5563] max-w-2xl text-balance">
+                <p className="mb-5! text-[#4b5563] max-w-2xl text-balance">
                   {gruenderPlan.description[0]}
                 </p>
-                <ul className="pl-0 list-none !mb-0 text-left grid md:grid-cols-2 gap-x-6 gap-y-2">
+                <ul className="pl-0 list-none mb-0! text-left grid md:grid-cols-2 gap-x-6 gap-y-2">
                   {gruenderHeroFeatures.map((feature, index) => (
                     <li key={index} className="relative pl-6">
                       <i
@@ -383,10 +383,10 @@ export default function GymPricing() {
               </div>
               <div className="w-full lg:w-4/12 px-4 mt-6 lg:mt-0">
                 <div className="bg-white rounded border border-[rgba(24,120,95,0.14)] p-5 text-center lg:text-left">
-                  <p className="!mb-2 text-[#6b7280] uppercase tracking-wide text-[0.72rem] font-semibold">
+                  <p className="mb-2! text-[#6b7280] uppercase tracking-wide text-[0.72rem] font-semibold">
                     Beitrag
                   </p>
-                  <p className="!mb-4 text-[#343f52] text-3xl font-bold leading-none">
+                  <p className="mb-4! text-[#343f52] text-3xl font-bold leading-none">
                     60 € / Monat
                   </p>
                   <button
@@ -395,7 +395,7 @@ export default function GymPricing() {
                   >
                     Mehr Infos
                   </button>
-                  <p className="!mt-4 text-xs text-gym-danger font-bold uppercase text-balance">
+                  <p className="mt-4! text-xs text-gym-danger font-bold uppercase text-balance">
                     Alle Gründermitgliedschaften sind leider bereits vergeben.
                   </p>
                 </div>
@@ -406,12 +406,12 @@ export default function GymPricing() {
 
         <div className="pricing-wrapper relative">
           <div
-            className="shape bg-dot primary rellax w-24 h-32 bg-[radial-gradient(var(--color-gym-primary)_2px,transparent_2.5px)] absolute z-[1] opacity-50"
+            className="shape bg-dot primary rellax w-24 h-32 bg-[radial-gradient(var(--color-gym-primary)_2px,transparent_2.5px)] absolute z-1 opacity-50"
             data-rellax-speed={1}
             style={{ top: "0rem", right: "-2.4rem" }}
           />
           <div
-            className="shape rounded-[50%] bg-line red rellax w-32 h-32 hidden xl:block lg:block absolute z-[1] opacity-50"
+            className="shape rounded-full bg-line red rellax w-32 h-32 hidden xl:block lg:block absolute z-1 opacity-50"
             data-rellax-speed={1}
             style={{ bottom: "0.5rem", left: "-2.5rem" }}
           />
@@ -508,11 +508,11 @@ export default function GymPricing() {
               className="w-80 h-80 absolute left-1/2 top-20 -translate-x-1/2 -translate-y-1/2 opacity-40 pointer-events-none select-none"
               // style={{ color: "transparent" }}
             />
-            <div className="relative z-[1]">
-              <h4 className="!mb-3 !text-[1.35rem] lg:!text-[1.5rem] font-bold ">
+            <div className="relative z-1">
+              <h4 className="mb-3! text-[1.35rem]! lg:text-[1.5rem]! font-bold ">
                 Direkt in den Webshop
               </h4>
-              <p className="!mb-5 text-[#4b5563] max-w-2xl mx-auto text-lg">
+              <p className="mb-5! text-[#4b5563] max-w-2xl mx-auto text-lg">
                 Sichere dir jetzt deinen Tarif und starte direkt online im
                 HolisticGym Webshop.
               </p>

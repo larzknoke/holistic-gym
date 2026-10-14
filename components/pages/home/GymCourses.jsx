@@ -45,7 +45,7 @@ const COURSES = [
 ];
 
 const BUTTON_CLASS =
-  "btn btn-primary !text-white uppercase !bg-gym-primary border-gym-primary hover:text-white hover:bg-gym-primary hover:!border-gym-primary active:text-white active:bg-gym-primary active:border-gym-primary hover:translate-y-[-0.15rem] hover:shadow-[0_0.25rem_0.75rem_rgba(30,34,40,0.15)]";
+  "btn btn-primary text-white! uppercase bg-gym-primary! border-gym-primary hover:text-white hover:bg-gym-primary hover:border-gym-primary! active:text-white active:bg-gym-primary active:border-gym-primary hover:-translate-y-0.6 hover:shadow-[0_0.25rem_0.75rem_rgba(30,34,40,0.15)]";
 
 export default function GymCourses() {
   return (
@@ -66,7 +66,7 @@ export default function GymCourses() {
           </div>
         </div>
 
-        <div className="flex flex-wrap -mx-4 mt-[-2rem]">
+        <div className="flex flex-wrap -mx-4 -mt-8">
           {COURSES.map((course, index) => (
             <div
               key={course.id}

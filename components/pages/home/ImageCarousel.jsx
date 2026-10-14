@@ -53,9 +53,9 @@ export default function ImageCarousel({ firstImage = images[0].src }) {
   const slides = [{ src: firstImage }, ...images.slice(1)];
 
   return (
-    <section className="wrapper !bg-[#ffffff] angled upper-end lower-start relative border-0 before:top-[-4rem] before:content-[''] before:block before:absolute before:z-0 before:border-l-transparent before:border-r-[100vw] before:border-t-[4rem] before:border-y-transparent before:border-[#fefefe] before:border-0 before:border-solid before:right-0 after:bottom-[-4rem] after:content-[''] after:block after:absolute after:z-0 after:border-l-[100vw] after:border-r-transparent after:border-b-[4rem] after:border-y-transparent after:border-[#fefefe] after:border-0 after:border-solid after:right-0">
-      <div className="container pt-16 pb-4 md:pt-32 md:pb-12 !relative">
-        <div className="swiper-container dots-over relative !z-10">
+    <section className="wrapper bg-white! angled upper-end lower-start relative border-0 before:-top-16 before:content-[''] before:block before:absolute before:z-0 before:border-l-transparent before:border-r-[100vw] before:border-t-[4rem] before:border-y-transparent before:border-[#fefefe] before:border-0 before:border-solid before:right-0 after:-bottom-16 after:content-[''] after:block after:absolute after:z-0 after:border-l-[100vw] after:border-r-transparent after:border-b-[4rem] after:border-y-transparent after:border-[#fefefe] after:border-0 after:border-solid after:right-0">
+      <div className="container pt-16 pb-4 md:pt-32 md:pb-12 relative!">
+        <div className="swiper-container dots-over relative z-10!">
           <Swiper
             centerInsufficientSlides={true}
             loop={true}

@@ -2,14 +2,14 @@ import React from "react";
 import Image from "next/image";
 export default function GymTeaser() {
   return (
-    <section className="wrapper !bg-[#ffffff]" id="konzept">
+    <section className="wrapper bg-white!" id="konzept">
       <div className="container pt-12 md:pt-24 pb-24 md:pb-32">
         <div className="flex flex-wrap">
-          <div className="md:w-6/12 w-full flex-[0_0_auto] !px-[15px] max-w-full">
-            <h2 className="!text-[0.8rem] uppercase inline-flex !leading-[1.35] text-line relative align-top !pl-[1.4rem] !tracking-[0.02rem] before:content-[''] before:absolute before:inline-block before:translate-y-[-60%] before:w-3 before:h-[0.05rem] before:left-0 before:top-2/4 before:bg-gym-primary !text-gym-primary !mb-3">
+          <div className="md:w-6/12 w-full flex-[0_0_auto] px-3.75! max-w-full">
+            <h2 className="text-[0.8rem]! uppercase inline-flex leading-[1.35]! text-line relative align-top pl-[1.4rem]! tracking-[0.02rem]! before:content-[''] before:absolute before:inline-block before:translate-y-[-60%] before:w-3 before:h-[0.05rem] before:left-0 before:top-2/4 before:bg-gym-primary text-gym-primary! mb-3!">
               Das Konzept
             </h2>
-            <h3 className="text-[calc(1.315rem+0.78vw)]! font-bold xl:!text-[1.9rem] !leading-[1.25] !mb-9">
+            <h3 className="text-[calc(1.315rem+0.78vw)]! font-bold xl:text-[1.9rem]! leading-[1.25]! mb-9!">
               Hier entsteht etwas Neues
             </h3>
             <p>
@@ -47,17 +47,17 @@ export default function GymTeaser() {
               HolisticGym – Wenn du trainierst, dann richtig
             </h3>
           </div>
-          <div className="md:w-6/12 w-full  flex-[0_0_auto] xl:!px-[35px] lg:!px-[20px] !px-[15px] !mt-[50px] max-w-full !relative xl:!order-2 lg:!order-2">
+          <div className="md:w-6/12 w-full  flex-[0_0_auto] xl:px-8.75! lg:px-5! px-3.75! mt-12.5! max-w-full relative! xl:order-2! lg:order-2!">
             <div
-              className="shape bg-dot primary bg-[radial-gradient(#3f78e0_2px,transparent_2.5px)] rellax !w-[6rem] !h-[10rem] absolute z-[1] opacity-50"
+              className="shape bg-dot primary bg-[radial-gradient(#3f78e0_2px,transparent_2.5px)] rellax w-24! h-40! absolute z-1 opacity-50"
               data-rellax-speed={1}
               style={{ top: "2rem", left: "4rem" }}
             />
-            <div className="flex flex-wrap !relative overlap-grid-2">
-              <div className="item xl:w-[70%] xl:z-[3] xl:ml-[30%] xl:!mt-0 lg:w-[70%] lg:z-[3] lg:ml-[30%] lg:!mt-0 md:w-[70%] md:z-[3] md:ml-[30%] md:!mt-0">
-                <figure className="!rounded-[.4rem] shadow-[0_0_1.25rem_rgba(30,34,40,0.04)] relative">
+            <div className="flex flex-wrap relative! overlap-grid-2">
+              <div className="item xl:w-[70%] xl:z-3 xl:ml-[30%] xl:mt-0! lg:w-[70%] lg:z-3 lg:ml-[30%] lg:mt-0! md:w-[70%] md:z-3 md:ml-[30%] md:mt-0!">
+                <figure className="rounded-[.4rem]! shadow-[0_0_1.25rem_rgba(30,34,40,0.04)] relative">
                   <Image
-                    className="!rounded-[.4rem]"
+                    className="rounded-[.4rem]!"
                     alt="image"
                     src="/studio/Helles-modernes-Fitnessstudio-mit-Milon-Geraeten.jpg"
                     width={1000}
@@ -65,10 +65,10 @@ export default function GymTeaser() {
                   />
                 </figure>
               </div>
-              <div className="item xl:w-[55%] xl:!mt-[-45%] xl:z-[4] xl:ml-0 lg:w-[55%] lg:!mt-[-45%] lg:z-[4] lg:ml-0 md:w-[55%] md:!mt-[-45%] md:z-[4] md:ml-0">
-                <figure className="!rounded-[.4rem] shadow-[0_0_1.25rem_rgba(30,34,40,0.04)] relative">
+              <div className="item xl:w-[55%] xl:mt-[-45%]! xl:z-4 xl:ml-0 lg:w-[55%] lg:mt-[-45%]! lg:z-4 lg:ml-0 md:w-[55%] md:mt-[-45%]! md:z-4 md:ml-0">
+                <figure className="rounded-[.4rem]! shadow-[0_0_1.25rem_rgba(30,34,40,0.04)] relative">
                   <Image
-                    className="!rounded-[.4rem]"
+                    className="rounded-[.4rem]!"
                     alt="image"
                     src="/studio/Gemeinsame-Tablet-Beratung-im-warmen-Studio.jpg"
                     width={1000}
