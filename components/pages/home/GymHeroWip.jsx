@@ -29,7 +29,7 @@ export default function GymHeroWip() {
               <div>
                 <button
                   type="button"
-                  className="btn btn-lg btn-gym tracking-wider"
+                  className="btn btn-lg btn-gym tracking-wider!"
                   aria-expanded={isVisionExpanded}
                   aria-controls="vision-details"
                   onClick={() => setIsVisionExpanded((expanded) => !expanded)}
