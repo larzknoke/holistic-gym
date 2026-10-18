@@ -11,19 +11,9 @@ export default function GymHeroWip() {
       <section className="wrapper bg-gym-dark opacity-100 angled lower-start relative border-0 before:content-[''] before:block before:absolute before:z-0 before:border-y-transparent before:border-gym-dark before:border-0 before:border-solid before:right-0 after:-bottom-16 after:content-[''] after:block after:absolute after:z-0 after:border-l-[100vw] after:border-r-transparent after:border-b-[4rem] after:border-y-transparent after:border-gym-dark after:border-0 after:border-solid after:right-0">
         <div className="container pt-7 xl:pt-12 lg:pt-12 md:pt-12 pb-8">
           <div className="flex flex-wrap mx-0 items-start">
-            <div className="lg:w-6/12 xl:w-6/12 w-full flex-[0_0_auto] max-w-full px-0 mt-0 md:mt-12">
+            <div className="order-2 lg:order-1 lg:w-6/12 xl:w-6/12 w-full flex-[0_0_auto] max-w-full px-0 mt-5 md:mb-0 text-center md:text-left lg:mt-12">
               <h1 className="text-[calc(1.375rem+1.5vw)]! font-bold leading-[1.15]! xl:text-[2.5rem]!  mb-4! text-gym-secondary!">
                 Unsere Vision <br />
-                {/* <span
-                  className="typer text-gym-secondary! whitespace-nowrap"
-                  data-delay={100}
-                  data-words=""
-                >
-                  <TypeWriter
-                    strings={["Fitness", "Regeneration", "Balance"]}
-                  />
-                </span>
-                <span className="cursor text-gym-primary!" data-owner="typer" /> */}
               </h1>
               <p className="lead text-[1.2rem]! leading-normal! text-white! mb-7! md:pr-32! xl:pr-0! lg:pr-0! xxl:pr-20!">
                 Wir kommen beide aus der Therapie und haben über viele Jahre
@@ -54,7 +44,7 @@ export default function GymHeroWip() {
                   aria-hidden={!isVisionExpanded}
                 >
                   <div className="min-h-0 overflow-hidden">
-                    <div className="pt-6 pr-0 md:pr-20 text-white">
+                    <div className="pt-6 pr-0 md:pr-20 text-white text-left px-4 md:px-0">
                       <p className="mb-5">
                         Mit dem HOListicGym haben wir deshalb bewusst kein
                         klassisches Fitnessstudio geschaffen. Unser Anspruch ist
@@ -94,7 +84,7 @@ export default function GymHeroWip() {
                 </div>
               </div>
             </div>
-            <div className="lg:w-6/12 xl:w-6/12 w-full flex-[0_0_auto] max-w-full px-0 mt-16 -mb-32! relative z-3">
+            <div className="order-1 lg:order-2 lg:w-6/12 xl:w-6/12 w-full flex-[0_0_auto] max-w-full px-0 mt-0 lg:mt-16 lg:-mb-32! relative z-3">
               <div className="relative!">
                 <figure>
                   <Image
@@ -106,7 +96,7 @@ export default function GymHeroWip() {
                   />
                   <Link
                     href="#kurse"
-                    className="block md:absolute mx-6 -mt-6 md:mt-0 -top-12 right-9 hover:cursor-pointer hover:shadow-lg hover:-translate-y-1 transition-all duration-200 ease-in-out motion-reduce:transition-none bg-gym-danger text-white! text-center px-8 py-2 rounded z-2 text-xl shadow-sm rotate-2 font-bold"
+                    className="block md:absolute mx-6 -mt-6 md:mt-0 -top-12 right-9 hover:cursor-pointer hover:shadow-lg hover:-translate-y-1 transition-all duration-200 ease-in-out motion-reduce:transition-none bg-gym-danger text-white! text-center px-2 md:px-8 py-2 rounded z-2 text-base md:text-xl shadow-sm rotate-2 font-bold"
                   >
                     Neue Kurse warten auf Euch!
                     <span className="text-base block">
