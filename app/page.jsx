@@ -7,7 +7,8 @@ import HeaderGymWip from "@/components/pages/shared/HeaderGymWip";
 import Contact from "@/components/pages/home/Contact";
 import React from "react";
 import ImageCarousel from "@/components/pages/home/ImageCarousel";
-import GymPricing from "@/components/pages/home/GymPricing";
+import GymContactCta from "@/components/pages/home/GymContactCta";
+// import GymPricing from "@/components/pages/home/GymPricing";
 import GymCourses from "@/components/pages/home/GymCourses";
 import GymLecturePromo from "@/components/pages/home/GymLecturePromo";
 
@@ -31,7 +32,8 @@ export default function HomeWip() {
               <GymTeaser />
               <GymTeaser2 />
               <ImageCarousel />
-              <GymPricing />
+              {/* <GymPricing /> */}
+              <GymContactCta />
               <Contact />
             </>
           </div>

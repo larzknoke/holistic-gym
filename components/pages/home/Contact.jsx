@@ -2,10 +2,10 @@ import React from "react";
 import Image from "next/image";
 export default function Contact() {
   return (
-    <section className="wrapper bg-white! angled upper-end lower-start relative border-0 before:-top-16 before:content-[''] before:block before:absolute before:z-0 before:border-l-transparent before:border-r-[100vw] before:border-t-[4rem] before:border-y-transparent before:border-[#fefefe] before:border-0 before:border-solid before:right-0 after:-bottom-16 after:content-[''] after:block after:absolute after:z-0 after:border-l-[100vw] after:border-r-transparent after:border-b-[4rem] after:border-y-transparent after:border-[#fefefe] after:border-0 after:border-solid after:right-0">
-      <div className="container py-24 xl:py-32! lg:py-32! md:py-32! relative!">
-        <div className="flex flex-wrap -mx-3.75 -mt-20! xl:mx-[-7.5px] lg:mx-[-7.5px] items-center">
-          <div className="md:w-8/12 lg:w-6/12 xl:w-6/12 w-full flex-[0_0_auto] mt-20! xl:px-1.875! lg:px-1.875! px-3.75! max-w-full relative!">
+    <section className="wrapper bg-white! angled upper-end lower-start relative border-0 after:-bottom-16 after:content-[''] after:block after:absolute after:z-0 after:border-l-[100vw] after:border-r-transparent after:border-b-[4rem] after:border-y-transparent after:border-[#fefefe] after:border-0 after:border-solid after:right-0">
+      <div className="container py-0 xl:py-32! lg:py-32! md:py-32! relative!">
+        <div className="flex flex-wrap items-center">
+          <div className="md:w-8/12 lg:w-6/12 xl:w-6/12 w-full flex-[0_0_auto] mt-10! max-w-full relative!">
             <div
               className="shape bg-dot primary rellax w-28! h-50! absolute z-1 opacity-50 bg-[radial-gradient(#3f78e0_2px,transparent_2.5px)]"
               data-rellax-speed={1}
@@ -32,7 +32,7 @@ export default function Contact() {
             </figure>
           </div>
           {/*/column */}
-          <div className="lg:w-5/12 xl:w-4/12 xl:ml-[8.33333333%]! lg:ml-[8.33333333%]! w-full flex-[0_0_auto] mt-20! xl:px-1.875! lg:px-1.875! px-3.75! max-w-full">
+          <div className="lg:w-5/12 xl:w-4/12 xl:ml-[8.33333333%]! lg:ml-[8.33333333%]! w-full flex-[0_0_auto] mt-20! xl:px-1.875! lg:px-2 px-5 max-w-full">
             <h2 className="text-[0.8rem]! uppercase inline-flex leading-[1.35]! text-line relative align-top pl-[1.4rem]! tracking-[0.02rem]! before:content-[''] before:absolute before:inline-block before:translate-y-[-60%] before:w-3 before:h-[0.05rem] before:left-0 before:top-1/2 before:bg-gym-primary text-gym-primary! mb-3!">
               Kontakt
             </h2>
