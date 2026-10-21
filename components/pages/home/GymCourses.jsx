@@ -30,16 +30,16 @@ const COURSES = [
   },
   {
     id: "praeventionskurse",
-    title: "Präventionskurse – Gesundheit, die sich lohnt!",
+    title: "Präventionsmaßnahmen – Gesundheit, die sich lohnt!",
     paragraphs: [
-      "Mit unseren Präventionskursen im HolisticGym kannst du aktiv etwas für deine Gesundheit tun und gleichzeitig von einer möglichen Bezuschussung durch deine Krankenkasse profitieren.",
+      "Mit unseren Krankenkassen geförderten Präventionsmaßnahmen im HolisticGym kannst du aktiv etwas für deine Gesundheit tun und gleichzeitig von einer möglichen Bezuschussung durch deine Krankenkasse profitieren.",
       "Milon unterstützt dich dabei, deine Kraft und Fitness gezielt zu verbessern, während YARA den Fokus auf Stressabbau, Entspannung und innere Balance legt. So kannst du Körper und Geist nachhaltig etwas Gutes tun.",
     ],
     highlight:
-      "Viele Krankenkassen bezuschussen Präventionskurse – informiere dich jetzt über deine Möglichkeiten und starte im HolisticGym!",
+      "Viele Krankenkassen bezuschussen Präventionsmaßnahmen – informiere dich jetzt über deine Möglichkeiten und starte im HolisticGym!",
     icon: "uil-rocket",
     registrationUrl:
-      "mailto:info@holistic-gym.de?subject=Anmeldung%20Pr%C3%A4ventionskurs",
+      "mailto:info@holistic-gym.de?subject=Anmeldung%20Pr%C3%A4ventionsma%C3%9Fnahmen",
     imageUrl: "/studio/Moderner-Fitnessraum-im-warmen-Tageslicht.jpg",
   },
 ];
