@@ -6,7 +6,7 @@ export default function HeaderGymWip() {
     <header className="relative wrapper !bg-[#edf2fc]">
       <div className="bg-gym-primary p-1 w-full">
         <div className="container flex flex-row items-center justify-center md:justify-between">
-          <div className="text-white flex flex-row items-center gap-1">
+          <div className="text-white flex flex-row items-center gap-1 text-xs md:text-base whitespace-nowrap">
             <i className="uil uil-exclamation-circle"></i>
             Mo-Fr 8:00-19:00 Uhr / Sa-So 9:00-13:00 Uhr
           </div>
