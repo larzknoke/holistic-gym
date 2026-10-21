@@ -8,7 +8,7 @@ export default function HeaderGymWip() {
         <div className="container flex flex-row items-center justify-center md:justify-between">
           <div className="text-white flex flex-row items-center gap-1">
             <i className="uil uil-exclamation-circle"></i>
-            Mo-Fr 8:00-19:00 Uhr / Sa 9:00-13:00 Uhr
+            Mo-Fr 8:00-19:00 Uhr / Sa-So 9:00-13:00 Uhr
           </div>
           <div className="flex-row gap-5 hidden md:flex">
             <div className="flex flex-row gap-1">
